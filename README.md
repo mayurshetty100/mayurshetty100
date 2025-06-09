@@ -1,77 +1,55 @@
+<h1 align="center" style="font-family: 'Fira Code', monospace;">✨ Mayur Shetty — Crafting Code That Hits Different ⚡</h1>
 
-<!-- 🚀 Mayur Shetty - Futuristic GitHub README -->
-
-<h1 align="center">👾 Welcome to the Code-Verse of <span style="color:#00f0ff;">Mayur Shetty</span> </h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=👨‍💻+Code+Craftsman;+⚡+Problem+Hunter;+🧠+AI+Explorer;+Designing+Ideas+That+Hit+Different" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=800&lines=Turning+Coffee+%E2%9A%A1+into+Clean+Code;Engineering+Dreams+with+the+MERN+Stack+%F0%9F%94%A5;UI%2FUX+Rizz+%2B+Prompt+Wizards+%3D+Mayur+Mode;Building+Code+That+Doesn’t+Sleep+%F0%9F%A4%AF;Your+Next+Fav+Dev+Just+Logged+In+%F0%9F%9A%80" alt="Rizz Typing" />
 </p>
 
 ---
 
-## ⚙️ system.init("true_dev")
+### 💼 The Coder Energy I Bring:
 
-> whoami
-🧑‍💻 Full Stack Alchemist | 🧠 AI Whisperer | 🎨 UI/UX Thinker | 🔍 DSA Coder
-
-> mindset.exe
-I don't code to impress. I code to express. Logic is my language. Rizz is the syntax.
+- 🧠 **MERN Stack Prodigy** — I don’t just build apps, I *engineer* experiences.
+- 🔮 **Prompt Sorcerer & AI Whisperer** — I speak fluent GPT & wield GenAI like a blade.
+- 🎨 **Design-First Thinker** — UI/UX isn’t an afterthought, it’s *my language*.
+- 🧩 **Modular. Clean. Scalable.** — Whether it’s backend flows or frontend flows, I flow.
+- 🔥 **Code with Soul** — I write like an artist, debug like a monk, and ship like a boss.
 
 ---
 
-## 🧪 My Developer Stack
+## 🚀 My Tech Universe
+
+<div align="center" style="position: relative;">
+  
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,java,python,tailwind,bootstrap,mysql,git,github,figma,vscode,openai&theme=dark" alt="Tech Stack" style="animation: float 6s ease-in-out infinite;" />
+
+  <br><br>
+
+  <sub>🛠️ These aren't just tools — they’re extensions of my thoughts.</sub>
+</div>
+
+---
+
+### ⚡ A Few Lines of Raw Dev Rizz:
+
+> 💬 *"Some write code. I architect futures."*  
+> 💾 *"Every line I write carries intent, precision, and a bit of chaos magic."*  
+> 🖤 *"If UI is the body, and backend is the brain — then rizz is the soul of my stack."*  
+> 🧬 *"I don't just adapt to tech. I evolve with it. Continuously. Relentlessly."*
+
+---
+
+### 🤝 Let’s Build Something Legendary
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,java,python,git,github,mysql,figma,vscode,tailwind,openai" />
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-%23FF6EC7?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Instagram-Behind%20The%20Scenes-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
 
 ---
 
-## 🔮 Currently Manifesting:
-
-- 🚀 **WanderNest** – Redefining travel search with Angular + AI
-- 🧠 **Anti-Scam Shield** – Fighting job scams using OpenAI + Chrome magic
-- 🎯 **Portfolio V2** – A scroll-based masterpiece with interactive UI/UX
-- 📚 **SMILE Project** – Open-sourcing learning for underprivileged children
-
----
-
-## 📂 GitHub Matrix
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
-</p>
-
----
-
-## 🧬 Code DNA
-
-public class RizzCode {
- static void debugLife() {
-        System.out.println("🚀 Commit. Push. Break things. Repeat.");
-    }
-    public static void main(String[] args) {
-        String mayur = "🔥 Full Stack || 🧠 AI Explorer || 🎨 Design Wizard";
-        while(true) {
-            System.out.println("💡 Innovating... with " + mayur);
-            debugLife();
-        }
-    }
-}
-
-
----
-
-## 🔗 Connect to the CodeCraft
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-Loading_soon-6f00ff?style=for-the-badge&logo=vercel" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-RizzModeOn-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-</p>
-
----
-
-<h3 align="center">✨ This isn’t a portfolio. This is a Dev Manifesto.</h3>
-<h4 align="center">Code it. Live it. Own it. ⚡</h4>
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300px" />
+  <br><br>
+  <b><i>⚙️ Coding in stealth mode. Shipping in beast mode.</i></b>
+</div>

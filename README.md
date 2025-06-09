@@ -1,9 +1,7 @@
-<h1 align="center" style="font-family: 'Fira Code', monospace;">✨ Mayur Shetty — Crafting Code That Hits Different ⚡</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=800&lines=Turning+Coffee+%E2%9A%A1+into+Clean+Code;Engineering+Dreams+with+the+MERN+Stack+%F0%9F%94%A5;UI%2FUX+Rizz+%2B+Prompt+Wizards+%3D+Mayur+Mode;Building+Code+That+Doesn’t+Sleep+%F0%9F%A4%AF;Your+Next+Fav+Dev+Just+Logged+In+%F0%9F%9A%80" alt="Rizz Typing" />
-</p>
-
+<div align="center" style="background: url('https://raw.githubusercontent.com/your-username/your-repo/main/assets/neon-laptop.gif') no-repeat center center; background-size: contain; padding: 40px 20px; border-radius: 20px; box-shadow: 0 0 50px #00fff7aa;">
+  <h1 align="center" style="font-family: 'Fira Code', monospace; color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;">
+  ✨ Mayur Shetty — Crafting Code That Hits Different ⚡
+</h1>
 ---
 
 ### 💼 The Coder Energy I Bring:
@@ -38,7 +36,7 @@
 
 ---
 
-### 🤝 Let’s Build Something Legendary
+<!--### 🤝 Let’s Build Something Legendary
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-%23FF6EC7?style=for-the-badge&logo=vercel&logoColor=white"/></a>
@@ -46,10 +44,19 @@
   <a href="#"><img src="https://img.shields.io/badge/Instagram-Behind%20The%20Scenes-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
 
----
+--->
 
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300px" />
+<p align="center">
+  <img src="https://img.shields.io/badge/MERN%20Stack-0ff?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Generative%20AI-%23ff00ff?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/UI/UX-Futuristic-%2300ffff?style=for-the-badge" />
+</p>
+<!--
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
+</p>
+>
+
   <br><br>
-  <b><i>⚙️ Coding in stealth mode. Shipping in beast mode.</i></b>
+  <b><i>⚙️ my codes deliver finest products ... :) </i></b>
 </div>

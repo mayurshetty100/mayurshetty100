@@ -1,7 +1,13 @@
-<div align="center" style="background: url('https://raw.githubusercontent.com/mayurshetty100/mayurshetty100/main/assets/neon-laptop.png') no-repeat center center; background-size: contain; padding: 40px 20px; border-radius: 20px; box-shadow: 0 0 50px #00fff7aa;">
-  <h1 align="center" style="font-family: 'Fira Code', monospace; color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;">
-  ✨ Mayur Shetty — Crafting Code That Hits Different ⚡
+<h1 align="center" style="color:#39FF14; text-shadow:
+   0 0 5px #39FF14,
+   0 0 10px #39FF14,
+   0 0 20px #39FF14,
+   0 0 40px #0fa,
+   0 0 80px #0fa;">
+✨ Mayur Shetty — Crafting Code That Hits Different ⚡
 </h1>
+
+
 ---
 
 ### 💼 The Coder Energy I Bring:

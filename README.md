@@ -1,38 +1,22 @@
-## Hi there 👋
+# 👋 Hey there, I'm Mayur Shetty!
 
-<!--
-**mayurshetty100/mayurshetty100** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# ðŸ‘‹ Hey there, I'm Mayur Shetty!
-
-ðŸš€ A passionate *Full Stack Developer* & tech explorer who's always cooking up something creative.  
-ðŸŽ¯ I dream big, build bold, and breathe life into ideas with *code, soul, and a little bit of rizz* ðŸ˜Ž
+🚀 A passionate *Full Stack Developer* & tech explorer who's always cooking up something creative.  
+🎯 I dream big, build bold, and breathe life into ideas with *code, soul, and a little bit of rizz* 😎
 
 ---
 
-### ðŸ§  "Creativity is my fuel. Code is my brush. Letâ€™s paint the future together."
+### 🧠 "Creativity is my fuel. Code is my brush. Let’s paint the future together."
 
-ðŸ› ï¸ Constantly growing as a:
-- ðŸŒ MERN Stack Developer (MongoDB, Express, React, Node.js)
-- ðŸ’¡ Prompt Engineer & AI Tools Explorer
-- ðŸŽ¨ UI/UX Enthusiast with an eye for stunning design
-- âš™ï¸ Problem Solver & DSA Ninja (Java & Python)
-- ðŸ“ˆ Tech Dreamer aiming to make a difference through innovation
+🧑‍💻 Constantly growing as a:
+- 🌐 MERN Stack Developer (MongoDB, Express, React, Node.js)
+- 💡 Prompt Engineer & AI Tools Explorer
+- 🎨 UI/UX Enthusiast with an eye for stunning design
+- ⚡ Problem Solver & DSA Ninja (Java & Python)
+- 📈 Tech Dreamer aiming to make a difference through innovation
 
 ---
 
-### ðŸ”§ Tech Stack & Tools I Use
+### 🔧 Tech Stack & Tools I Use
 
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -54,15 +38,15 @@ Here are some ideas to get you started:
 
 ---
 
-### ðŸ“ˆ My GitHub Stats
+### 📊 My GitHub Stats
 
-![Mayur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=radical)
+![Mayur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=radical)
 
 ---
 
-### ðŸ“« Let's Connect & Collaborate!
+### 📬 Let's Connect & Collaborate!
 
-ðŸŒ [Portfolio Coming Soon] â€¢ ðŸ’¼ [LinkedIn](#) â€¢ ðŸ“¸ [Instagram](#)
+🌍 [Portfolio Coming Soon] • 💼 [LinkedIn](#) • 📸 [Instagram](#)
 
-> âœ¨ â€œLetâ€™s not just write code â€” letâ€™s write stories that change the world.â€ âœ¨
+> ✨ “Let’s not just write code — let’s write stories that change the world.” ✨

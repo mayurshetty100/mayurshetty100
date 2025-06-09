@@ -1,52 +1,77 @@
-# 👋 Hey there, I'm Mayur Shetty!
 
-🚀 A passionate *Full Stack Developer* & tech explorer who's always cooking up something creative.  
-🎯 I dream big, build bold, and breathe life into ideas with *code, soul, and a little bit of rizz* 😎
+<!-- 🚀 Mayur Shetty - Futuristic GitHub README -->
 
----
-
-### 🧠 "Creativity is my fuel. Code is my brush. Let’s paint the future together."
-
-🧑‍💻 Constantly growing as a:
-- 🌐 MERN Stack Developer (MongoDB, Express, React, Node.js)
-- 💡 Prompt Engineer & AI Tools Explorer
-- 🎨 UI/UX Enthusiast with an eye for stunning design
-- ⚡ Problem Solver & DSA Ninja (Java & Python)
-- 📈 Tech Dreamer aiming to make a difference through innovation
+<h1 align="center">👾 Welcome to the Code-Verse of <span style="color:#00f0ff;">Mayur Shetty</span> </h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=👨‍💻+Code+Craftsman;+⚡+Problem+Hunter;+🧠+AI+Explorer;+Designing+Ideas+That+Hit+Different" alt="Typing SVG" />
+</p>
 
 ---
 
-### 🔧 Tech Stack & Tools I Use
+## ⚙️ system.init("true_dev")
 
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat&logo=tailwind-css)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
-![AI Tools](https://img.shields.io/badge/-AI%20Tools-6A1B9A?style=flat&logo=openai)
+> whoami
+🧑‍💻 Full Stack Alchemist | 🧠 AI Whisperer | 🎨 UI/UX Thinker | 🔍 DSA Coder
+
+> mindset.exe
+I don't code to impress. I code to express. Logic is my language. Rizz is the syntax.
 
 ---
 
-### 📊 My GitHub Stats
+## 🧪 My Developer Stack
 
-![Mayur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,java,python,git,github,mysql,figma,vscode,tailwind,openai" />
+</p>
 
 ---
 
-### 📬 Let's Connect & Collaborate!
+## 🔮 Currently Manifesting:
 
-🌍 [Portfolio Coming Soon] • 💼 [LinkedIn](#) • 📸 [Instagram](#)
+- 🚀 **WanderNest** – Redefining travel search with Angular + AI
+- 🧠 **Anti-Scam Shield** – Fighting job scams using OpenAI + Chrome magic
+- 🎯 **Portfolio V2** – A scroll-based masterpiece with interactive UI/UX
+- 📚 **SMILE Project** – Open-sourcing learning for underprivileged children
 
-> ✨ “Let’s not just write code — let’s write stories that change the world.” ✨
+---
+
+## 📂 GitHub Matrix
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
+</p>
+
+---
+
+## 🧬 Code DNA
+
+public class RizzCode {
+ static void debugLife() {
+        System.out.println("🚀 Commit. Push. Break things. Repeat.");
+    }
+    public static void main(String[] args) {
+        String mayur = "🔥 Full Stack || 🧠 AI Explorer || 🎨 Design Wizard";
+        while(true) {
+            System.out.println("💡 Innovating... with " + mayur);
+            debugLife();
+        }
+    }
+}
+
+
+---
+
+## 🔗 Connect to the CodeCraft
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-Loading_soon-6f00ff?style=for-the-badge&logo=vercel" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Instagram-RizzModeOn-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
+
+---
+
+<h3 align="center">✨ This isn’t a portfolio. This is a Dev Manifesto.</h3>
+<h4 align="center">Code it. Live it. Own it. ⚡</h4>

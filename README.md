@@ -1,10 +1,5 @@
-<h1 align="center" style="color:#39FF14; text-shadow:
-   0 0 5px #39FF14,
-   0 0 10px #39FF14,
-   0 0 20px #39FF14,
-   0 0 40px #0fa,
-   0 0 80px #0fa;">
-✨ Mayur Shetty — Crafting Code That Hits Different ⚡
+<h1 align="center">
+  ✨ <strong><span style="color:#00FFFF;">Mayur Shetty</span></strong> — <em>Crafting Code That Hits Different ⚡</em>
 </h1>
 
 
@@ -20,16 +15,19 @@
 
 ---
 
-## 🚀 My Tech Universe
+### 🚀 My Tech Universe
 
-<div align="center" style="position: relative;">
-  
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,java,python,tailwind,bootstrap,mysql,git,github,figma,vscode,openai&theme=dark" alt="Tech Stack" style="animation: float 6s ease-in-out infinite;" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FFF7&center=true&vCenter=true&width=650&height=50&lines=💻+Full-Stack+Developer+Crafting+Futures.;🎨+UI%2FUX+Visionary+with+an+AI+Edge.;⚡+Prompt+Engineer+%7C+GPT+Whisperer.;🚀+Shipping+Ideas+That+Look+and+Feel+Next-Gen.;🧠+Evolving+Relentlessly+in+Tech.;🖤+Code+with+Soul%2C+Design+with+Purpose." alt="Typing SVG" />
+</p>
 
-  <br><br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,java,python,tailwind,bootstrap,mysql,git,github,figma,vscode,openai&theme=dark" />
+</p>
 
+<p align="center">
   <sub>🛠️ These aren't just tools — they’re extensions of my thoughts.</sub>
-</div>
+</p>
 
 ---
 
@@ -42,27 +40,47 @@
 
 ---
 
-<!--### 🤝 Let’s Build Something Legendary
-
+### 🤝 Let’s Build Something Legendary
+<!-- 🚀 Futuristic Contact Dock -->
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-%23FF6EC7?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-Behind%20The%20Scenes-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://your-portfolio-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Portfolio-Futuristic%20Hub-ff66c4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20LinkedIn-Tech%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.instagram.com/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/📸%20Instagram-Lifestyle%20%26%20Vibes-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:your-email@gmail.com">
+    <img src="https://img.shields.io/badge/✉️%20Gmail-Ping%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
 </p>
 
---->
+
+
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MERN%20Stack-0ff?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/MERN%20Stack-%2300ffc8?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/Generative%20AI-%23ff00ff?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/UI/UX-Futuristic-%2300ffff?style=for-the-badge" />
 </p>
-<!--
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
-</p>
->
 
-  <br><br>
-  <b><i>⚙️ my codes deliver finest products ... :) </i></b>
-</div>
+<!---
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&title_color=39FF14&icon_color=00FFFF&text_color=FFFFFF&bg_color=00000000" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&border_radius=20&title_color=FF00FF&text_color=FFFFFF&bg_color=00000000" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&bg_color=00000000&color=39FF14&line=00FFFF&point=FF00FF&area=true&hide_border=true" />
+</p>
+
+
+--->
+
+<p align="center"><b><i>⚙️ My code doesn't just work. It marks an impression... </i></b></p>

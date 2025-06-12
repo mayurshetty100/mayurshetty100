@@ -67,7 +67,7 @@
   <img src="https://img.shields.io/badge/UI/UX-Futuristic-%2300ffff?style=for-the-badge" />
 </p>
 
-<!---
+---
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&title_color=39FF14&icon_color=00FFFF&text_color=FFFFFF&bg_color=00000000" />
 </p>
@@ -81,6 +81,7 @@
 </p>
 
 
---->
+---
 
-<p align="center"><b><i>⚙️ My code doesn't just work. It marks an impression... </i></b></p>
+<p align="center"><b><i>⚙️ My code doesn’t whisper functionality — it speaks elegance, echoes innovation...🔅
+</i></b></p>

@@ -22,7 +22,19 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,java,python,tailwind,bootstrap,mysql,git,github,figma,vscode,openai&theme=dark" />
+  <!-- Core Skill Icons -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,express,nodejs,mongodb,mysql,react,java,python,git,github,figma,vscode&theme=dark" />
+</p>
+
+<!-- Custom Badges for Special Skills -->
+<p align="center">
+  <img src="https://img.shields.io/badge/DSA-%2300c853?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Competitive_Programming-%23009688?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-%23ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-%23ff6f00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gen_AI_Tools-%230078d4?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-%230f9d58?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Canva-%2300c4cc?style=for-the-badge&logo=canva&logoColor=white" />
 </p>
 
 <p align="center">

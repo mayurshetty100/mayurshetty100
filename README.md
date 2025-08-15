@@ -1,6 +1,11 @@
-<!-- Futuristic Animated Header -->
+<!-- Animated Neon Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=00FFF7&center=true&vCenter=true&width=900&lines=✨+Mayur+Shetty+✨;Crafting+Code+That+Hits+Different+⚡;MERN+Stack+Prodigy+|+AI+Whisperer+|+UI/UX+Visionary" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&color=39FF14&center=true&vCenter=true&width=1000&lines=✨+Mayur+Shetty+✨;MERN+Stack+Prodigy+⚡;AI+Whisperer+%7C+UI/UX+Visionary+%7C+Code+Artist" alt="Typing Animation" />
+</p>
+
+<!-- Futuristic Wave Divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00fff7,100:ff00ff&height=90&section=header" />
 </p>
 
 ---
@@ -15,6 +20,17 @@
   🔥 <b>Code with Soul</b> — Write like an artist, debug like a monk, ship like a boss.
 </p>
 
+<!-- Glowing Pulse Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/DSA-%2300c853?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/Competitive%20Programming-%23009688?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-%23ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/TensorFlow-%23ff6f00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/Gen_AI_Tools-%230078d4?style=for-the-badge&logo=openai&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-%230f9d58?style=for-the-badge&logo=openai&logoColor=white&labelColor=black" />
+  <img src="https://img.shields.io/badge/Canva-%2300c4cc?style=for-the-badge&logo=canva&logoColor=white&labelColor=black" />
+</p>
+
 ---
 
 <h2 align="center">🚀 My Tech Universe</h2>
@@ -23,14 +39,9 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,express,nodejs,mongodb,mysql,react,java,python,git,github,figma,vscode&theme=dark&perline=8" />
 </p>
 
+<!-- Rotating Skill Icons -->
 <p align="center">
-  <img src="https://img.shields.io/badge/DSA-%2300c853?style=for-the-badge&logo=leetcode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Competitive_Programming-%23009688?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-%23ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-%23ff6f00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gen_AI_Tools-%230078d4?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-%230f9d58?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-%2300c4cc?style=for-the-badge&logo=canva&logoColor=white" />
+  <img src="https://github.com/MayurShetty100/MayurShetty100/blob/main/assets/skills.gif" width="600" />
 </p>
 
 ---
@@ -38,7 +49,26 @@
 <h2 align="center">⚡ A Few Lines of Raw Dev Rizz</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=2000&color=FF00FF&center=true&vCenter=true&width=850&height=60&lines=💬+Some+write+code.+I+architect+futures.;💾+Every+line+I+write+has+intent,+precision,+and+chaos+magic.;🖤+UI+is+the+body,+backend+is+the+brain,+rizz+is+the+soul.;🧬+I+don’t+adapt+to+tech,+I+evolve+with+it." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=2000&color=FF00FF&center=true&vCenter=true&width=900&height=60&lines=💬+Some+write+code.+I+architect+futures.;💾+Every+line+I+write+has+intent,+precision,+and+chaos+magic.;🖤+UI+is+the+body,+backend+is+the+brain,+rizz+is+the+soul.;🧬+I+don’t+adapt+to+tech,+I+evolve+with+it." />
+</p>
+
+<!-- Animated Wave Divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,100:00fff7&height=90&section=footer" />
+</p>
+
+---
+
+<h2 align="center">📊 My GitHub Vibes</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&count_private=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=mayurshetty100&theme=tokyonight&hide_border=true&border_radius=20" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&bg_color=0D1117&color=00FFF7&line=FF00FF&point=FFFFFF&area=true&hide_border=true" />
 </p>
 
 ---
@@ -58,20 +88,6 @@
   <a href="mailto:your-email@gmail.com">
     <img src="https://img.shields.io/badge/✉️%20Gmail-Ping%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</p>
-
----
-
-<h2 align="center">📊 My GitHub Vibes</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=radical&hide_border=true&border_radius=20&count_private=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mayurshetty100&theme=radical&hide_border=true&border_radius=20" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&bg_color=0D1117&color=00FFF7&line=FF00FF&point=FFFFFF&area=true&hide_border=true" />
 </p>
 
 ---

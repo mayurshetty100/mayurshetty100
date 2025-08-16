@@ -33,3 +33,55 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,express,nodejs,mongodb,mysql,react,java,python,git,github,figma,vscode&theme=dark&perline=8" />
 </p>
+
+---
+
+<h2 align="center">⚡ A Few Lines of Raw Dev Rizz</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=2000&color=FF00FF&center=true&vCenter=true&width=900&height=60&lines=💬+Some+write+code.+I+architect+futures.;💾+Every+line+I+write+has+intent,+precision,+and+chaos+magic.;🖤+UI+is+the+body,+backend+is+the+brain,+rizz+is+the+soul.;🧬+I+don’t+adapt+to+tech,+I+evolve+with+it." />
+</p>
+
+<!-- Animated Wave Divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,100:00fff7&height=90&section=footer" />
+</p>
+
+---
+
+<h2 align="center">📊 My GitHub Vibes</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&count_private=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=mayurshetty100&theme=tokyonight&hide_border=true&border_radius=20" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&bg_color=0D1117&color=00FFF7&line=FF00FF&point=FFFFFF&area=true&hide_border=true" />
+</p>
+
+---
+
+<h2 align="center">🤝 Let’s Build Something Legendary</h2>
+
+<p align="center">
+  <a href="https://your-portfolio-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Portfolio-Futuristic%20Hub-ff66c4?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20LinkedIn-Tech%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/📸%20Instagram-Lifestyle%20%26%20Vibes-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="mailto:your-email@gmail.com">
+    <img src="https://img.shields.io/badge/✉️%20Gmail-Ping%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <b><i>⚙️ My code doesn’t whisper functionality — it speaks elegance, echoes innovation... 🔅</i></b>
+</p>

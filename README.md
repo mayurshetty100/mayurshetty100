@@ -49,39 +49,6 @@
 
 ---
 
-<h2 align="center">📊 My GitHub Vibes</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&count_private=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mayurshetty100&theme=tokyonight&hide_border=true&border_radius=20" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&bg_color=0D1117&color=00FFF7&line=FF00FF&point=FFFFFF&area=true&hide_border=true" />
-</p>
-
----
-
-<h2 align="center">🤝 Let’s Build Something Legendary</h2>
-
-<p align="center">
-  <a href="https://your-portfolio-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20Portfolio-Futuristic%20Hub-ff66c4?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/your-username" target="_blank">
-    <img src="https://img.shields.io/badge/🔗%20LinkedIn-Tech%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/your-username" target="_blank">
-    <img src="https://img.shields.io/badge/📸%20Instagram-Lifestyle%20%26%20Vibes-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="mailto:your-email@gmail.com">
-    <img src="https://img.shields.io/badge/✉️%20Gmail-Ping%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
 <p align="center">
   <b><i>⚙️ My code doesn’t whisper functionality — it speaks elegance, echoes innovation... 🔅</i></b>
 </p>

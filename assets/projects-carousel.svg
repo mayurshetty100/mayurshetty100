@@ -1,0 +1,300 @@
+<svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="carouselBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Card gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.1" />
+    </linearGradient>
+
+    <!-- Shine effect -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+
+    <!-- Filter for cards -->
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity="0.4" flood-color="#00d4ff"/>
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes slideRight {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideLeft {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          opacity: 0.6;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes hover {
+        0%, 100% {
+          filter: drop-shadow(0 5px 15px rgba(0, 212, 255, 0.3));
+          transform: translateY(0px);
+        }
+        50% {
+          filter: drop-shadow(0 10px 25px rgba(0, 212, 255, 0.6));
+          transform: translateY(-8px);
+        }
+      }
+
+      @keyframes cardRotate {
+        0% {
+          transform: rotateY(0deg);
+        }
+        50% {
+          transform: rotateY(180deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+
+      @keyframes shine {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+
+      .project-card {
+        animation: hover 2.5s ease-in-out infinite;
+      }
+
+      .carousel-nav {
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      .card-shine {
+        animation: shine 3s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="400" fill="url(#carouselBg)"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="400" fill="url(#grid)"/>
+
+  <!-- Left navigation arrow -->
+  <g class="carousel-nav">
+    <circle cx="40" cy="200" r="25" fill="#00d4ff" opacity="0.2" stroke="#00d4ff" stroke-width="2"/>
+    <path d="M 55 200 L 40 190 L 40 210 Z" fill="#00d4ff" opacity="0.8"/>
+  </g>
+
+  <!-- Project Card 1: Alpha -->
+  <g class="project-card">
+    <g transform="translate(150, 80)">
+      <!-- Card background -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#cardGrad)" stroke="#00d4ff" stroke-width="2" filter="url(#cardShadow)"/>
+      
+      <!-- Shine effect -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#shine)" class="card-shine" opacity="0.4"/>
+
+      <!-- Project number -->
+      <circle cx="200" cy="20" r="15" fill="#ff00ff" opacity="0.6"/>
+      <text x="200" y="26" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">01</text>
+
+      <!-- Project title -->
+      <text x="110" y="50" font-size="18" font-weight="bold" fill="#00d4ff" text-anchor="middle" font-family="'Courier New', monospace">
+        Project Alpha
+      </text>
+
+      <!-- Divider line -->
+      <line x1="10" y1="60" x2="210" y2="60" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+
+      <!-- Description -->
+      <text x="110" y="90" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        High-performance MERN
+      </text>
+      <text x="110" y="105" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        app with real-time
+      </text>
+      <text x="110" y="120" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        features
+      </text>
+
+      <!-- Tech tags -->
+      <g transform="translate(110, 150)">
+        <rect x="-55" y="0" width="50" height="20" rx="4" fill="rgba(0, 212, 255, 0.2)" stroke="#00d4ff" stroke-width="1"/>
+        <text x="-30" y="14" font-size="10" fill="#00d4ff" text-anchor="middle" font-family="Arial">React</text>
+      </g>
+
+      <g transform="translate(110, 180)">
+        <rect x="-35" y="-10" width="35" height="20" rx="4" fill="rgba(0, 255, 136, 0.2)" stroke="#00ff88" stroke-width="1"/>
+        <text x="-17" y="4" font-size="10" fill="#00ff88" text-anchor="middle" font-family="Arial">Node</text>
+
+        <rect x="5" y="-10" width="45" height="20" rx="4" fill="rgba(255, 0, 255, 0.2)" stroke="#ff00ff" stroke-width="1"/>
+        <text x="27" y="4" font-size="10" fill="#ff00ff" text-anchor="middle" font-family="Arial">MongoDB</text>
+      </g>
+
+      <!-- Click indicator -->
+      <text x="110" y="220" font-size="11" fill="#00d4ff" text-anchor="middle" font-family="Arial" opacity="0.7">
+        → Click to view
+      </text>
+    </g>
+  </g>
+
+  <!-- Project Card 2: Beta -->
+  <g class="project-card" style="animation-delay: 0.5s;">
+    <g transform="translate(420, 80)">
+      <!-- Card background -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#cardGrad)" stroke="#00ff88" stroke-width="2" filter="url(#cardShadow)"/>
+      
+      <!-- Shine effect -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#shine)" class="card-shine" opacity="0.4"/>
+
+      <!-- Project number -->
+      <circle cx="200" cy="20" r="15" fill="#ff00ff" opacity="0.6"/>
+      <text x="200" y="26" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">02</text>
+
+      <!-- Project title -->
+      <text x="110" y="50" font-size="18" font-weight="bold" fill="#00ff88" text-anchor="middle" font-family="'Courier New', monospace">
+        Project Beta
+      </text>
+
+      <!-- Divider line -->
+      <line x1="10" y1="60" x2="210" y2="60" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+
+      <!-- Description -->
+      <text x="110" y="90" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        AI-powered content
+      </text>
+      <text x="110" y="105" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        recommendation
+      </text>
+      <text x="110" y="120" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        engine
+      </text>
+
+      <!-- Tech tags -->
+      <g transform="translate(110, 150)">
+        <rect x="-45" y="0" width="45" height="20" rx="4" fill="rgba(0, 212, 255, 0.2)" stroke="#00d4ff" stroke-width="1"/>
+        <text x="-22" y="14" font-size="10" fill="#00d4ff" text-anchor="middle" font-family="Arial">Python</text>
+      </g>
+
+      <g transform="translate(110, 180)">
+        <rect x="-30" y="-10" width="30" height="20" rx="4" fill="rgba(0, 255, 136, 0.2)" stroke="#00ff88" stroke-width="1"/>
+        <text x="-15" y="4" font-size="10" fill="#00ff88" text-anchor="middle" font-family="Arial">React</text>
+
+        <rect x="5" y="-10" width="40" height="20" rx="4" fill="rgba(255, 0, 255, 0.2)" stroke="#ff00ff" stroke-width="1"/>
+        <text x="25" y="4" font-size="10" fill="#ff00ff" text-anchor="middle" font-family="Arial">Express</text>
+      </g>
+
+      <!-- Click indicator -->
+      <text x="110" y="220" font-size="11" fill="#00ff88" text-anchor="middle" font-family="Arial" opacity="0.7">
+        → Click to view
+      </text>
+    </g>
+  </g>
+
+  <!-- Project Card 3: Gamma -->
+  <g class="project-card" style="animation-delay: 1s;">
+    <g transform="translate(690, 80)">
+      <!-- Card background -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#cardGrad)" stroke="#ff00ff" stroke-width="2" filter="url(#cardShadow)"/>
+      
+      <!-- Shine effect -->
+      <rect x="0" y="0" width="220" height="240" rx="12" fill="url(#shine)" class="card-shine" opacity="0.4"/>
+
+      <!-- Project number -->
+      <circle cx="200" cy="20" r="15" fill="#ff00ff" opacity="0.6"/>
+      <text x="200" y="26" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">03</text>
+
+      <!-- Project title -->
+      <text x="110" y="50" font-size="18" font-weight="bold" fill="#ff00ff" text-anchor="middle" font-family="'Courier New', monospace">
+        Project Gamma
+      </text>
+
+      <!-- Divider line -->
+      <line x1="10" y1="60" x2="210" y2="60" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+
+      <!-- Description -->
+      <text x="110" y="90" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        Full-stack SaaS
+      </text>
+      <text x="110" y="105" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        platform with
+      </text>
+      <text x="110" y="120" font-size="12" fill="#ffffff" text-anchor="middle" font-family="Arial" opacity="0.9">
+        payments
+      </text>
+
+      <!-- Tech tags -->
+      <g transform="translate(110, 150)">
+        <rect x="-30" y="0" width="30" height="20" rx="4" fill="rgba(0, 212, 255, 0.2)" stroke="#00d4ff" stroke-width="1"/>
+        <text x="-15" y="14" font-size="10" fill="#00d4ff" text-anchor="middle" font-family="Arial">React</text>
+      </g>
+
+      <g transform="translate(110, 180)">
+        <rect x="-25" y="-10" width="25" height="20" rx="4" fill="rgba(0, 255, 136, 0.2)" stroke="#00ff88" stroke-width="1"/>
+        <text x="-12" y="4" font-size="10" fill="#00ff88" text-anchor="middle" font-family="Arial">Node</text>
+
+        <rect x="10" y="-10" width="40" height="20" rx="4" fill="rgba(255, 0, 255, 0.2)" stroke="#ff00ff" stroke-width="1"/>
+        <text x="30" y="4" font-size="10" fill="#ff00ff" text-anchor="middle" font-family="Arial">Stripe</text>
+      </g>
+
+      <!-- Click indicator -->
+      <text x="110" y="220" font-size="11" fill="#ff00ff" text-anchor="middle" font-family="Arial" opacity="0.7">
+        → Click to view
+      </text>
+    </g>
+  </g>
+
+  <!-- Right navigation arrow -->
+  <g class="carousel-nav" style="animation-delay: 0.3s;">
+    <circle cx="960" cy="200" r="25" fill="#00d4ff" opacity="0.2" stroke="#00d4ff" stroke-width="2"/>
+    <path d="M 945 200 L 960 190 L 960 210 Z" fill="#00d4ff" opacity="0.8"/>
+  </g>
+
+  <!-- Bottom carousel indicators -->
+  <g transform="translate(500, 360)">
+    <!-- Indicator dots -->
+    <circle cx="-20" cy="0" r="5" fill="#00d4ff" opacity="0.8" class="carousel-nav"/>
+    <circle cx="0" cy="0" r="5" fill="#00ff88" opacity="0.5" class="carousel-nav" style="animation-delay: 0.2s;"/>
+    <circle cx="20" cy="0" r="5" fill="#ff00ff" opacity="0.5" class="carousel-nav" style="animation-delay: 0.4s;"/>
+
+    <!-- Text label -->
+    <text x="0" y="25" font-size="12" fill="#00d4ff" text-anchor="middle" font-family="Arial" opacity="0.7">
+      Swipe or use arrows
+    </text>
+  </g>
+</svg>

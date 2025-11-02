@@ -114,32 +114,42 @@
 <!-- 🏆 Milestones Section -->
 <h2 align="center">🚀 Milestones</h2>
 
-<p align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
-  <marquee behavior="scroll" direction="left" scrollamount="6">
-    <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-  </marquee>
-</p>
+<div align="center" style="display: flex; overflow-x: auto; white-space: nowrap; padding: 10px;">
+  <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/ACM game of codes participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/EnglishBolo level 3 professional certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="achievements/Thrilzl participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+</div>
 
 ---
 
 <!-- 💼 Credentials Section -->
 <h2 align="center">💼 Credentials</h2>
 
-<p align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
-  <marquee behavior="scroll" direction="left" scrollamount="6">
-    <img src="certifications/figma.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="certifications/javascript.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="certifications/reactjs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="certifications/nodejs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="certifications/mongodb.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-    <img src="certifications/prompt engineering.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
-  </marquee>
-</p>
+<div align="center" style="display: flex; overflow-x: auto; white-space: nowrap; padding: 10px;">
+  <img src="certifications/canva.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/emotional intelligence.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/figma.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/gen AI 101 with pieces.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/git and github.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/html and css.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/instagram clone using figma.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/java.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/javascript.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/mongodb.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/mysql.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/nodejs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/postman API student expert.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/prompt engineering.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/python.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/reactjs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="certifications/tailwind css.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+</div>
 
 
 ---

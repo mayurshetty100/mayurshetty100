@@ -111,24 +111,30 @@
 
 ---
 
-## <h2 align="center">🎖️Milestones 🚀</h2>
+<!--achievements-->
+<h2 align="center">Milestones 🚀</h2>
 
 <p align="center">
   <marquee behavior="scroll" direction="left" scrollamount="6">
-    <img src="certifications/figma.jpg" width="300" />
-    <img src="certificates/cert2.png" width="300" />
-    <img src="certificates/cert3.png" width="300" />
-    <img src="certificates/cert4.png" width="300" />
+    <img src="achievements/22 yards of code participation certificate.jpg" width="300" />
+    <img src="achievements/Thrizll participation certificate.jpg" width="300" />
+    <img src="certifications/javascript.jpg" width="300" />
+    <img src="certifications/" width="300" />
   </marquee>
 </p>
 
 ---
 
-<!-- 🐍 GitHub Contribution Snake Animation -->
-<h2 align="center">🐍 Watch My Contributions Come Alive</h2>
+<!--certificates-->
+<h2 align="center">Credentials 💼</h2>
 
 <p align="center">
-  <img src="https://github.com/mayurshetty100/mayurshetty100/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    <img src="certifications/figma.jpg" width="300" />
+    <img src="certifications/react.jpg" width="300" />
+    <img src="certifications/javascript.jpg" width="300" />
+    <img src="certifications/" width="300" />
+  </marquee>
 </p>
 
 ---

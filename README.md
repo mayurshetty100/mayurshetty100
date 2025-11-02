@@ -136,9 +136,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/22 yards of code participation certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">22 Yards of Code</p>
   </div>
 
@@ -152,9 +153,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/ACM game of codes participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/ACM game of codes participation certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Game of Codes</p>
   </div>
 
@@ -168,9 +170,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Top 5 Teams</p>
   </div>
 
@@ -184,9 +187,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/ACM javathon participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/ACM javathon participation certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Participation</p>
   </div>
 
@@ -200,9 +204,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/ACPC algohour 4th place in india.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/ACPC algohour 4th place in india.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">ACPC AlgoHour – 4th Place India</p>
   </div>
 
@@ -216,9 +221,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/brandquest participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/brandquest participation certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">BrandQuest Participation</p>
   </div>
 
@@ -232,9 +238,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">EnglishBolo Level 3</p>
   </div>
 
@@ -248,9 +255,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/internpe internship completion certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/internpe internship completion certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">InternPe Internship Completion</p>
   </div>
 
@@ -264,9 +272,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">NAUKRI Campus Merit</p>
   </div>
 
@@ -280,9 +289,10 @@
     background: rgba(255,255,255,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
   " 
-  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseover="this.style.transform='scale(1.07)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
-    <img src="achievements/Thrizll participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <img src="achievements/Thrizll participation certificate.jpg" 
+         style="border-radius:10px; width:220px; height:150px; object-fit:cover;"/>
     <p style="color:#ccc; font-size:14px; margin-top:5px;">Thrizll Participation</p>
   </div>
 

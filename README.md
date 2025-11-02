@@ -30,13 +30,23 @@
     }
   }
   
+  @keyframes colorShift {
+    0% { filter: hue-rotate(0deg); }
+    33% { filter: hue-rotate(180deg); }
+    66% { filter: hue-rotate(280deg); }
+    100% { filter: hue-rotate(360deg); }
+  }
+
+  
   .gradient-text {
-    background: linear-gradient(90deg, #00d4ff, #764ba2, #ff00ff, #00d4ff);
-    background-size: 200% auto;
+    background: linear-gradient(90deg, #00d4ff 0%, #764ba2 25%, #ff00ff 50%, #00d4ff 75%, #764ba2 100%);
+    background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: gradientFlow 4s linear infinite;
+    animation: gradientFlow 6s ease infinite;
+    display: inline-block;
+    font-family: 'Arial Black', sans-serif;
   }
   
   .glow-divider {
@@ -77,7 +87,7 @@ MAYUR SHETTY
 
 <div class="glow-divider"></div>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=00D4FF&center=true&width=700&height=60&lines=Unleash+The+Power+Of+Imagination;Where+creativity+meets+code;Ideas+become+reality" alt="Typing Animation" style="margin: 20px 0;" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=00D4FF&center=true&width=700&height=60&lines=Unleash+The+Power+Of+Imagination;Where+creativity+meets+code;Ideas+become+reality" alt="Typing Animation" style="margin: 20px 0; animation: colorShift 9s ease-in-out infinite;" />
 
 <div class="glow-divider"></div>
 

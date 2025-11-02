@@ -44,3 +44,44 @@
   <a href="#" title="Canva"><img src="https://skillicons.dev/icons?i=canva" width="48" style="margin:15px;"/></a>
   <a href="#" title="RESTful APIs"><img src="https://img.shields.io/badge/RESTful%20APIs-1E90FF?style=for-the-badge&logo=fastapi&logoColor=white" height="26" style="margin:8px 15px;"/></a>
 </p>
+
+<!-- ⚡ Programming Profiles + Let's Connect Section -->
+
+<table align="center" width="100%">
+  <tr>
+    <!-- 🧠 Programming Profiles -->
+    <td align="center" width="50%">
+      <h2>🏆 Programming Profiles</h2>
+      <p align="center">
+        <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
+          <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="35" style="margin:10px;"/>
+        </a>
+        <a href="https://www.codechef.com/users/mayurshetty" target="_blank">
+          <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+      </p>
+    </td>
+
+    <!-- 🤝 Let's Connect -->
+    <td align="center" width="50%">
+      <h2>🤝 Let's Connect</h2>
+      <p align="center">
+        <a href="mailto:mayurshetty9743@gmail.com" target="_blank">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+        <a href="https://www.linkedin.com/in/mayur-shetty-4bab0932a" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+        <a href="https://www.instagram.com/wanna.rizz.up" target="_blank">
+          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+        <a href="https://x.com/mayurshetty100" target="_blank">
+          <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+        <a href="https://agent.ai/human/MayurShetty" target="_blank">
+          <img src="https://img.shields.io/badge/Agent.AI-5E17EB?style=for-the-badge&logo=ai&logoColor=white" height="35" style="margin:10px;"/>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>

@@ -111,20 +111,53 @@
 
 ---
 
-<!-- 🏆 Milestones Section -->
-<h2 align="center">🚀 Milestones</h2>
+<!-- Achievements Section -->
+<h2 align="center">🏆 Achievements</h2>
 
-<div align="center" style="display: flex; overflow-x: auto; white-space: nowrap; padding: 10px;">
-  <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACM game of codes participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/EnglishBolo level 3 professional certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/Thrizll participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+<div align="center" style="
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+">
+  <style>
+    .achievement-container::-webkit-scrollbar {
+      height: 8px;
+    }
+    .achievement-container::-webkit-scrollbar-thumb {
+      background-color: #00ffff;
+      border-radius: 10px;
+    }
+    .achievement-img {
+      width: 300px;
+      height: 200px;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      object-fit: cover;
+    }
+    .achievement-img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    }
+  </style>
+
+  <div class="achievement-container" style="display: flex; gap: 20px;">
+    <img src="achievements/22 yards of code participation certificate.jpg" class="achievement-img" alt="22 yards of code certificate" />
+    <img src="achievements/ACM game of codes participation certificate.jpg" class="achievement-img" alt="ACM game of codes" />
+    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" class="achievement-img" alt="ACM Javathon best 5 teams" />
+    <img src="achievements/ACM javathon participation certificate.jpg" class="achievement-img" alt="ACM Javathon participation" />
+    <img src="achievements/ACPC algohour 4th place in india.jpg" class="achievement-img" alt="ACPC algohour" />
+    <img src="achievements/brandquest participation certificate.jpg" class="achievement-img" alt="Brandquest" />
+    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" class="achievement-img" alt="EnglishBolo" />
+    <img src="achievements/internep internship completion certificate.jpg" class="achievement-img" alt="InternPe Internship" />
+    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" class="achievement-img" alt="Naukri campus" />
+    <img src="achievements/Thrizll participation certificate.jpg" class="achievement-img" alt="Thrizll participation" />
+  </div>
 </div>
+
 
 ---
 

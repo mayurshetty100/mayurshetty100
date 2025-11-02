@@ -111,6 +111,19 @@
 
 ---
 
+## <h2 align="center">🎖️Milestones 🚀</h2>
+
+<p align="center">
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    <img src="certifications/figma.jpg" width="300" />
+    <img src="certificates/cert2.png" width="300" />
+    <img src="certificates/cert3.png" width="300" />
+    <img src="certificates/cert4.png" width="300" />
+  </marquee>
+</p>
+
+---
+
 <!-- 🐍 GitHub Contribution Snake Animation -->
 <h2 align="center">🐍 Watch My Contributions Come Alive</h2>
 

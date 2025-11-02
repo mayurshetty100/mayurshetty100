@@ -120,14 +120,12 @@
 
 ---
 
-<!-- 💫 Rizz-Filled Outro (working in README) -->
-<h2 align="center">
-  <i>💻 Turning logic into magic, one line at a time</i>
-</h2>
+<!-- 💫 Rizz-Filled Outro Section -->
+<h2 align="center">✨ The Journey Never Ends ✨</h2>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=4000&pause=1000&color=FF00FF&center=true&vCenter=true&width=850&lines=My+code+doesn%27t+just+work+-+it+draws+paths+from+imagination+to+reality."
+    src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=23&duration=4000&pause=1000&center=true&vCenter=true&width=600&lines=My+code+doesn't+just+work+—+it+bridges+imagination+and+reality.;Fueled+by+curiosity,+perfected+with+discipline.;Building+what+others+dream,+one+commit+at+a+time.;&color=FF00FF;&color=00FFFF;&color=00FF7F"
     alt="Rizz typing animation"
   />
 </p>

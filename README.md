@@ -128,3 +128,14 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=4000&color=00F0FF&center=true&vCenter=true&width=800&lines=Keep+Building...;Keep+Learning...;Keep+Evolving+🚀" alt="motivational typing" />
 </p>
+
+---
+
+<!-- 💫 Rizz-Filled Outro Section -->
+<h2 align="center">
+  <i>💻 Turning logic into magic, one line of code at a time ⚡</i>
+</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=4000&pause=1000&color=FF00FF&center=true&vCenter=true&width=850&lines=Built+from+discipline,+powered+by+rizz+🔥;Flirting+with+code+like+it's+my+crush+💘;Debugging+errors+and+breaking+hearts+💔;My+code+runs+clean,+my+vibe+runs+mean+😎;Serving+tech+rizz+24%2F7+🚀" alt="rizz typing animation" />
+</p>

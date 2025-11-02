@@ -1,308 +1,505 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayur Shetty - Dream it, Code it, and Conquer it.</title>
+<div align="center"><div align="center">
+
+
+
+<!-- Animated Header with Gradient --><!-- Animated Header with Gradient -->
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" />
+
+
+
+<br/><br/>
+
+
+
+<!-- Animated Profile Photo --><!-- Animated Profile Photo -->
+
+<img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" /><img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" />
+
+
+
+# **MAYUR SHETTY**# **MAYUR SHETTY**
+
+### 🎯 *Dream it, code it, and conquer it.*### 🎯 *Dream it, code it, and conquer it.*
+
+
+
+------
+
+
+
+</div></div>
+
     <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts (Inter) --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+---    <!-- Google Fonts (Inter) --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
     <!-- Devicon CDN --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    
+
+## 🤝 **Connect With Me**    
+
     <style>
-        /* --- Base Styling --- */
+
+<div align="center">        /* --- Base Styling --- */
+
         body {
-            font-family: 'Inter', sans-serif;
-            /* Animated gradient background */
-            background: linear-gradient(-45deg, #1d1a2f, #2a254d, #5a4f9d, #23a6d5);
-            background-size: 400% 400%;
+
+<a href="https://linkedin.com/in/mayurshetty/" target="_blank">            font-family: 'Inter', sans-serif;
+
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />            /* Animated gradient background */
+
+</a>            background: linear-gradient(-45deg, #1d1a2f, #2a254d, #5a4f9d, #23a6d5);
+
+&nbsp;            background-size: 400% 400%;
+
             animation: gradientBG 20s ease infinite;
-            color: #ffffff;
-            overflow-x: hidden; /* Prevent horizontal scroll */
-        }
+
+<a href="https://instagram.com/mayurshetty/" target="_blank">            color: #ffffff;
+
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />            overflow-x: hidden; /* Prevent horizontal scroll */
+
+</a>        }
+
+&nbsp;
 
         /* Gradient animation keyframes */
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+
+<a href="mailto:mayur@example.com" target="_blank">        @keyframes gradientBG {
+
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />            0% { background-position: 0% 50%; }
+
+</a>            50% { background-position: 100% 50%; }
+
+&nbsp;            100% { background-position: 0% 50%; }
+
         }
 
-        /* Particle canvas (sits behind content) */
-        #particle-canvas {
-            position: fixed;
+<a href="https://twitter.com/mayurshetty" target="_blank">
+
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />        /* Particle canvas (sits behind content) */
+
+</a>        #particle-canvas {
+
+&nbsp;            position: fixed;
+
             top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+
+<a href="https://portfolio.mayurshetty.com" target="_blank">            left: 0;
+
+  <img src="https://img.shields.io/badge/Portfolio-764ABC?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />            width: 100%;
+
+</a>            height: 100%;
+
             z-index: 0;
-            opacity: 0.5;
+
+</div>            opacity: 0.5;
+
         }
+
+---
 
         /* Main content container (sits on top of canvas) */
-        .main-content {
+
+## 🌌 **My Tech Universe**        .main-content {
+
             position: relative;
-            z-index: 10;
+
+<div align="center">            z-index: 10;
+
         }
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript,express,nodejs,tailwind,bootstrap,react,mysql,postgresql,docker,git,github,java,python,vercel,firebase,supabase,nextjs&perline=10" alt="Tech Stack" />
 
         /* --- Glassmorphism Card Style --- */
-        .glass-card {
+
+</div>        .glass-card {
+
             background: rgba(255, 255, 255, 0.05); /* Slight white tint */
-            backdrop-filter: blur(12px); /* The "glass" effect */
-            -webkit-backdrop-filter: blur(12px);
-            border-radius: 1.5rem; /* 24px */
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
+**Languages:** JavaScript, Python, Java, C++, TypeScript              backdrop-filter: blur(12px); /* The "glass" effect */
+
+**Frontend:** React, Next.js, Tailwind CSS, Bootstrap, Material-UI              -webkit-backdrop-filter: blur(12px);
+
+**Backend:** Node.js, Express, Django, FastAPI              border-radius: 1.5rem; /* 24px */
+
+**Databases:** MongoDB, PostgreSQL, MySQL, Firebase              border: 1px solid rgba(255, 255, 255, 0.1);
+
+**Tools & DevOps:** Docker, Git, GitHub, Vercel, AWS              box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
             transition: all 0.3s ease;
-        }
 
-        .glass-card:hover {
+---        }
+
+
+
+## 🏆 **Coding Profiles**        .glass-card:hover {
+
             box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
-            transform: translateY(-5px);
+
+<div align="center">            transform: translateY(-5px);
+
         }
 
-        /* --- Animated Gradient Text for Headers --- */
-        .animated-gradient-text {
-            background-image: linear-gradient(90deg, #c3a6ff, #61dafb, #c3a6ff);
+<a href="https://leetcode.com/mayurshetty/" target="_blank">
+
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />        /* --- Animated Gradient Text for Headers --- */
+
+</a>        .animated-gradient-text {
+
+&nbsp;            background-image: linear-gradient(90deg, #c3a6ff, #61dafb, #c3a6ff);
+
             background-size: 200% auto;
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            animation: text-glow 4s linear infinite;
+
+<a href="https://www.codechef.com/users/mayurshetty" target="_blank">            background-clip: text;
+
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />            -webkit-background-clip: text;
+
+</a>            color: transparent;
+
+&nbsp;            animation: text-glow 4s linear infinite;
+
         }
 
-        @keyframes text-glow {
-            to {
+<a href="https://codeforces.com/profile/mayurshetty" target="_blank">
+
+  <img src="https://img.shields.io/badge/Codeforces-1F1C3F?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />        @keyframes text-glow {
+
+</a>            to {
+
                 background-position: 200% center;
-            }
+
+</div>            }
+
         }
+
+---
 
         /* --- Scroll Animation Classes (for JS) --- */
-        .scroll-animate {
+
+## ⚡ **My GitHub Pulse**        .scroll-animate {
+
             opacity: 0;
-            transform: translateY(40px);
+
+<div align="center">            transform: translateY(40px);
+
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />        }
+
+
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" />        .scroll-animate.visible {
+
+            opacity: 1;
+
+</div>            transform: translateY(0);
+
         }
 
-        .scroll-animate.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+<br/>
 
         /* --- Social Link Hover Effect --- */
-        .social-link {
+
+<div align="center">        .social-link {
+
             transition: all 0.3s ease;
-            filter: grayscale(30%);
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=mayurshetty100&theme=tokyonight&animation=burn)](https://github.com/mayurshetty100)            filter: grayscale(30%);
+
             opacity: 0.8;
-        }
+
+![Profile Views](https://komarev.com/ghpvc/?username=mayurshetty100&color=00d4ff&style=flat-square&label=Profile+Views)        }
+
         .social-link:hover {
-            transform: scale(1.1) translateY(-3px);
+
+</div>            transform: scale(1.1) translateY(-3px);
+
             filter: grayscale(0%);
-            opacity: 1;
+
+<br/>            opacity: 1;
+
             box-shadow: 0 0 20px rgba(97, 218, 251, 0.5); /* React blue glow */
-        }
 
-        /* --- Tech Icon Style --- */
+<div align="center">        }
+
+
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=radical&no-frame=true&row=2&column=3&margin-w=15&margin-h=15)](https://github.com/mayurshetty100)        /* --- Tech Icon Style --- */
+
         .tech-icon {
-            font-size: 4rem; /* 64px */
+
+</div>            font-size: 4rem; /* 64px */
+
             color: rgba(255, 255, 255, 0.7);
-            transition: all 0.3s ease;
+
+---            transition: all 0.3s ease;
+
         }
-        .tech-icon:hover {
+
+## 🏅 **My Achievements & Certifications**        .tech-icon:hover {
+
             color: rgba(255, 255, 255, 1);
-            transform: scale(1.15);
+
+<div align="center">            transform: scale(1.15);
+
             filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
-        }
 
-        /* --- Cute Bot Animations --- */
-        @keyframes floatBot {
-            0% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-10px); /* Smaller float for seated bot */
-            }
-            100% {
-                transform: translateY(0px);
-            }
-        }
+### 📜 Professional Certifications        }
 
-        @keyframes blinkCursor {
-            0%, 49% { opacity: 1; }
-            50%, 100% { opacity: 0; }
-        }
-
-        .floating-bot {
-            animation: floatBot 4s ease-in-out infinite;
-            filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3)); /* For a subtle lift effect */
-        }
-
-        .cursor {
-            animation: blinkCursor 1s step-end infinite;
-        }
     </style>
-</head>
-<body class="antialiased">
 
-    <!-- Particle background canvas --><canvas id="particle-canvas"></canvas>
+| Certificate | Platform | Year | Description |</head>
+
+|------------|----------|------|-------------|<body class="antialiased">
+
+| **Full Stack Development** | Google, Coursera | 2024 | Mastered the complete MERN Stack including frontend, backend, databases, and deployment. Learned industry best practices and modern development workflows. |
+
+| **AI & Machine Learning** | Andrew Ng, Coursera | 2024 | Completed comprehensive ML course covering supervised learning, neural networks, deep learning, and practical implementation with TensorFlow and PyTorch. |    <!-- Particle background canvas --><canvas id="particle-canvas"></canvas>
+
+| **Cloud Computing (AWS)** | Amazon AWS | 2024 | AWS Certified Solutions Architect - Learned to design scalable, reliable, and secure cloud infrastructure using AWS services. |
 
     <!-- Main content container --><div class="main-content min-h-screen w-full max-w-7xl mx-auto px-4 py-12 md:py-20">
-        
-        <!-- ================================== --><!-- HEADER SECTION --><!-- ================================== --><header class="glass-card scroll-animate flex flex-col md:flex-row items-center justify-between p-8 md:p-12 text-center md:text-left">
-            <!-- Left Side: Your Photo --><img 
-                src="https://placehold.co/150x150/5a4f9d/ffffff?text=Mayur&font=inter" 
-                alt="Mayur Shetty" 
-                class="w-36 h-36 rounded-full object-cover border-4 border-white/30 shadow-lg mb-6 md:mb-0"
-                onerror="this.src='https://placehold.co/150x150/5a4f9d/ffffff?text=Photo&font=inter'"
-            />
-            
-            <!-- Center: Title and Tagline --><div class="flex-1 md:mx-10">
-                <h1 class="text-4xl md:text-6xl font-black tracking-tighter animated-gradient-text">
-                    MAYUR SHETTY
-                </h1>
-                <h3 class="text-xl md:text-2xl font-light text-gray-200 mt-2 tracking-wide">
-                    Dream it, code it, and conquer it.
-                </h3>
-            </div>
 
-            <!-- Right Side: Cute 3D-ish Laptop Bot (Animated SVG) --><div class="w-64 h-64 mt-6 md:mt-0 floating-bot">
-                <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <!-- Gradients for 3D effect --><linearGradient id="screenGradient" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="#2a254d" />
-                            <stop offset="100%" stop-color="#1d1a2f" />
-                        </linearGradient>
-                        <linearGradient id="bodyGradient" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="#764ABC" />
-                            <stop offset="100%" stop-color="#5a4f9d" />
-                        </linearGradient>
-                        <radialGradient id="eyeShine" cx="0.6" cy="0.4" r="0.7">
-                            <stop offset="0%" stop-color="white"/>
-                            <stop offset="100%" stop-color="#C3A6FF"/>
-                        </radialGradient>
-                    </defs>
+</div>        
 
-                    <!-- Bot's Chair/Base --><rect x="60" y="210" width="180" height="30" rx="10" fill="#4d4177"></rect>
-                    <rect x="100" y="240" width="20" height="20" rx="5" fill="#4d4177"></rect>
-                    <rect x="180" y="240" width="20" height="20" rx="5" fill="#4d4177"></rect>
+        <!-- ================================== --><!-- HEADER SECTION --><!-- ================================== --><header class="glass-card scroll-animate flex flex-col md:flex-row items-center justify-between p-8 md:p-12 text-center md:text-left relative">
 
-                    <!-- Laptop Base (Body - Bottom Layer for Depth) --><path d="M50,160 L250,160 L240,210 L60,210 Z" fill="url(#bodyGradient)"></path>
-                    <path d="M60,210 Q150,220 240,210 L250,160 L240,210 Z" fill="rgba(0,0,0,0.1)" transform="translate(0, -5)"></path> <!-- Base Shadow --><!-- Laptop Screen (Head - Front Layer for Depth) --><rect x="70" y="70" width="160" height="100" rx="12" fill="url(#screenGradient)" stroke="#61DAFB" stroke-width="4"></rect>
-                    
-                    <!-- Screen Content (console log and cursor) --><text x="85" y="110" font-family="monospace" font-size="16" fill="#C3A6FF">console.log("Hello, </text>
-                    <text x="85" y="135" font-family="monospace" font-size="16" fill="#C3A6FF">Mayur!");</text>
-                    <rect x="175" y="98" width="8" height="18" fill="#C3A6FF" class="cursor"></rect> <!-- Blinking cursor --><!-- Bot's Face (Cute eyes) --><!-- Eyes --><circle cx="110" cy="115" r="8" fill="white" stroke="#61DAFB" stroke-width="1"></circle>
-                    <circle cx="110" cy="115" r="4" fill="#1D1A2F"></circle>
-                    <circle cx="112" cy="113" r="1.5" fill="url(#eyeShine)"></circle> <!-- Eye highlight --><circle cx="190" cy="115" r="8" fill="white" stroke="#61DAFB" stroke-width="1"></circle>
-                    <circle cx="190" cy="115" r="4" fill="#1D1A2F"></circle>
-                    <circle cx="192" cy="113" r="1.5" fill="url(#eyeShine)"></circle> <!-- Eye highlight --><!-- Mouth --><path d="M120 140 Q150 150 180 140" stroke="#C3A6FF" stroke-width="3" fill="none" stroke-linecap="round"></path>
-                    
-                    <!-- Arms (typing position) --><rect x="55" y="150" width="25" height="10" rx="5" fill="#C3A6FF" transform="rotate(-10 67.5 155)"></rect> <!-- Left Arm upper --><rect x="60" y="160" width="20" height="10" rx="5" fill="#C3A6FF" transform="rotate(20 70 165)"></rect> <!-- Left Arm lower --><rect x="220" y="150" width="25" height="10" rx="5" fill="#C3A6FF" transform="rotate(10 232.5 155)"></rect> <!-- Right Arm upper --><rect x="220" y="160" width="20" height="10" rx="5" fill="#C3A6FF" transform="rotate(-20 230 165)"></rect> <!-- Right Arm lower --><!-- Hands (on keyboard) --><circle cx="80" cy="165" r="8" fill="#A78BFA"></circle>
-                    <circle cx="220" cy="165" r="8" fill="#A78BFA"></circle>
+---            
 
-                    <!-- Keyboard detail --><rect x="75" y="170" width="150" height="15" rx="3" fill="#4d4177"></rect>
-                    <rect x="80" y="173" width="140" height="9" rx="2" fill="#2a254d"></rect> <!-- Keys area --><!-- Small shadow to emphasize floating --><ellipse cx="150" cy="280" rx="90" ry="20" fill="rgba(0,0,0,0.2)" transform="scale(0.8)"></ellipse>
-                </svg>
-            </div>
-        </header>
+            <div class="flex items-center space-x-6 md:space-x-8 mb-6 md:mb-0">
 
-        <!-- ================================== --><!-- CONNECT WITH ME SECTION --><!-- ================================== --><section class="glass-card scroll-animate mt-12 p-8">
-            <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
-                Connect With Me :-)
+## 🎯 **Achievement Highlights**                <!-- My Photo --><img 
+
+                    src="https://placehold.co/150x150/5a4f9d/ffffff?text=Mayur&font=inter" 
+
+<table align="center" border="0" cellpadding="15" cellspacing="0" style="width: 100%; max-width: 1200px; margin: auto;">                    alt="Mayur Shetty" 
+
+  <tr>                    class="w-36 h-36 rounded-full object-cover border-4 border-white/30 shadow-lg"
+
+    <td align="center" width="33%">                    onerror="this.src='https://placehold.co/150x150/5a4f9d/ffffff?text=Photo&font=inter'"
+
+      <img src="https://placehold.co/300x200/2c2c2c/61dafb?text=Hackathon+Winner" alt="Hackathon Winner" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(97, 218, 251, 0.3);" />                />
+
+      <h3 style="color: #61DAFB; margin-top: 15px;">🏆 Hackathon Winner</h3>            </div>
+
+      <p style="color: #aaa; font-size: 14px;">Built a full-stack AI application in 24 hours at TechCrunch Disrupt. Won 1st place and $10,000 prize. Demonstrated rapid prototyping and teamwork under pressure.</p>            
+
+    </td>            <!-- Center: Title and Tagline --><div class="flex-1 md:mx-10">
+
+    <td align="center" width="33%">                <h1 class="text-4xl md:text-6xl font-black tracking-tighter animated-gradient-text">
+
+      <img src="https://placehold.co/300x200/2c2c2c/764abc?text=Open+Source+Contributor" alt="Open Source" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(118, 74, 188, 0.3);" />                    MAYUR SHETTY
+
+      <h3 style="color: #764ABC; margin-top: 15px;">💻 Open Source Contributor</h3>                </h1>
+
+      <p style="color: #aaa; font-size: 14px;">Active contributor to 5+ open-source projects. 500+ GitHub stars on personal projects. Featured on GitHub Trending page multiple times. Merged 100+ pull requests.</p>                <h3 class="text-xl md:text-2xl font-light text-gray-200 mt-2 tracking-wide">
+
+    </td>                    Dream it, code it, and conquer it.
+
+    <td align="center" width="33%">                </h3>
+
+      <img src="https://placehold.co/300x200/2c2c2c/23a6d5?text=Top+Developer" alt="Top Developer" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(35, 166, 213, 0.3);" />            </div>
+
+      <h3 style="color: #23A6D5; margin-top: 15px;">⭐ Top Developer Badge</h3>        </header>
+
+      <p style="color: #aaa; font-size: 14px;">Ranked in top 1% on LeetCode and CodeChef. Solved 500+ coding problems. Mentored 50+ junior developers. Speaker at tech conferences. Written 15+ technical articles.</p>
+
+    </td>        <!-- ================================== --><!-- CONNECT WITH ME SECTION --><!-- ================================== --><section class="glass-card scroll-animate mt-12 p-8">
+
+  </tr>            <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
+
+</table>                Connect With Me :-)
+
             </h2>
-            <div class="flex flex-wrap justify-center gap-4">
-                <!-- Replace '#' with your actual profile links --><a href="#" target="_blank" class="social-link">
-                    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-                </a>
-                <a href="#" target="_blank" class="social-link">
-                    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-                </a>
-                <a href="mailto:your-email@gmail.com" target="_blank" class="social-link">
-                    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-                </a>
-                <a href="#" target="_blank" class="social-link">
-                    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
-                </a>
-                <a href="#" target="_blank" class="social-link">
-                    <img src="https://img.shields.io/badge/Agent.ai-764abc?style=for-the-badge&logo=openai&logoColor=white" alt="Agent.ai"/>
-                </a>
-            </div>
-        </section>
 
-        <!-- ================================== --><!-- TECH & CODING PROFILES (Combined) --><!-- ================================== --><div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
-            
-            <!-- Tech Universe (Takes 2/3 width on large screens) --><section class="glass-card scroll-animate lg:col-span-2 p-8">
-                <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
-                    My Tech Universe
-                </h2>
-                <div class="flex flex-wrap justify-center gap-8 items-center"> <!-- Increased gap for icons --><!-- Devicons: https://devicon.dev/ --><i class="devicon-html5-plain tech-icon" title="HTML5"></i>
-                    <i class="devicon-css3-plain tech-icon" title="CSS3"></i>
-                    <i class="devicon-javascript-plain tech-icon" title="JavaScript"></i>
-                    <i class="devicon-express-original tech-icon" title="Express.js"></i>
-                    <i class="devicon-nodejs-plain tech-icon" title="Node.js"></i>
-                    <i class="devicon-tailwindcss-plain tech-icon" title="Tailwind CSS"></i>
-                    <i class="devicon-bootstrap-plain tech-icon" title="Bootstrap"></i>
-                    <i class="devicon-react-original tech-icon" title="React"></i>
-                    <i class="devicon-mysql-plain tech-icon" title="MySQL"></i>
-                    <i class="devicon-postgresql-plain tech-icon" title="SQL"></i>
+---            <div class="flex flex-wrap justify-center gap-4">
+
+                <!-- Replace '#' with your actual profile links --><a href="https://www.linkedin.com/in/mayur-shetty-4bab0932a" target="_blank" class="social-link">
+
+## 💻 **Featured Projects**                    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+
+                </a>
+
+<table align="center" border="0" cellpadding="15" cellspacing="0" style="width: 100%; max-width: 1200px; margin: auto;">                <a href="https://www.instagram.com/wanna.rizz.up" target="_blank" class="social-link">
+
+  <tr>                    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+
+    <td align="center" width="33%">                </a>
+
+      <img src="https://placehold.co/300x200/2c2c2c/61dafb?text=Real-Time+App" alt="Project 1" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(97, 218, 251, 0.3);" />                <a href="mailto:mayurshettycoder@gmail.com" target="_blank" class="social-link">
+
+      <h3 style="color: #61DAFB;">🚀 Real-Time Collaboration App</h3>                    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+
+      <p style="color: #aaa; font-size: 14px;">                </a>
+
+        <strong>Tech:</strong> React, Node.js, Socket.io, MongoDB<br/>                <a href="https://x.com/mayurshetty100" target="_blank" class="social-link">
+
+        MERN application with real-time features, user authentication, and collaborative editing capabilities.                    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+
+      </p>                </a>
+
+      <a href="https://github.com/mayurshetty100" style="color: #61DAFB; text-decoration: none; font-weight: bold;">View Project →</a>                <a href="https://agent.ai/human/MayurShetty" target="_blank" class="social-link">
+
+    </td>                    <img src="https://img.shields.io/badge/Agent.ai-764abc?style=for-the-badge&logo=openai&logoColor=white" alt="Agent.ai"/>
+
+    <td align="center" width="33%">                </a>
+
+      <img src="https://placehold.co/300x200/2c2c2c/764abc?text=AI+Engine" alt="Project 2" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(118, 74, 188, 0.3);" />            </div>
+
+      <h3 style="color: #764ABC;">🤖 AI Recommendation Engine</h3>        </section>
+
+      <p style="color: #aaa; font-size: 14px;">
+
+        <strong>Tech:</strong> Python, TensorFlow, FastAPI, React<br/>        <!-- ================================== --><!-- TECH & CODING PROFILES (Combined) --><!-- ================================== --><div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
+
+        Machine learning model providing intelligent recommendations using collaborative filtering and neural networks.            
+
+      </p>            <!-- Tech Universe (Takes 2/3 width on large screens) --><section class="glass-card scroll-animate lg:col-span-2 p-8">
+
+      <a href="https://github.com/mayurshetty100" style="color: #764ABC; text-decoration: none; font-weight: bold;">View Project →</a>                <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
+
+    </td>                    My Tech Universe
+
+    <td align="center" width="33%">                </h2>
+
+      <img src="https://placehold.co/300x200/2c2c2c/23a6d5?text=SaaS+Platform" alt="Project 3" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(35, 166, 213, 0.3);" />                <div class="flex flex-wrap justify-center gap-8 items-center"> <!-- Increased gap for icons --><!-- Devicons: https://devicon.dev/ --><i class="devicon-html5-plain tech-icon" title="HTML5"></i>
+
+      <h3 style="color: #23A6D5;">🌐 Full-Stack SaaS Platform</h3>                    <i class="devicon-css3-plain tech-icon" title="CSS3"></i>
+
+      <p style="color: #aaa; font-size: 14px;">                    <i class="devicon-javascript-plain tech-icon" title="JavaScript"></i>
+
+        <strong>Tech:</strong> Next.js, Node.js, PostgreSQL, Stripe<br/>                    <i class="devicon-express-original tech-icon" title="Express.js"></i>
+
+        Complete SaaS solution with payment integration, user dashboard, and real-time analytics.                    <i class="devicon-nodejs-plain tech-icon" title="Node.js"></i>
+
+      </p>                    <i class="devicon-tailwindcss-plain tech-icon" title="Tailwind CSS"></i>
+
+      <a href="https://github.com/mayurshetty100" style="color: #23A6D5; text-decoration: none; font-weight: bold;">View Project →</a>                    <i class="devicon-bootstrap-plain tech-icon" title="Bootstrap"></i>
+
+    </td>                    <i class="devicon-react-original tech-icon" title="React"></i>
+
+  </tr>                    <i class="devicon-mysql-plain tech-icon" title="MySQL"></i>
+
+</table>                    <i class="devicon-postgresql-plain tech-icon" title="SQL"></i>
+
                     <i class="devicon-docker-plain tech-icon" title="Docker"></i>
-                    <i class="devicon-git-plain tech-icon" title="Git"></i>
+
+---                    <i class="devicon-git-plain tech-icon" title="Git"></i>
+
                     <i class="devicon-github-original tech-icon" title="GitHub"></i>
-                    <i class="devicon-java-plain tech-icon" title="Java"></i>
+
+## 📊 **Quick Stats**                    <i class="devicon-java-plain tech-icon" title="Java"></i>
+
                     <i class="devicon-python-plain tech-icon" title="Python"></i>
-                    <i class="devicon-vercel-original tech-icon" title="Vercel"></i>
+
+<div align="center">                    <i class="devicon-vercel-original tech-icon" title="Vercel"></i>
+
                     <i class="devicon-firebase-plain tech-icon" title="Firebase"></i>
-                    <i class="devicon-supabase-plain tech-icon" title="Supabase"></i>
-                    <i class="devicon-nextjs-original tech-icon" title="Next.js"></i>
-                </div>
-            </section>
-            
-            <!-- Coding Profiles (Takes 1/3 width on large screens) --><section class="glass-card scroll-animate p-8">
-                <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
-                    Coding Profiles
+
+| Metric | Count |                    <i class="devicon-supabase-plain tech-icon" title="Supabase"></i>
+
+|--------|-------|                    <i class="devicon-nextjs-original tech-icon" title="Next.js"></i>
+
+| 💻 Projects Built | 25+ |                </div>
+
+| 🏆 Certifications | 10+ |            </section>
+
+| ⭐ GitHub Stars | 500+ |            
+
+| 📚 Articles Written | 15+ |            <!-- Coding Profiles (Takes 1/3 width on large screens) --><section class="glass-card scroll-animate p-8">
+
+| 👥 Community Mentored | 50+ |                <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
+
+| 🎯 LeetCode Solved | 500+ |                    Coding Profiles
+
                 </h2>
-                <div class="flex flex-col items-center gap-4">
-                    <!-- Replace 'YOUR_USERNAME' with your actual usernames --><a href="https://leetcode.com/YOUR_USERNAME/" target="_blank" class="social-link">
-                        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+
+</div>                <div class="flex flex-col items-center gap-4">
+
+                    <!-- Replace 'YOUR_USERNAME' with your actual usernames --><a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank" class="social-link">
+
+---                        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+
                     </a>
-                    <a href="https://www.codechef.com/users/YOUR_USERNAME" target="_blank" class="social-link">
+
+## 🎓 **Education & Learning**                    <a href="https://www.codechef.com/users/mayurshetty" target="_blank" class="social-link">
+
                         <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
-                    </a>
-                </div>
-            </section>
-        </div>
 
-        <!-- ================================== --><!-- GITHUB PULSE & TROPHIES --><!-- ================================== --><section class="glass-card scroll-animate mt-12 p-8">
+- 🎓 **B.Tech in Computer Science** - [Your University Name] (2022)                    </a>
+
+- 📚 **Continuous Learning** - Currently exploring Web3, Blockchain, and Advanced AI/ML                </div>
+
+- 🏅 **Online Courses Completed** - 20+ courses on Udemy, Coursera, and Pluralsight            </section>
+
+- 🌟 **Specializations** - Full Stack Development, Machine Learning, Cloud Computing        </div>
+
+
+
+---        <!-- ================================== --><!-- GITHUB PULSE & TROPHIES --><!-- ================================== --><section class="glass-card scroll-animate mt-12 p-8">
+
             <h2 class="text-3xl font-bold text-center mb-8 animated-gradient-text">
-                My GitHub Pulse
+
+## ✨ **Let's Build Something Amazing!**                My GitHub Pulse
+
             </h2>
-            
+
+<div align="center">            
+
             <!-- Stats & Languages --><div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <!-- 
+
+> "Every expert was once a beginner. Keep building, keep learning, and keep conquering!" 💡                <!-- 
+
                 Replace 'YOUR_GITHUB_USERNAME' with your GitHub username.
-                I'm using the 'transparent' theme with a custom color to match our vibe.
+
+<br/>                I'm using the 'transparent' theme with a custom color to match our vibe.
+
                 --><img 
-                    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent&text_color=ffffff&icon_color=61dafb&title_color=c3a6ff&include_all_commits=true&count_private=true&hide_border=true&border_radius=10" 
-                    alt="GitHub Stats"
-                    class="w-full h-auto"
-                />
+
+<a href="https://github.com/mayurshetty100" target="_blank">                    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent&text_color=ffffff&icon_color=61dafb&title_color=c3a6ff&include_all_commits=true&count_private=true&hide_border=true&border_radius=10" 
+
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />                    alt="GitHub Stats"
+
+</a>                    class="w-full h-auto"
+
+&nbsp;                />
+
                 <img 
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=transparent&text_color=ffffff&title_color=c3a6ff&hide_border=true&border_radius=10&langs_count=8" 
-                    alt="Top Languages"
-                    class="w-full h-auto"
-                />
-            </div>
-            
-            <!-- Trophies --><div class="mt-6">
-                <img 
-                    src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=transparent&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=-1&text_color=ffffff&title_color=61dafb"
-                    alt="GitHub Trophies"
-                    class="w-full"
-                />
+
+<a href="https://portfolio.mayurshetty.com" target="_blank">                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=transparent&text_color=ffffff&title_color=c3a6ff&hide_border=true&border_radius=10&langs_count=8" 
+
+  <img src="https://img.shields.io/badge/Portfolio-FF6B9D?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />                    alt="Top Languages"
+
+</a>                    class="w-full h-auto"
+
+&nbsp;                />
+
             </div>
 
-            <!-- Badges: Streak & Views --><div class="flex flex-wrap justify-center items-center gap-6 mt-6">
+<a href="mailto:mayur@example.com" target="_blank">            
+
+  <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />            <!-- Trophies --><div class="mt-6">
+
+</a>                <img 
+
+                    src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=transparent&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=-1&text_color=ffffff&title_color=61dafb"
+
+<br/>                    alt="GitHub Trophies"
+
+<br/>                    class="w-full"
+
+                />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa500-515f-4b82-aba9-2c2df485fcc7.gif" width="100%" />            </div>
+
+
+
+**Made with ❤️ by Mayur Shetty | © 2024 | Always Open to Collaborations** ⭐            <!-- Badges: Streak & Views --><div class="flex flex-wrap justify-center items-center gap-6 mt-6">
+
                 <img 
-                    src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=00000000&stroke=ffffff&ring=61dafb&fire=61dafb&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff" 
+
+</div>                    src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=00000000&stroke=ffffff&ring=61dafb&fire=61dafb&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff" 
+
                     alt="GitHub Streak"
                 />
                 <img 

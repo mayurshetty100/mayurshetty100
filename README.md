@@ -114,17 +114,186 @@
 <!-- 🏆 Milestones Section -->
 <h2 align="center">🚀 Milestones</h2>
 
-<div align="center" style="display: flex; overflow-x: auto; white-space: nowrap; padding: 10px;">
-  <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACM game of codes participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/EnglishBolo level 3 professional certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
-  <img src="achievements/Thrizll participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />
+<div align="center" style="
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 15px;
+  gap: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+">
+  <!-- 22 Yards of Code -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">22 Yards of Code</p>
+  </div>
+
+  <!-- ACM Game of Codes -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM game of codes participation certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Game of Codes</p>
+  </div>
+
+  <!-- ACM Javathon Best 5 Teams -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Top 5 Teams</p>
+  </div>
+
+  <!-- ACM Javathon Participation -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM javathon participation certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Participation</p>
+  </div>
+
+  <!-- ACPC Algohour 4th Place -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACPC AlgoHour – 4th Place India</p>
+  </div>
+
+  <!-- BrandQuest Participation -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">BrandQuest Participation</p>
+  </div>
+
+  <!-- EnglishBolo Level 3 -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">EnglishBolo Level 3</p>
+  </div>
+
+  <!-- InternPe Internship -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">InternPe Internship Completion</p>
+  </div>
+
+  <!-- NAUKRI Campus Merit -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">NAUKRI Campus Merit</p>
+  </div>
+
+  <!-- Thrizll Participation -->
+  <div style="
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255,255,255,0.05);
+    transition:transform 0.3s, box-shadow 0.3s;
+    margin:5px;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/Thrizll participation certificate.jpg" width="250" height="180" style="border-radius:10px;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">Thrizll Participation</p>
+  </div>
 </div>
+
 
 ---
 

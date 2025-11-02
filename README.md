@@ -90,3 +90,22 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
+
+---
+
+<!-- 📊 GitHub Stats Section -->
+<h2 align="center">📈 GitHub Stats & Analytics</h2>
+
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Mayur's GitHub Stats" height="165" style="margin: 10px;" />
+  
+  <!-- GitHub Streak -->
+  <img src="https://streak-stats.demolab.com?user=mayurshetty100&theme=radical&hide_border=true" alt="GitHub Streak" height="165" style="margin: 10px;" />
+</p>
+
+<!-- 🔵 GitHub Languages -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=donut&theme=radical&hide_border=true" alt="Top Languages" height="200" />
+</p>
+

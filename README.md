@@ -1,186 +1,370 @@
-<div align="center"><div align="center">
+# 🚀 Hi, I'm Mayur Shetty<div align="center"><div align="center">
 
 
 
-<!-- Animated Header with Gradient --><!-- Animated Header with Gradient -->
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" />
+<div align="center">
 
 
 
-<br/><br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&duration=3000&pause=1000&color=00D4FF&center=true&width=700&height=80&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;Cloud+%26+DevOps+Specialist" alt="Typing Animation" /><!-- Animated Header with Gradient --><!-- Animated Header with Gradient -->
 
 
 
-<!-- Animated Profile Photo --><!-- Animated Profile Photo -->
-
-<img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" /><img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" />
+<br/><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&duration=3000&pause=1000&color=C3A6FF&center=true&vCenter=true&width=800&height=100&lines=Hi!+I'm+Mayur+Shetty+👋;Dream+it,+Code+it,+Conquer+it+🚀;Full+Stack+Developer+%7C+AI+Enthusiast" alt="Typing SVG" />
 
 
 
-# **MAYUR SHETTY**# **MAYUR SHETTY**
-
-### 🎯 *Dream it, code it, and conquer it.*### 🎯 *Dream it, code it, and conquer it.*
+<img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="150" height="150" style="border-radius: 50%; border: 4px solid #00D4FF; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
 
 
 
-------
+### 💡 *Dream it, Code it, Conquer it* <br/><br/>
 
 
 
-</div></div>
+</div>
 
-    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
 
----    <!-- Google Fonts (Inter) --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <!-- Devicon CDN --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+---<!-- Animated Profile Photo --><!-- Animated Profile Photo -->
 
-## 🤝 **Connect With Me**    
 
-    <style>
 
-<div align="center">        /* --- Base Styling --- */
+## 🤝 Connect With Me<img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" /><img src="https://avatars.githubusercontent.com/u/mayurshetty100?v=4" alt="Mayur Shetty" width="160" height="160" style="border-radius:50%; border:5px solid #61DAFB; box-shadow: 0 0 40px rgba(97, 218, 251, 0.6);" />
 
-        body {
+
+
+<div align="center">
+
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayurshetty/)# **MAYUR SHETTY**# **MAYUR SHETTY**
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mayurshetty/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mayur@example.com)### 🎯 *Dream it, code it, and conquer it.*### 🎯 *Dream it, code it, and conquer it.*
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mayurshetty)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=web&logoColor=white)](https://mayurshetty.com)
+
+
+
+</div>------
+
+
+
+---
+
+
+
+## 🌌 Tech Stack</div></div>
+
+
+
+<div align="center">    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+
+
+
+### Languages---    <!-- Google Fonts (Inter) --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)    <!-- Devicon CDN --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+![Java](https://img.shields.io/badge/Java-ED8936?style=for-the-badge&logo=java&logoColor=white)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)## 🤝 **Connect With Me**    
+
+
+
+### Frontend    <style>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)<div align="center">        /* --- Base Styling --- */
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)        body {
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 <a href="https://linkedin.com/in/mayurshetty/" target="_blank">            font-family: 'Inter', sans-serif;
 
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />            /* Animated gradient background */
+### Backend & Database
 
-</a>            background: linear-gradient(-45deg, #1d1a2f, #2a254d, #5a4f9d, #23a6d5);
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />            /* Animated gradient background */
 
-&nbsp;            background-size: 400% 400%;
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-            animation: gradientBG 20s ease infinite;
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)</a>            background: linear-gradient(-45deg, #1d1a2f, #2a254d, #5a4f9d, #23a6d5);
 
-<a href="https://instagram.com/mayurshetty/" target="_blank">            color: #ffffff;
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />            overflow-x: hidden; /* Prevent horizontal scroll */
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)&nbsp;            background-size: 400% 400%;
+
+
+
+### Tools & DevOps            animation: gradientBG 20s ease infinite;
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)<a href="https://instagram.com/mayurshetty/" target="_blank">            color: #ffffff;
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />            overflow-x: hidden; /* Prevent horizontal scroll */
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </a>        }
 
+</div>
+
 &nbsp;
+
+---
 
         /* Gradient animation keyframes */
 
+## 📊 GitHub Stats
+
 <a href="mailto:mayur@example.com" target="_blank">        @keyframes gradientBG {
+
+<div align="center">
 
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />            0% { background-position: 0% 50%; }
 
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)](https://github.com/mayurshetty100)
+
 </a>            50% { background-position: 100% 50%; }
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight)](https://github.com/mayurshetty100)
 
 &nbsp;            100% { background-position: 0% 50%; }
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=mayurshetty100&theme=tokyonight&animation=fire)](https://github.com/mayurshetty100)
+
         }
+
+</div>
 
 <a href="https://twitter.com/mayurshetty" target="_blank">
 
+---
+
   <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />        /* Particle canvas (sits behind content) */
+
+## 🏆 Coding Profiles
 
 </a>        #particle-canvas {
 
+<div align="center">
+
 &nbsp;            position: fixed;
 
-            top: 0;
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/mayurshetty/)
+
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/mayurshetty)            top: 0;
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F1C3F?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/mayurshetty)
 
 <a href="https://portfolio.mayurshetty.com" target="_blank">            left: 0;
 
+</div>
+
   <img src="https://img.shields.io/badge/Portfolio-764ABC?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />            width: 100%;
+
+---
 
 </a>            height: 100%;
 
+## 🏅 Achievements & Certifications
+
             z-index: 0;
 
+### 🎖️ Certifications
+
 </div>            opacity: 0.5;
+
+| Certificate | Platform | Year | Details |
+
+|---|---|---|---|        }
+
+| **Full Stack Web Development** | Coursera | 2024 | Mastered MERN Stack, REST APIs, Database Design |
+
+| **AI & Machine Learning** | Andrew Ng, Coursera | 2024 | Neural Networks, Deep Learning, TensorFlow |---
+
+| **AWS Certified Solutions Architect** | Amazon AWS | 2024 | Cloud Architecture, Scalability, Security |
+
+        /* Main content container (sits on top of canvas) */
+
+### 🌟 Key Achievements
+
+## 🌌 **My Tech Universe**        .main-content {
+
+- 🥇 **Hackathon Winner** - Won 1st place with AI-powered project
+
+- ⭐ **500+ GitHub Stars** - Popular open-source contributions            position: relative;
+
+- 👥 **Mentored 50+ Developers** - Community engagement
+
+- 📝 **Published 15+ Articles** - Technical writing on Dev.to & Medium<div align="center">            z-index: 10;
+
+- 🎯 **LeetCode Top Performer** - Solved 500+ problems (Top 1%)
 
         }
 
 ---
 
-        /* Main content container (sits on top of canvas) */
-
-## 🌌 **My Tech Universe**        .main-content {
-
-            position: relative;
-
-<div align="center">            z-index: 10;
-
-        }
-
 <img src="https://skillicons.dev/icons?i=html,css,javascript,express,nodejs,tailwind,bootstrap,react,mysql,postgresql,docker,git,github,java,python,vercel,firebase,supabase,nextjs&perline=10" alt="Tech Stack" />
+
+## 💻 Featured Projects
 
         /* --- Glassmorphism Card Style --- */
 
-</div>        .glass-card {
+### 🚀 Real-Time Collaboration Platform
 
-            background: rgba(255, 255, 255, 0.05); /* Slight white tint */
+**Tech Stack:** React | Node.js | Socket.io | MongoDB  </div>        .glass-card {
 
-**Languages:** JavaScript, Python, Java, C++, TypeScript              backdrop-filter: blur(12px); /* The "glass" effect */
+A full-stack application enabling real-time collaboration with WebSockets, user authentication, and persistent storage.  
 
-**Frontend:** React, Next.js, Tailwind CSS, Bootstrap, Material-UI              -webkit-backdrop-filter: blur(12px);
+[View Repository](https://github.com/mayurshetty100) | [Live Demo](https://project-demo.com)            background: rgba(255, 255, 255, 0.05); /* Slight white tint */
+
+
+
+### 🤖 AI Recommendation Engine**Languages:** JavaScript, Python, Java, C++, TypeScript              backdrop-filter: blur(12px); /* The "glass" effect */
+
+**Tech Stack:** Python | TensorFlow | FastAPI | React  
+
+Machine learning-powered recommendation system using collaborative filtering and neural networks for personalized suggestions.  **Frontend:** React, Next.js, Tailwind CSS, Bootstrap, Material-UI              -webkit-backdrop-filter: blur(12px);
+
+[View Repository](https://github.com/mayurshetty100) | [Live Demo](https://project-demo.com)
 
 **Backend:** Node.js, Express, Django, FastAPI              border-radius: 1.5rem; /* 24px */
 
-**Databases:** MongoDB, PostgreSQL, MySQL, Firebase              border: 1px solid rgba(255, 255, 255, 0.1);
+### 🌐 E-Commerce SaaS Platform
 
-**Tools & DevOps:** Docker, Git, GitHub, Vercel, AWS              box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+**Tech Stack:** Next.js | Node.js | PostgreSQL | Stripe  **Databases:** MongoDB, PostgreSQL, MySQL, Firebase              border: 1px solid rgba(255, 255, 255, 0.1);
 
-            transition: all 0.3s ease;
+Complete SaaS platform with payment integration, admin dashboard, and real-time analytics.  
 
----        }
+[View Repository](https://github.com/mayurshetty100) | [Live Demo](https://project-demo.com)**Tools & DevOps:** Docker, Git, GitHub, Vercel, AWS              box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 
 
 
-## 🏆 **Coding Profiles**        .glass-card:hover {
+---            transition: all 0.3s ease;
 
-            box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
 
-<div align="center">            transform: translateY(-5px);
 
-        }
+## 📈 GitHub Trophies---        }
 
-<a href="https://leetcode.com/mayurshetty/" target="_blank">
 
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />        /* --- Animated Gradient Text for Headers --- */
 
-</a>        .animated-gradient-text {
+<div align="center">
 
-&nbsp;            background-image: linear-gradient(90deg, #c3a6ff, #61dafb, #c3a6ff);
 
-            background-size: 200% auto;
 
-<a href="https://www.codechef.com/users/mayurshetty" target="_blank">            background-clip: text;
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=tokyonight&no-frame=true&row=2&column=3&margin-w=15&margin-h=15)](https://github.com/mayurshetty100)## 🏆 **Coding Profiles**        .glass-card:hover {
 
-  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />            -webkit-background-clip: text;
 
-</a>            color: transparent;
 
-&nbsp;            animation: text-glow 4s linear infinite;
+</div>            box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
 
-        }
+
+
+---<div align="center">            transform: translateY(-5px);
+
+
+
+## 📚 Latest Blog Posts        }
+
+
+
+- 📝 [Building Scalable Node.js Applications](https://dev.to/mayurshetty)<a href="https://leetcode.com/mayurshetty/" target="_blank">
+
+- 📝 [React Performance Optimization Tips](https://dev.to/mayurshetty)
+
+- 📝 [Docker & Kubernetes for Beginners](https://dev.to/mayurshetty)  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />        /* --- Animated Gradient Text for Headers --- */
+
+
+
+---</a>        .animated-gradient-text {
+
+
+
+## 🎓 Education&nbsp;            background-image: linear-gradient(90deg, #c3a6ff, #61dafb, #c3a6ff);
+
+
+
+- **B.Tech in Computer Science** - University of Technology (2022)            background-size: 200% auto;
+
+- **Specialization:** Full Stack Development, Cloud Computing, AI/ML
+
+- **Certifications:** 10+ Professional Certifications<a href="https://www.codechef.com/users/mayurshetty" target="_blank">            background-clip: text;
+
+
+
+---  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />            -webkit-background-clip: text;
+
+
+
+## 💡 Fun Facts</a>            color: transparent;
+
+
+
+- 🎮 Love solving DSA problems on LeetCode&nbsp;            animation: text-glow 4s linear infinite;
+
+- 🌱 Always learning new technologies
+
+- 🤝 Open to collaborations and Open Source contributions        }
+
+- 🎯 Goal: Build products that impact millions
 
 <a href="https://codeforces.com/profile/mayurshetty" target="_blank">
 
+---
+
   <img src="https://img.shields.io/badge/Codeforces-1F1C3F?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />        @keyframes text-glow {
+
+## 📞 Let's Connect!
 
 </a>            to {
 
+<div align="center">
+
                 background-position: 200% center;
+
+**I'm always open to collaborations and new opportunities!**
 
 </div>            }
 
-        }
+📧 Email: [mayur@example.com](mailto:mayur@example.com)  
+
+💼 LinkedIn: [mayurshetty](https://linkedin.com/in/mayurshetty/)          }
+
+🐙 GitHub: [mayurshetty100](https://github.com/mayurshetty100)  
+
+---
 
 ---
 
         /* --- Scroll Animation Classes (for JS) --- */
 
+### ⭐ If you like my work, don't forget to star my repositories!
+
 ## ⚡ **My GitHub Pulse**        .scroll-animate {
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa500-515f-4b82-aba9-2c2df485fcc7.gif" width="100%" />
 
             opacity: 0;
 
+**Made with ❤️ by Mayur Shetty | © 2024**
+
 <div align="center">            transform: translateY(40px);
+
+</div>
 
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 

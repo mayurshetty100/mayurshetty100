@@ -1,102 +1,111 @@
-<style>
-  @keyframes glowPulse {
-    0%, 100% { 
-      box-shadow: 0 0 20px rgba(0, 212, 255, 0.5), 0 0 40px rgba(102, 126, 234, 0.3);
-    }
-    50% { 
-      box-shadow: 0 0 40px rgba(0, 212, 255, 0.8), 0 0 80px rgba(102, 126, 234, 0.6);
-    }
-  }
-  
-  @keyframes starGlow {
-    0%, 100% { opacity: 0.4; }
-    50% { opacity: 1; }
-  }
-  
-  @keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes colorShift {
-    0% { filter: hue-rotate(0deg); }
-    33% { filter: hue-rotate(180deg); }
-    66% { filter: hue-rotate(280deg); }
-    100% { filter: hue-rotate(360deg); }
-  }
+# Hi, I'm Mayur 👋  
+**Built from discipline. Powered by obsession.**
 
-  
-  .gradient-text {
-    background: linear-gradient(90deg, #00d4ff 0%, #764ba2 25%, #ff00ff 50%, #00d4ff 75%, #764ba2 100%);
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: gradientFlow 6s ease infinite;
-    display: inline-block;
-    font-family: 'Arial Black', sans-serif;
-  }
-  
-  .glow-divider {
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #00d4ff, #764ba2, #ff00ff, transparent);
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6), 0 0 40px rgba(255, 0, 255, 0.4);
-    margin: 20px 0;
-    animation: glowPulse 3s ease-in-out infinite;
-  }
-  
-  .stars {
-    position: relative;
-  }
-  
-  .star {
-    display: inline-block;
-    position: relative;
-    animation: starGlow 2s ease-in-out infinite;
-  }
-</style>
+[![Linkedin][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] [![Instagram][instagram-shield]][instagram-url] [![X][x-shield]][x-url]
 
-<div align="center">
+---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 40px; border-radius: 20px; margin: 20px auto; max-width: 800px; box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4); animation: glowPulse 3s ease-in-out infinite; position: relative; overflow: hidden;">
+## 🔭 About Me
+I'm a 2nd-year B.E. (CSE) student — MERN stack developer, UI/UX enthusiast, and GenAI explorer. I enjoy building polished web apps, experimenting with prompt engineering, and combining clean frontend experiences with powerful backend systems. Currently honing vector embeddings at **Samsung R&D Bangalore** and building projects that solve real problems.
 
-<!-- Glowing Star Background -->
-<div style="position: absolute; top: 10px; left: 20px; font-size: 1.5em; opacity: 0.6; animation: starGlow 2s ease-in-out infinite;">✨</div>
-<div style="position: absolute; top: 30px; right: 30px; font-size: 1.2em; opacity: 0.5; animation: starGlow 2.5s ease-in-out infinite;">⭐</div>
-<div style="position: absolute; bottom: 20px; left: 40px; font-size: 1.3em; opacity: 0.6; animation: starGlow 2.2s ease-in-out infinite;">💫</div>
-<div style="position: absolute; bottom: 30px; right: 50px; font-size: 1.4em; opacity: 0.5; animation: starGlow 2.8s ease-in-out infinite;">✨</div>
+**Highlights**
+- Internship: Java Programmer at InternPe  
+- Internship: Project work at Samsung R&D Bangalore (vector embeddings)  
+- Competition: 4th place — ACPC Algo Hour 2024  
+- Passion projects: *WanderNest*, *Anti-Scam Shield for Job Hunters*, *SMILE*
 
-<!-- Content -->
-<div style="position: relative; z-index: 10;">
+---
 
-<h1 class="gradient-text" style="font-size: 4em; font-weight: 900; margin: 0; text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); letter-spacing: 2px; animation: slideDown 0.8s ease;">
-MAYUR SHETTY
-</h1>
+## 💡 What I build
+- End-to-end web apps (React / Node / Express / MongoDB)
+- Interactive UI/UX with motion effects and pixel-perfect layouts
+- AI-powered features: prompt engineering, embeddings, chatbot integrations
+- Chrome extensions and browser tools
 
-<div class="glow-divider"></div>
+---
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=00D4FF&center=true&width=700&height=60&lines=Unleash+The+Power+Of+Imagination;Where+creativity+meets+code;Ideas+become+reality" alt="Typing Animation" style="margin: 20px 0; animation: colorShift 9s ease-in-out infinite;" />
+## 🛠️ Tech Stack
+**Frontend:** React, AngularJS, HTML5, CSS3, Tailwind, JavaScript  
+**Backend:** Node.js, Express, Spring Boot, MongoDB, SQL  
+**AI / Data:** OpenAI APIs, embeddings, Python (data & ML)  
+**Tools:** Git, GitHub, Figma, VS Code, Postman, Docker (familiar)  
+**Other:** Java, DSA (Java), UI/UX design principles
 
-<div class="glow-divider"></div>
+---
 
-<p style="font-size: 1.1em; color: #e0e0e0; margin-top: 15px; font-style: italic; animation: slideDown 1.2s ease;">
-✨ Where creativity meets code, and ideas become reality ✨
-</p>
+## 🚀 Selected Projects
+### WanderNest — Travel discovery app
+**Stack:** AngularJS, Node.js, Express, MongoDB  
+A destination discovery platform with categories, detailed views, and an interactive chatbot.  
+**Repo:** `github.com/<your-username>/WanderNest` • **Live demo:** (link)
 
-</div>
+### Anti-Scam Shield for Job Hunters
+**Stack:** React, Node.js, Chrome Extension, OpenAI  
+Detects fraudulent job postings via heuristics + AI and warns users in real-time.  
+**Repo:** `github.com/<your-username>/anti-scam-shield`
 
-</div>
+### SMILE — Education for underprivileged kids
+**Stack:** HTML/CSS/JS frontend; Spring Boot + MongoDB backend (planned)  
+Roadmaps + free course modules to support learning where it’s needed most.  
+**Repo:** `github.com/<your-username>/SMILE`
 
-</div>
+*(Add or swap projects — I’ll format them beautifully for each card.)*
+
+---
+
+## 📈 GitHub Stats
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=<your-username>&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=<your-username>&show_icons=true)
+
+---
+
+## 📚 Education
+**B.E. — Computer Science & Engineering** (ongoing)  
+Focused on MERN, AI, DSA, and system design.
+
+---
+
+## 🧩 Achievements & Internships
+- Java Programmer — InternPe  
+- Project internship — Samsung R&D Bangalore (vector embeddings)  
+- 4th place — ACPC Algo Hour 2024
+
+---
+
+## ✉️ Get in touch
+- Email: **mayur@example.com**  
+- LinkedIn: `https://www.linkedin.com/in/<your-link>`  
+- GitHub: `https://github.com/<your-username>`  
+- Instagram / X: `@<your-handle>`
+
+---
+
+## ⚡ Quick links
+- Portfolio: `https://your-portfolio.com`  
+- Resume: `https://link-to-resume`  
+- Featured demo: `https://demo-link`
+
+---
+
+## 🧠 Future goals
+- Ship more AI + MERN products with real users  
+- Land a high-impact SWE role and grow into ML/AI product engineering  
+- Build passive-income SaaS and scale a startup idea
+
+---
+
+> “Let's build something that matters.” — *Mayur*
+
+---
+
+<!-- Shields -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&style=flat-square
+[gmail-shield]: https://img.shields.io/badge/-Gmail-D14836?logo=gmail&style=flat-square
+[instagram-shield]: https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&style=flat-square
+[x-shield]: https://img.shields.io/badge/-X-1DA1F2?logo=twitter&style=flat-square
+
+<!-- Links -->
+[linkedin-url]: https://www.linkedin.com/in/<your-link>
+[gmail-url]: mailto:mayur@example.com
+[instagram-url]: https://instagram.com/<your-handle>
+[x-url]: https://x.com/<your-handle>

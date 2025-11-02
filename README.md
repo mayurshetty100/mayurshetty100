@@ -10,3 +10,37 @@
 
 ---
 
+<!-- 🌌 My Tech Universe Section -->
+
+<h2 align="center">⚙️ My Tech Universe 🌐</h2>
+
+<p align="center">
+  <a href="#" title="HTML5"><img src="https://skillicons.dev/icons?i=html" width="45" height="45"/></a>
+  <a href="#" title="CSS3"><img src="https://skillicons.dev/icons?i=css" width="45" height="45"/></a>
+  <a href="#" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" width="45" height="45"/></a>
+  <a href="#" title="Bootstrap"><img src="https://skillicons.dev/icons?i=bootstrap" width="45" height="45"/></a>
+  <a href="#" title="JavaScript"><img src="https://skillicons.dev/icons?i=javascript" width="45" height="45"/></a>
+  <a href="#" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" width="45" height="45"/></a>
+  <a href="#" title="Express.js"><img src="https://skillicons.dev/icons?i=express" width="45" height="45"/></a>
+  <a href="#" title="React.js"><img src="https://skillicons.dev/icons?i=react" width="45" height="45"/></a>
+  <a href="#" title="Redux"><img src="https://skillicons.dev/icons?i=redux" width="45" height="45"/></a>
+  <a href="#" title="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45"/></a>
+  <a href="#" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" width="45" height="45"/></a>
+  <a href="#" title="SQL"><img src="https://skillicons.dev/icons?i=sqlite" width="45" height="45"/></a>
+  <a href="#" title="Docker"><img src="https://skillicons.dev/icons?i=docker" width="45" height="45"/></a>
+  <a href="#" title="Firebase"><img src="https://skillicons.dev/icons?i=firebase" width="45" height="45"/></a>
+  <a href="#" title="Supabase"><img src="https://skillicons.dev/icons?i=supabase" width="45" height="45"/></a>
+  <a href="#" title="ChatGPT"><img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="27"/></a>
+  <a href="#" title="AI Agents"><img src="https://img.shields.io/badge/AI%20Agents-5E17EB?style=for-the-badge&logo=ai&logoColor=white" height="27"/></a>
+  <a href="#" title="Java"><img src="https://skillicons.dev/icons?i=java" width="45" height="45"/></a>
+  <a href="#" title="Python"><img src="https://skillicons.dev/icons?i=python" width="45" height="45"/></a>
+  <a href="#" title="n8n"><img src="https://img.shields.io/badge/n8n-FA7343?style=for-the-badge&logo=n8n&logoColor=white" height="27"/></a>
+  <a href="#" title="Git"><img src="https://skillicons.dev/icons?i=git" width="45" height="45"/></a>
+  <a href="#" title="GitHub"><img src="https://skillicons.dev/icons?i=github" width="45" height="45"/></a>
+  <a href="#" title="Git Bash"><img src="https://img.shields.io/badge/GitBash-F05032?style=for-the-badge&logo=gnu-bash&logoColor=white" height="27"/></a>
+  <a href="#" title="Vercel"><img src="https://skillicons.dev/icons?i=vercel" width="45" height="45"/></a>
+  <a href="#" title="Mongoose"><img src="https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongodb&logoColor=white" height="27"/></a>
+  <a href="#" title="Postman"><img src="https://skillicons.dev/icons?i=postman" width="45" height="45"/></a>
+  <a href="#" title="RESTful APIs"><img src="https://img.shields.io/badge/RESTful%20APIs-1E90FF?style=for-the-badge&logo=fastapi&logoColor=white" height="27"/></a>
+  <a href="#" title="Canva"><img src="https://skillicons.dev/icons?i=canva" width="45" height="45"/></a>
+</p>

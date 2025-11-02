@@ -109,3 +109,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=donut&theme=radical&hide_border=true" alt="Top Languages" height="200" />
 </p>
 
+---
+
+<!-- 🐍 GitHub Contribution Snake Animation -->
+<h2 align="center">🐍 Watch My Contributions Come Alive</h2>
+
+<p align="center">
+  <img src="https://github.com/mayurshetty100/mayurshetty100/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---

@@ -113,7 +113,7 @@
 
 <!-- 🏆 Milestones Section -->
 <h2 align="center">🚀 Milestones</h2>
-
+<div display="flex">
 <div align="center" style="
   display: flex;
   overflow-x: auto;

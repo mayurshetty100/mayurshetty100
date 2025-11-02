@@ -111,51 +111,181 @@
 
 ---
 
-<!-- Achievements Section -->
-<h2 align="center">🏆 Achievements</h2>
+<!-- 🏆 Milestones Section -->
+<h2 align="center">🚀 Milestones</h2>
 
-<div align="center" style="
+<!-- Outer Flex Container -->
+<div style="
   display: flex;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   padding: 20px;
-  justify-content: center;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
+  max-width: 1200px;
+  margin: auto;
 ">
-  <style>
-    .achievement-container::-webkit-scrollbar {
-      height: 8px;
-    }
-    .achievement-container::-webkit-scrollbar-thumb {
-      background-color: #00ffff;
-      border-radius: 10px;
-    }
-    .achievement-img {
-      width: 300px;
-      height: 200px;
-      border-radius: 15px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      object-fit: cover;
-    }
-    .achievement-img:hover {
-      transform: scale(1.08);
-      box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
-    }
-  </style>
 
-  <div class="achievement-container" style="display: flex; gap: 20px;">
-    <img src="achievements/22 yards of code participation certificate.jpg" class="achievement-img" alt="22 yards of code certificate" />
-    <img src="achievements/ACM game of codes participation certificate.jpg" class="achievement-img" alt="ACM game of codes" />
-    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" class="achievement-img" alt="ACM Javathon best 5 teams" />
-    <img src="achievements/ACM javathon participation certificate.jpg" class="achievement-img" alt="ACM Javathon participation" />
-    <img src="achievements/ACPC algohour 4th place in india.jpg" class="achievement-img" alt="ACPC algohour" />
-    <img src="achievements/brandquest participation certificate.jpg" class="achievement-img" alt="Brandquest" />
-    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" class="achievement-img" alt="EnglishBolo" />
-    <img src="achievements/internep internship completion certificate.jpg" class="achievement-img" alt="InternPe Internship" />
-    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" class="achievement-img" alt="Naukri campus" />
-    <img src="achievements/Thrizll participation certificate.jpg" class="achievement-img" alt="Thrizll participation" />
+  <!-- Each Inner Card -->
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">22 Yards of Code</p>
   </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM game of codes participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Game of Codes</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Top 5 Teams</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACM javathon participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACM Javathon Participation</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/ACPC algohour 4th place in india.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">ACPC AlgoHour – 4th Place India</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/brandquest participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">BrandQuest Participation</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/EnglishBolo level 3 professional certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">EnglishBolo Level 3</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/internpe internship completion certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">InternPe Internship Completion</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">NAUKRI Campus Merit</p>
+  </div>
+
+  <div style="
+    flex: 1 1 calc(25% - 20px);
+    max-width: 260px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  " 
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 0 20px rgba(255,255,255,0.4)';" 
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    <img src="achievements/Thrizll participation certificate.jpg" style="border-radius:10px; width:100%; height:auto;"/>
+    <p style="color:#ccc; font-size:14px; margin-top:5px;">Thrizll Participation</p>
+  </div>
+
 </div>
 
 

@@ -119,3 +119,12 @@
 </p>
 
 ---
+
+<!-- 🚀 Ending Line -->
+<h2 align="center">
+  <i>Driven by obsession ⚡, wired for innovation 🧠 — this is just the beta version of greatness 💥</i>
+</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=4000&color=00F0FF&center=true&vCenter=true&width=800&lines=Keep+Building...;Keep+Learning...;Keep+Evolving+🚀" alt="motivational typing" />
+</p>

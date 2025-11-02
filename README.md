@@ -125,7 +125,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=23&duration=4000&pause=1000&center=true&vCenter=true&width=600&lines=My+code+doesn't+just+work+—+it+bridges+imagination+and+reality.;Fueled+by+curiosity,+perfected+with+discipline.;Building+what+others+dream,+one+commit+at+a+time.;&color=FF00FF;&color=00FFFF;&color=00FF7F"
+    src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=16&duration=4000&pause=1000&center=true&vCenter=true&width=600&lines=My+code+doesn't+just+work+—+it+bridges+imagination+and+reality.;Fueled+by+curiosity,+perfected+with+discipline.;Building+what+others+dream,+one+commit+at+a+time.;&color=FF00FF;&color=00FFFF;&color=00FF7F"
     alt="Rizz typing animation"
   />
 </p>

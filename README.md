@@ -111,31 +111,36 @@
 
 ---
 
-<!--achievements-->
-<h2 align="center">Milestones 🚀</h2>
+<!-- 🏆 Milestones Section -->
+<h2 align="center">🚀 Milestones</h2>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
   <marquee behavior="scroll" direction="left" scrollamount="6">
-    <img src="achievements/22 yards of code participation certificate.jpg" width="300" />
-    <img src="achievements/Thrizll participation certificate.jpg" width="300" />
-    <img src="certifications/javascript.jpg" width="300" />
-    <img src="certifications/" width="300" />
+    <img src="achievements/22 yards of code participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="achievements/ACPC algohour 4th place in india.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="achievements/ACM JAVATHON BEST 5 TEAMS APPRECIATION.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="achievements/brandquest participation certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="achievements/internpe internship completion certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="achievements/NAUKRI campus young turks merit certificate.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
   </marquee>
 </p>
 
 ---
 
-<!--certificates-->
-<h2 align="center">Credentials 💼</h2>
+<!-- 💼 Credentials Section -->
+<h2 align="center">💼 Credentials</h2>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
   <marquee behavior="scroll" direction="left" scrollamount="6">
-    <img src="certifications/figma.jpg" width="300" />
-    <img src="certifications/react.jpg" width="300" />
-    <img src="certifications/javascript.jpg" width="300" />
-    <img src="certifications/" width="300" />
+    <img src="certifications/figma.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="certifications/javascript.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="certifications/reactjs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="certifications/nodejs.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="certifications/mongodb.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
+    <img src="certifications/prompt engineering.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" />
   </marquee>
 </p>
+
 
 ---
 

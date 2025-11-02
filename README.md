@@ -130,12 +130,61 @@
 </p>
 
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayur’s Typewriter Line</title>
+  <style>
+    body {
+      background-color: #050510;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: #00ffe0;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
 
-<!-- 💫 Rizz-Filled Outro Section -->
-<h2 align="center">
-  <i>💻 Turning logic into magic, one line of code at a time ⚡</i>
-</h2>
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-shadow: 0 0 15px #00ffe0;
+      border-right: 3px solid #00ffe0;
+      white-space: nowrap;
+      overflow: hidden;
+    }
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=4000&pause=1000&color=FF00FF&center=true&vCenter=true&width=850&lines=Built+from+discipline,+powered+by+rizz+🔥;Flirting+with+code+like+it's+my+crush+💘;Debugging+errors+and+breaking+hearts+💔;My+code+runs+clean,+my+vibe+runs+mean+😎;Serving+tech+rizz+24%2F7+🚀" alt="rizz typing animation" />
-</p>
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2 id="typing-text"></h2>
+
+  <script>
+    const text = "My code doesn’t just work — it draws paths from imagination to reality.";
+    const textElement = document.getElementById("typing-text");
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        textElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 70); // typing speed
+      } else {
+        textElement.style.borderRight = "none"; // stop cursor at end
+      }
+    }
+
+    window.onload = type;
+  </script>
+</body>
+</html>

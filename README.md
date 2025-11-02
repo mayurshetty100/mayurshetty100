@@ -44,7 +44,7 @@
   <a href="#" title="Canva"><img src="https://skillicons.dev/icons?i=canva" width="48" style="margin:15px;"/></a>
   <a href="#" title="RESTful APIs"><img src="https://img.shields.io/badge/RESTful%20APIs-1E90FF?style=for-the-badge&logo=fastapi&logoColor=white" height="26" style="margin:8px 15px;"/></a>
 </p>
-
+---
 <!-- 🧠 Programming Profiles Section -->
 <h2 align="center">🏆 Programming Profiles</h2>
 

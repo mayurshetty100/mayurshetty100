@@ -81,3 +81,12 @@
     <img src="https://img.shields.io/badge/Agent.AI-5E17EB?style=for-the-badge&logo=ai&logoColor=white" height="35" style="margin: 10px;" />
   </a>
 </p>
+
+---
+
+<!-- 🏆 GitHub Trophies Section -->
+<h2 align="center">🏅 GitHub Trophies</h2>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</p>

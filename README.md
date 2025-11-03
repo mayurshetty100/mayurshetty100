@@ -126,7 +126,7 @@
   <!-- Single Achievement Card -->
   <div style="width: 300px; background: rgba(255,255,255,0.05); border-radius: 12px; padding: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.4); transition: transform 0.3s;">
     <img src="achievements/22 yards of code participation certificate.jpg" width="100%" height="180" style="border-radius: 12px 12px 0 0; object-fit: cover;" />
-    <div style="padding: 8px 0; color: #e0e0e0; font-size: 14px; font-weight: 500;">22 Yards of Code</div>
+    <div style="padding: 8px 0; color: #e0e0e0; font-size: 14px; font-weight: 500; width:200px;">22 Yards of Code</div>
   </div>
 
   <div style="width: 300px; background: rgba(255,255,255,0.05); border-radius: 12px; padding: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.4); transition: transform 0.3s;">

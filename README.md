@@ -154,7 +154,13 @@
 
 
 ---
+<!--animated snake-->
+<h2 align="center">🐍 Dynamic Contribution Snake — Where My Code Comes Alive!</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayurshetty100/mayurshetty100/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
 
+---
 <!-- 💫 Rizz-Filled Outro Section -->
 <h2 align="center">✨ The Journey Never Ends ✨</h2>
 

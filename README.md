@@ -152,14 +152,6 @@
   <img src="certifications/tailwind css.jpg" width="250" height="180" style="border-radius: 12px; margin: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(0,0,0,0.4);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" />&nbsp;&nbsp;
 </div>
 
-
----
-<!--animated snake-->
-<h2 align="center">🐍 Dynamic Contribution Snake — Where My Code Comes Alive!</h2>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mayurshetty100/mayurshetty100/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
-
 ---
 <!-- 💫 Rizz-Filled Outro Section -->
 <h2 align="center">✨ The Journey Never Ends ✨</h2>

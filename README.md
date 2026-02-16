@@ -150,24 +150,24 @@
 </h2>
 
 <p align="center">
+  <img src="./assets/connect.svg" alt="Connect With Me — Gmail, LinkedIn, Instagram, X" width="85%" />
+</p>
+
+<p align="center">
   <a href="mailto:mayurshetty9743@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" height="24"/>
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/mayur-shetty-4bab0932a" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="24"/>
   </a>
   &nbsp;
   <a href="https://www.instagram.com/wanna.rizz.up" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="35"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="24"/>
   </a>
   &nbsp;
   <a href="https://x.com/mayurshetty100" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="35"/>
-  </a>
-  &nbsp;
-  <a href="https://agent.ai/human/MayurShetty" target="_blank">
-    <img src="https://img.shields.io/badge/Agent.AI-8B5CF6?style=for-the-badge&logo=probot&logoColor=white" height="35"/>
+    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" height="24"/>
   </a>
 </p>
 

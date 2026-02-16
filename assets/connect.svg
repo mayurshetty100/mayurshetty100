@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#150a2e"/>
+    <stop offset="100%" stop-color="#0D1117"/>
+  </radialGradient>
+  <!-- Gmail card -->
+  <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#D14836" stop-opacity="0.18">
+      <animate attributeName="stop-opacity" values="0.1;0.28;0.1" dur="4s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0.06"/>
+  </linearGradient>
+  <linearGradient id="gmb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#D14836" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0.3"/>
+  </linearGradient>
+  <!-- LinkedIn card -->
+  <linearGradient id="li" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0077B5" stop-opacity="0.18">
+      <animate attributeName="stop-opacity" values="0.1;0.28;0.1" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.06"/>
+  </linearGradient>
+  <linearGradient id="lib" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0077B5" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.9;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.3"/>
+  </linearGradient>
+  <!-- Instagram card -->
+  <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#E4405F" stop-opacity="0.18">
+      <animate attributeName="stop-opacity" values="0.1;0.28;0.1" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#FCAF45" stop-opacity="0.06"/>
+  </linearGradient>
+  <linearGradient id="igb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#E4405F" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.9;0.3" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#F77737" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#FCAF45" stop-opacity="0.3"/>
+  </linearGradient>
+  <!-- X/Twitter card -->
+  <linearGradient id="xc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1">
+      <animate attributeName="stop-opacity" values="0.05;0.18;0.05" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.06"/>
+  </linearGradient>
+  <linearGradient id="xcb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5">
+      <animate attributeName="stop-opacity" values="0.2;0.7;0.2" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.3"/>
+  </linearGradient>
+  <!-- Shimmer -->
+  <linearGradient id="shm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Glow line -->
+  <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#D14836" stop-opacity="0"/>
+    <stop offset="25%" stop-color="#D14836" stop-opacity="0.4">
+      <animate attributeName="stop-opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.6">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="75%" stop-color="#0077B5" stop-opacity="0.4">
+      <animate attributeName="stop-opacity" values="0.2;0.6;0.2" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#0077B5" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="clip"><rect width="800" height="180" rx="18"/></clipPath>
+</defs>
+
+<!-- Main background -->
+<rect width="800" height="180" rx="18" fill="url(#bg)"/>
+
+<!-- Shimmer sweep -->
+<g clip-path="url(#clip)">
+  <rect x="-200" y="0" width="200" height="180" fill="url(#shm)" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- Title -->
+<text x="400" y="32" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="4" opacity="0.95">CONNECT WITH ME</text>
+<text x="400" y="48" font-family="Courier New,monospace" font-size="9" fill="#A855F7" text-anchor="middle" letter-spacing="2" opacity="0.5">
+  LET'S BUILD SOMETHING AMAZING
+  <animate attributeName="opacity" values="0.35;0.7;0.35" dur="3s" repeatCount="indefinite"/>
+</text>
+<line x1="200" y1="56" x2="600" y2="56" stroke="url(#gl)" stroke-width="0.6"/>
+
+<!-- ===== GMAIL CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4.5s" repeatCount="indefinite"/>
+  <rect x="40" y="70" width="165" height="85" rx="12" fill="url(#gm)"/>
+  <rect x="40" y="70" width="165" height="85" rx="12" fill="none" stroke="url(#gmb)" stroke-width="0.8"/>
+  <!-- Icon -->
+  <circle cx="80" cy="105" r="16" fill="#1a0808" stroke="#D14836" stroke-width="0.6" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="80" y="109" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#D14836" text-anchor="middle" font-weight="700">@</text>
+  <!-- Text -->
+  <text x="110" y="100" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#D14836">Gmail</text>
+  <text x="110" y="115" font-family="Courier New,monospace" font-size="8" fill="#FF6B6B" opacity="0.6">Email me</text>
+  <!-- Badge -->
+  <rect x="110" y="122" width="50" height="15" rx="7" fill="#D14836" fill-opacity="0.15" stroke="#D14836" stroke-width="0.4" stroke-opacity="0.4"/>
+  <text x="135" y="133" font-family="Courier New,monospace" font-size="7" font-weight="600" fill="#D14836" text-anchor="middle" opacity="0.8">MAIL</text>
+</g>
+
+<!-- ===== LINKEDIN CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4.5s" begin="0.6s" repeatCount="indefinite"/>
+  <rect x="225" y="70" width="165" height="85" rx="12" fill="url(#li)"/>
+  <rect x="225" y="70" width="165" height="85" rx="12" fill="none" stroke="url(#lib)" stroke-width="0.8"/>
+  <!-- Icon -->
+  <circle cx="265" cy="105" r="16" fill="#081a26" stroke="#0077B5" stroke-width="0.6" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="265" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#0077B5" text-anchor="middle" font-weight="700">in</text>
+  <!-- Text -->
+  <text x="295" y="100" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#0077B5">LinkedIn</text>
+  <text x="295" y="115" font-family="Courier New,monospace" font-size="8" fill="#00D4FF" opacity="0.6">Let's connect</text>
+  <!-- Badge -->
+  <rect x="295" y="122" width="60" height="15" rx="7" fill="#0077B5" fill-opacity="0.15" stroke="#0077B5" stroke-width="0.4" stroke-opacity="0.4"/>
+  <text x="325" y="133" font-family="Courier New,monospace" font-size="7" font-weight="600" fill="#0077B5" text-anchor="middle" opacity="0.8">NETWORK</text>
+</g>
+
+<!-- ===== INSTAGRAM CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4.5s" begin="1.2s" repeatCount="indefinite"/>
+  <rect x="410" y="70" width="165" height="85" rx="12" fill="url(#ig)"/>
+  <rect x="410" y="70" width="165" height="85" rx="12" fill="none" stroke="url(#igb)" stroke-width="0.8"/>
+  <!-- Icon -->
+  <circle cx="450" cy="105" r="16" fill="#1a0a10" stroke="#E4405F" stroke-width="0.6" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#E4405F" text-anchor="middle" font-weight="700">IG</text>
+  <!-- Text -->
+  <text x="480" y="100" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#E4405F">Instagram</text>
+  <text x="480" y="115" font-family="Courier New,monospace" font-size="8" fill="#FCAF45" opacity="0.6">Follow me</text>
+  <!-- Badge -->
+  <rect x="480" y="122" width="55" height="15" rx="7" fill="#E4405F" fill-opacity="0.15" stroke="#E4405F" stroke-width="0.4" stroke-opacity="0.4"/>
+  <text x="507" y="133" font-family="Courier New,monospace" font-size="7" font-weight="600" fill="#E4405F" text-anchor="middle" opacity="0.8">SOCIAL</text>
+</g>
+
+<!-- ===== X/TWITTER CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4.5s" begin="1.8s" repeatCount="indefinite"/>
+  <rect x="595" y="70" width="165" height="85" rx="12" fill="url(#xc)"/>
+  <rect x="595" y="70" width="165" height="85" rx="12" fill="none" stroke="url(#xcb)" stroke-width="0.8"/>
+  <!-- Icon -->
+  <circle cx="635" cy="105" r="16" fill="#0a0a0a" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.5" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="635" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">X</text>
+  <!-- Text -->
+  <text x="665" y="100" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" opacity="0.9">X / Twitter</text>
+  <text x="665" y="115" font-family="Courier New,monospace" font-size="8" fill="#A855F7" opacity="0.6">Follow me</text>
+  <!-- Badge -->
+  <rect x="665" y="122" width="55" height="15" rx="7" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.25"/>
+  <text x="692" y="133" font-family="Courier New,monospace" font-size="7" font-weight="600" fill="#ffffff" text-anchor="middle" opacity="0.6">POSTS</text>
+</g>
+
+<!-- Bottom glow line -->
+<line x1="100" y1="168" x2="700" y2="168" stroke="url(#gl)" stroke-width="0.5"/>
+
+<!-- Outer border -->
+<rect x="1" y="1" width="798" height="178" rx="18" fill="none" stroke="#A855F7" stroke-width="0.6" stroke-opacity="0.15">
+  <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>

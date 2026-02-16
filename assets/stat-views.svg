@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="140" viewBox="0 0 260 140">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#C084FC;#7C3AED;#A855F7" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#A855F7;#C084FC;#7C3AED" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="2" y="2" width="256" height="136" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="2" y="2" width="256" height="136" rx="12" fill="url(#bg)"/>
+
+  <!-- Animated gradient border -->
+  <rect x="2" y="2" width="256" height="136" rx="12" fill="none" stroke="url(#border)" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Outer glow pulse -->
+  <rect x="0" y="0" width="260" height="140" rx="14" fill="none" stroke="#A855F7" stroke-opacity="0.15">
+    <animate attributeName="stroke-opacity" values="0.05;0.25;0.05" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1;3;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Shimmer sweep -->
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="140" height="160" fill="url(#shimmer)">
+      <animateTransform attributeName="transform" type="translate" from="-200 0" to="460 0" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Corner brackets -->
+  <path d="M18 8 L8 8 L8 18" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
+  <path d="M242 8 L252 8 L252 18" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
+  <path d="M18 132 L8 132 L8 122" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
+  <path d="M242 132 L252 132 L252 122" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- LIVE indicator -->
+  <circle cx="22" cy="18" r="2.5" fill="#A855F7">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="29" y="21" fill="#A855F7" font-family="monospace" font-size="7" letter-spacing="1" opacity="0.6">LIVE</text>
+
+  <!-- Eye icon -->
+  <ellipse cx="130" cy="46" rx="16" ry="10" fill="none" stroke="#A855F7" stroke-width="1.5" filter="url(#glow)"/>
+  <circle cx="130" cy="46" r="4.5" fill="#A855F7" filter="url(#glow)"/>
+  <circle cx="132" cy="44.5" r="1.5" fill="#161B22"/>
+
+  <!-- Label -->
+  <text x="130" y="82" text-anchor="middle" fill="#6B7280" font-family="'Segoe UI', monospace" font-size="9.5" letter-spacing="2.5" font-weight="600">PROFILE VIEWS</text>
+
+  <!-- Thin separator -->
+  <line x1="75" y1="90" x2="185" y2="90" stroke="#A855F7" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- Value -->
+  <text x="130" y="120" text-anchor="middle" fill="#A855F7" font-family="'Segoe UI', monospace" font-size="28" font-weight="700" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
+    23+
+  </text>
+</svg>

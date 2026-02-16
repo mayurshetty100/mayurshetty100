@@ -26,18 +26,18 @@
   </a>
 </p>
 
-<!-- 📊 Profile Badges — Neon Glowing Cards -->
+<!-- 📊 Futuristic Animated Stats Dashboard -->
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="https://komarev.com/ghpvc/?username=mayurshetty100&label=%F0%9F%91%81%EF%B8%8F%20PROFILE+VIEWS&color=A855F7&style=for-the-badge&labelColor=0D1117" height="38" alt="Profile Views" />
+    <img src="./assets/stat-views.svg" alt="Profile Views" width="240" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=followers">
-    <img src="https://img.shields.io/github/followers/mayurshetty100?label=%F0%9F%92%9C%20FOLLOWERS&style=for-the-badge&color=00D4FF&labelColor=0D1117&logo=github&logoColor=white" height="38" alt="Followers" />
+    <img src="./assets/stat-followers.svg" alt="Followers" width="240" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=repositories">
-    <img src="https://img.shields.io/github/stars/mayurshetty100?label=%E2%AD%90%20TOTAL+STARS&style=for-the-badge&color=FFD700&labelColor=0D1117&logo=github&logoColor=white" height="38" alt="Stars" />
+    <img src="./assets/stat-stars.svg" alt="Total Stars" width="240" />
   </a>
 </p>
 

@@ -45,7 +45,7 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ⚙️ Tech Universe — Animated 3D Spinning Icons -->
+<!-- ⚙️ Tech Universe — Glassmorphic Cyber Grid -->
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28">
   My Tech Universe
@@ -54,66 +54,8 @@
 
 <br>
 
-<h3 align="center">🔮 Core Technologies — Animated & Spinning</h3>
-
 <p align="center">
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
-  &nbsp;&nbsp;
-  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65" />
-</p>
-
-<br>
-
-<!-- 🎨 Frontend Stack -->
-<h3 align="center">🎨 Frontend Magic</h3>
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,javascript,react,redux&theme=dark" alt="Frontend" /></a>
-</p>
-
-<!-- ⚡ Backend Stack -->
-<h3 align="center">⚡ Backend Power</h3>
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=nodejs,express,python,java&theme=dark" alt="Backend" /></a>
-</p>
-
-<!-- 🗄️ Database & Cloud -->
-<h3 align="center">🗄️ Databases & Cloud</h3>
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,firebase,supabase&theme=dark" alt="Databases" /></a>
-</p>
-
-<!-- 🚀 DevOps & Tools -->
-<h3 align="center">🚀 DevOps & Tools</h3>
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=docker,vercel,git,github,postman&theme=dark" alt="Tools" /></a>
-</p>
-
-<!-- 🤖 AI & Design -->
-<h3 align="center">🤖 AI & Design</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="30"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/AI%20Agents-8B5CF6?style=for-the-badge&logo=probot&logoColor=white" height="30"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" height="30"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" height="30"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongodb&logoColor=white" height="30"/>
+  <img src="./assets/tech-universe.svg" alt="Tech Universe — Glassmorphic Grid" width="100%" />
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->

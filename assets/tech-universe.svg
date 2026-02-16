@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1080" width="850" height="1080">
+<defs>
+  <radialGradient id="bgRad" cx="50%" cy="50%" r="65%">
+    <stop offset="0%" stop-color="#12132a"/>
+    <stop offset="100%" stop-color="#0D1117"/>
+  </radialGradient>
+  <linearGradient id="gb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.2"/>
+    <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
+  </linearGradient>
+  <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
+    <stop offset="40%" stop-color="#A855F7" stop-opacity="0.35"/>
+    <stop offset="60%" stop-color="#00D4FF" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shm" x1="0" y1="0" x2="1" y2="0.2">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="pb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.15">
+      <animate attributeName="stop-opacity" values="0.12;0.28;0.12" dur="4s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.15">
+      <animate attributeName="stop-opacity" values="0.12;0.28;0.12" dur="4s" repeatCount="indefinite" begin="2s"/>
+    </stop>
+  </linearGradient>
+  <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="12" cy="12" r="0.5" fill="rgba(168,85,247,0.1)"/>
+  </pattern>
+  <clipPath id="pc">
+    <rect width="850" height="1080" rx="20"/>
+  </clipPath>
+</defs>
+
+<style>
+  .h{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;fill:#C4B5FD;text-anchor:middle;letter-spacing:3px}
+  .g{fill:rgba(255,255,255,0.035);stroke:url(#gb);stroke-width:1.2}
+  .it{font-family:'Courier New',Courier,monospace;font-weight:700;font-size:15px;fill:#fff;text-anchor:middle;dominant-baseline:central}
+  .lb{font-family:'Segoe UI',Arial,sans-serif;font-size:9.5px;fill:rgba(255,255,255,0.5);text-anchor:middle}
+  .gp{animation:gp 3s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes gp{0%,100%{opacity:.08}50%{opacity:.22}}
+  .f0{animation:float 3.8s ease-in-out infinite}
+  .f1{animation:float 3.8s ease-in-out .18s infinite}
+  .f2{animation:float 3.8s ease-in-out .36s infinite}
+  .f3{animation:float 3.8s ease-in-out .54s infinite}
+  .f4{animation:float 3.8s ease-in-out .72s infinite}
+  .f5{animation:float 3.8s ease-in-out .9s infinite}
+</style>
+
+<!-- Background -->
+<rect width="850" height="1080" rx="20" fill="url(#bgRad)"/>
+<rect width="850" height="1080" rx="20" fill="url(#dots)"/>
+
+<!-- Shimmer sweep -->
+<g clip-path="url(#pc)">
+  <rect x="-200" y="0" width="200" height="1080" fill="url(#shm)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="1050,0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- ═══════════════ CORE TECHNOLOGIES ═══════════════ -->
+<text x="425" y="33" class="h">CORE TECHNOLOGIES</text>
+<line x1="275" y1="40" x2="575" y2="40" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(204,53)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#F7DF1E" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#F7DF1E" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">JS</text>
+  <text x="50" y="100" class="lb">JavaScript</text>
+</g>
+
+<g class="f1" transform="translate(318,53)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#3178C6" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#3178C6" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">TS</text>
+  <text x="50" y="100" class="lb">TypeScript</text>
+</g>
+
+<g class="f2" transform="translate(432,53)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#4B8BBE" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#4B8BBE" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Py</text>
+  <text x="50" y="100" class="lb">Python</text>
+</g>
+
+<g class="f3" transform="translate(546,53)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#F89820" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#F89820" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Jv</text>
+  <text x="50" y="100" class="lb">Java</text>
+</g>
+
+<!-- ═══════════════ FRONTEND MAGIC ═══════════════ -->
+<text x="425" y="211" class="h">FRONTEND MAGIC</text>
+<line x1="275" y1="218" x2="575" y2="218" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(90,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#61DAFB" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#61DAFB" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Re</text>
+  <text x="50" y="100" class="lb">React</text>
+</g>
+
+<g class="f1" transform="translate(204,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#E34F26" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#E34F26" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">H5</text>
+  <text x="50" y="100" class="lb">HTML</text>
+</g>
+
+<g class="f2" transform="translate(318,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#1572B6" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#1572B6" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">C3</text>
+  <text x="50" y="100" class="lb">CSS</text>
+</g>
+
+<g class="f3" transform="translate(432,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#06B6D4" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#06B6D4" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Tw</text>
+  <text x="50" y="100" class="lb">Tailwind</text>
+</g>
+
+<g class="f4" transform="translate(546,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#7952B3" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#7952B3" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Bs</text>
+  <text x="50" y="100" class="lb">Bootstrap</text>
+</g>
+
+<g class="f5" transform="translate(660,231)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#764ABC" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#764ABC" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Rx</text>
+  <text x="50" y="100" class="lb">Redux</text>
+</g>
+
+<!-- ═══════════════ BACKEND POWER ═══════════════ -->
+<text x="425" y="389" class="h">BACKEND POWER</text>
+<line x1="275" y1="396" x2="575" y2="396" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(204,409)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#339933" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#339933" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Nj</text>
+  <text x="50" y="100" class="lb">Node.js</text>
+</g>
+
+<g class="f1" transform="translate(318,409)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#94A3B8" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#94A3B8" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Ex</text>
+  <text x="50" y="100" class="lb">Express</text>
+</g>
+
+<g class="f2" transform="translate(432,409)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#880000" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#880000" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Mn</text>
+  <text x="50" y="100" class="lb">Mongoose</text>
+</g>
+
+<g class="f3" transform="translate(546,409)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#FF6C37" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#FF6C37" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">AP</text>
+  <text x="50" y="100" class="lb">REST API</text>
+</g>
+
+<!-- ═══════════════ DATABASES & CLOUD ═══════════════ -->
+<text x="425" y="567" class="h">DATABASES &amp; CLOUD</text>
+<line x1="275" y1="574" x2="575" y2="574" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(204,587)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#47A248" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#47A248" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Mb</text>
+  <text x="50" y="100" class="lb">MongoDB</text>
+</g>
+
+<g class="f1" transform="translate(318,587)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#4479A1" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#4479A1" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">SQ</text>
+  <text x="50" y="100" class="lb">MySQL</text>
+</g>
+
+<g class="f2" transform="translate(432,587)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#FFCA28" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#FFCA28" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Fb</text>
+  <text x="50" y="100" class="lb">Firebase</text>
+</g>
+
+<g class="f3" transform="translate(546,587)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#3ECF8E" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#3ECF8E" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Sb</text>
+  <text x="50" y="100" class="lb">Supabase</text>
+</g>
+
+<!-- ═══════════════ DEVOPS & TOOLS ═══════════════ -->
+<text x="425" y="745" class="h">DEVOPS &amp; TOOLS</text>
+<line x1="275" y1="752" x2="575" y2="752" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(147,765)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#2496ED" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#2496ED" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Dk</text>
+  <text x="50" y="100" class="lb">Docker</text>
+</g>
+
+<g class="f1" transform="translate(261,765)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#F05032" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#F05032" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Gt</text>
+  <text x="50" y="100" class="lb">Git</text>
+</g>
+
+<g class="f2" transform="translate(375,765)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#94A3B8" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#94A3B8" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">GH</text>
+  <text x="50" y="100" class="lb">GitHub</text>
+</g>
+
+<g class="f3" transform="translate(489,765)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#FF6C37" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#FF6C37" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Pm</text>
+  <text x="50" y="100" class="lb">Postman</text>
+</g>
+
+<g class="f4" transform="translate(603,765)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#94A3B8" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#94A3B8" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Vc</text>
+  <text x="50" y="100" class="lb">Vercel</text>
+</g>
+
+<!-- ═══════════════ AI & DESIGN ═══════════════ -->
+<text x="425" y="923" class="h">AI &amp; DESIGN</text>
+<line x1="275" y1="930" x2="575" y2="930" stroke="url(#hl)" stroke-width="1"/>
+
+<g class="f0" transform="translate(204,943)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#00A67E" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#00A67E" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">OA</text>
+  <text x="50" y="100" class="lb">OpenAI</text>
+</g>
+
+<g class="f1" transform="translate(318,943)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#8B5CF6" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#8B5CF6" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">AG</text>
+  <text x="50" y="100" class="lb">AI Agents</text>
+</g>
+
+<g class="f2" transform="translate(432,943)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#EA4B71" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#EA4B71" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">n8</text>
+  <text x="50" y="100" class="lb">n8n</text>
+</g>
+
+<g class="f3" transform="translate(546,943)">
+  <rect width="100" height="120" rx="14" class="g"/>
+  <circle cx="50" cy="44" r="28" fill="#00C4CC" class="gp"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#00C4CC" stroke-width="2" opacity=".8"/>
+  <text x="50" y="44" class="it">Cv</text>
+  <text x="50" y="100" class="lb">Canva</text>
+</g>
+
+<!-- Panel border -->
+<rect width="848" height="1078" x="1" y="1" rx="20" fill="none" stroke="url(#pb)" stroke-width="1.2"/>
+
+</svg>

@@ -170,26 +170,14 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ✨ Magical Outro -->
-<h2 align="center">✨ The Journey Never Ends ✨</h2>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=16&duration=4000&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=My+code+doesn't+just+work+—+it+bridges+imagination+and+reality.;Fueled+by+curiosity%2C+perfected+with+discipline.;Building+what+others+dream%2C+one+commit+at+a+time.;The+best+way+to+predict+the+future+is+to+build+it.;Stay+hungry%2C+stay+foolish%2C+stay+coding." alt="Outro typing animation" />
-</p>
-
-<p align="center">
-  <img src="https://octodex.github.com/images/hula_loop_octodex03.gif" width="140" alt="Cute Hula Octocat"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://octodex.github.com/images/nyantocat.gif" width="140" alt="Nyan Octocat"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://octodex.github.com/images/electrocat.png" width="140" alt="Electro Octocat"/>
-</p>
-
+<!-- Core Fusion — Cinematic Outro -->
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/⭐%20If%20you%20like%20my%20work,%20star%20my%20repos!%20-8B5CF6?style=for-the-badge" />
+  <img src="./assets/core-fusion.svg" alt="Core Fusion — Agentic AI, MERN, Generative AI, Automation" width="90%" />
 </p>
+
+<br>
 
 <!-- 🌊 Animated Wave Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" />

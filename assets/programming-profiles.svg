@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#150a2e"/>
+    <stop offset="100%" stop-color="#0D1117"/>
+  </radialGradient>
+  <!-- LeetCode card gradient -->
+  <linearGradient id="lcg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFA116" stop-opacity="0.15">
+      <animate attributeName="stop-opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#FFD700" stop-opacity="0.08">
+      <animate attributeName="stop-opacity" values="0.05;0.15;0.05" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <!-- CodeChef card gradient -->
+  <linearGradient id="ccg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.15">
+      <animate attributeName="stop-opacity" values="0.1;0.25;0.1" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.08">
+      <animate attributeName="stop-opacity" values="0.05;0.15;0.05" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <!-- LeetCode border -->
+  <linearGradient id="lcb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFA116" stop-opacity="0.6">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#FFD700" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#FFA116" stop-opacity="0.6">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <!-- CodeChef border -->
+  <linearGradient id="ccb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.6">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.6">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <!-- Shimmer -->
+  <linearGradient id="shm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Title gradient -->
+  <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="50%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#00D4FF"/>
+  </linearGradient>
+  <!-- Glow line -->
+  <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFD700" stop-opacity="0"/>
+    <stop offset="25%" stop-color="#FFA116" stop-opacity="0.5">
+      <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.4;0.9;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="75%" stop-color="#00D4FF" stop-opacity="0.5">
+      <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+  </linearGradient>
+
+  <clipPath id="clip"><rect width="800" height="220" rx="18"/></clipPath>
+</defs>
+
+<!-- Main background -->
+<rect width="800" height="220" rx="18" fill="url(#bg)"/>
+
+<!-- Shimmer sweep -->
+<g clip-path="url(#clip)">
+  <rect x="-200" y="0" width="200" height="220" fill="url(#shm)" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- Decorative dots -->
+<circle cx="30" cy="30" r="2" fill="#A855F7" opacity="0.3">
+  <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="770" cy="30" r="2" fill="#00D4FF" opacity="0.3">
+  <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" begin="1s" repeatCount="indefinite"/>
+</circle>
+<circle cx="50" cy="190" r="1.5" fill="#FFD700" opacity="0.2">
+  <animate attributeName="opacity" values="0.1;0.4;0.1" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="750" cy="190" r="1.5" fill="#A855F7" opacity="0.2">
+  <animate attributeName="opacity" values="0.1;0.4;0.1" dur="5s" begin="2s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Title -->
+<text x="400" y="38" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="4" opacity="0.95">PROGRAMMING PROFILES</text>
+
+<!-- Subtitle -->
+<text x="400" y="56" font-family="Courier New,monospace" font-size="9" fill="#A855F7" text-anchor="middle" letter-spacing="2" opacity="0.5">
+  COMPETITIVE CODING ARENA
+  <animate attributeName="opacity" values="0.35;0.7;0.35" dur="3s" repeatCount="indefinite"/>
+</text>
+
+<!-- Title underline -->
+<line x1="200" y1="65" x2="600" y2="65" stroke="url(#gl)" stroke-width="0.6"/>
+
+<!-- ===== LEETCODE CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="5s" repeatCount="indefinite"/>
+
+  <!-- Card background -->
+  <rect x="55" y="80" width="320" height="115" rx="14" fill="url(#lcg)"/>
+  <!-- Card border -->
+  <rect x="55" y="80" width="320" height="115" rx="14" fill="none" stroke="url(#lcb)" stroke-width="1"/>
+
+  <!-- LeetCode icon circle -->
+  <circle cx="110" cy="135" r="26" fill="#1a1208" stroke="#FFA116" stroke-width="0.8" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- LeetCode "LC" text -->
+  <text x="110" y="130" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#FFA116" text-anchor="middle" opacity="0.7">{"}"</text>
+  <text x="110" y="146" font-family="Courier New,monospace" font-size="9" fill="#FFD700" text-anchor="middle" opacity="0.5">LC</text>
+
+  <!-- Platform name -->
+  <text x="155" y="112" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#FFA116" opacity="0.95">LeetCode</text>
+
+  <!-- Username -->
+  <text x="155" y="130" font-family="Courier New,monospace" font-size="10" fill="#FFD700" opacity="0.6">@Mayur_Shetty_100</text>
+
+  <!-- Description line 1 -->
+  <text x="155" y="149" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#C4B5FD" opacity="0.5">Solving problems &amp; building logic</text>
+
+  <!-- Status badge -->
+  <rect x="155" y="160" width="55" height="18" rx="9" fill="#FFA116" fill-opacity="0.15" stroke="#FFA116" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="182" y="173" font-family="Courier New,monospace" font-size="8" font-weight="600" fill="#FFA116" text-anchor="middle" opacity="0.8">ACTIVE</text>
+
+  <!-- Arrow indicator -->
+  <text x="345" y="142" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#FFA116" text-anchor="middle" opacity="0.3">→
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
+  </text>
+</g>
+
+<!-- ===== CODECHEF CARD ===== -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="5s" begin="1.2s" repeatCount="indefinite"/>
+
+  <!-- Card background -->
+  <rect x="425" y="80" width="320" height="115" rx="14" fill="url(#ccg)"/>
+  <!-- Card border -->
+  <rect x="425" y="80" width="320" height="115" rx="14" fill="none" stroke="url(#ccb)" stroke-width="1"/>
+
+  <!-- CodeChef icon circle -->
+  <circle cx="480" cy="135" r="26" fill="#0c0a1e" stroke="#A855F7" stroke-width="0.8" opacity="0.8">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- CodeChef icon text -->
+  <text x="480" y="130" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#A855F7" text-anchor="middle" opacity="0.7">👨‍🍳</text>
+  <text x="480" y="146" font-family="Courier New,monospace" font-size="9" fill="#00D4FF" text-anchor="middle" opacity="0.5">CC</text>
+
+  <!-- Platform name -->
+  <text x="525" y="112" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#A855F7" opacity="0.95">CodeChef</text>
+
+  <!-- Username -->
+  <text x="525" y="130" font-family="Courier New,monospace" font-size="10" fill="#00D4FF" opacity="0.6">@mayurshetty</text>
+
+  <!-- Description line 1 -->
+  <text x="525" y="149" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#C4B5FD" opacity="0.5">Competitive coding challenges</text>
+
+  <!-- Status badge -->
+  <rect x="525" y="160" width="55" height="18" rx="9" fill="#A855F7" fill-opacity="0.15" stroke="#A855F7" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="552" y="173" font-family="Courier New,monospace" font-size="8" font-weight="600" fill="#A855F7" text-anchor="middle" opacity="0.8">ACTIVE</text>
+
+  <!-- Arrow indicator -->
+  <text x="715" y="142" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#A855F7" text-anchor="middle" opacity="0.3">→
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </text>
+</g>
+
+<!-- Bottom glow line -->
+<line x1="100" y1="208" x2="700" y2="208" stroke="url(#gl)" stroke-width="0.5"/>
+
+<!-- Outer border -->
+<rect x="1" y="1" width="798" height="218" rx="18" fill="none" stroke="#A855F7" stroke-width="0.6" stroke-opacity="0.15">
+  <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>

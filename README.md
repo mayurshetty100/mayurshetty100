@@ -97,10 +97,14 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- 🏅 GitHub Trophies -->
-<h2 align="center">🏅 GitHub Trophies</h2>
+<p align="center">
+  <img src="./assets/trophies-banner.svg" alt="GitHub Trophies Banner" width="100%" />
+</p>
+
+<br>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=algolia&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=darkhub&no-frame=true&margin-w=10&margin-h=15&column=7" alt="GitHub Trophies" />
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->
@@ -120,91 +124,28 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- 🎓 Certifications & Achievements -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/3orifgYbnsq43eFsdO/giphy.gif" width="28">
-  Certifications & Achievements
-</h2>
 
-<!-- 🏆 Top Achievements Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🏆%20ACPC%20AlgoHour%20—%204th%20in%20India-FFD700?style=for-the-badge" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/📮%20Postman%20API%20Student%20Expert-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🥇%20ACM%20Javathon%20—%20Best%205%20Teams-8B5CF6?style=for-the-badge" />
-</p>
-
-<br>
-
-<details>
-<summary><h3 align="center">📜 View All 19 Tech Certifications ▼</h3></summary>
-<br>
-
-<div align="center">
-
-| # | Certification | Status |
-|:-:|:---|:---:|
-| 1 | 🎨 Canva Design | ✅ Certified |
-| 2 | 🎭 Figma UI/UX | ✅ Certified |
-| 3 | 🔄 Git & GitHub | ✅ Certified |
-| 4 | 🌐 HTML & CSS | ✅ Certified |
-| 5 | ☕ Java Programming | ✅ Certified |
-| 6 | ⚡ JavaScript | ✅ Certified |
-| 7 | 🍃 MongoDB | ✅ Certified |
-| 8 | 🐬 MySQL | ✅ Certified |
-| 9 | 🟢 Node.js | ✅ Certified |
-| 10 | 🐍 Python | ✅ Certified |
-| 11 | ⚛️ React.js | ✅ Certified |
-| 12 | 🎨 Tailwind CSS | ✅ Certified |
-| 13 | 📮 Postman API Student Expert | ✅ Certified |
-| 14 | 🤖 Gen AI 101 with Pieces | ✅ Certified |
-| 15 | 🧠 Prompt Engineering | ✅ Certified |
-| 16 | 📱 Instagram Clone (Figma) | ✅ Certified |
-| 17 | 💡 Emotional Intelligence | ✅ Certified |
-| 18 | 🎤 Public Speaking | ✅ Certified |
-| 19 | 🤝 People Skills for Professional Success | ✅ Certified |
-
-</div>
-</details>
-
-<br>
-
-<details>
-<summary><h3 align="center">🏅 View All Achievements & Awards ▼</h3></summary>
-<br>
-
-<div align="center">
-
-| # | Achievement | Highlight |
-|:-:|:---|:---:|
-| 1 | 🏆 ACPC AlgoHour | **4th Place in India** 🇮🇳 |
-| 2 | 🥇 ACM Javathon | **Top 5 Teams Appreciation** |
-| 3 | 💼 InternPE Internship | **Completion Certificate** |
-| 4 | 🌟 Naukri Campus Young Turks | **Merit Certificate** |
-| 5 | 🗣️ EnglishBolo Level 3 | **Professional Certificate** |
-| 6 | 🎮 22 Yards of Code | Participation |
-| 7 | 🎲 ACM Game of Codes | Participation |
-| 8 | 📱 ACM Javathon | Participation |
-| 9 | 🏢 BrandQuest | Participation |
-| 10 | ⚡ Thrizll | Participation |
-
-</div>
-</details>
-
-<!-- 🌈 Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- 🏆 Programming Profiles -->
-<h2 align="center">🏆 Programming Profiles</h2>
+<h2 align="center">
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28">
+  Programming Profiles
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28">
+</h2>
 
 <p align="center">
   <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="40" />
+    <img src="./assets/programming-profiles.svg" alt="Programming Profiles — LeetCode & CodeChef" width="85%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="32" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.codechef.com/users/mayurshetty" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="40" />
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="32" />
   </a>
 </p>
 

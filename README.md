@@ -156,11 +156,11 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- 💭 Developer Wisdom Chamber -->
+<!-- � DEV RIZZ -->
 <h2 align="center">
-  <img src="https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif" width="28">
-  Developer Wisdom Chamber
-  <img src="https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif" width="28">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32">
+  DEV RIZZ
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32">
 </h2>
 
 <p align="center">

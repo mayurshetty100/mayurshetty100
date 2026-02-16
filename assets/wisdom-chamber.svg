@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 320" width="750" height="320">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="85%">
+    <stop offset="0%" stop-color="#1a0e30"/>
+    <stop offset="100%" stop-color="#0D1117"/>
+  </radialGradient>
+  <!-- Animated border gradient -->
+  <linearGradient id="br" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.6">
+      <animate attributeName="stop-color" values="#00D4FF;#A855F7;#3B82F6;#00D4FF" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.4">
+      <animate attributeName="stop-color" values="#A855F7;#3B82F6;#00D4FF;#A855F7" dur="6s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.6">
+      <animate attributeName="stop-color" values="#3B82F6;#00D4FF;#A855F7;#3B82F6" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <!-- Inner glow -->
+  <radialGradient id="gw" cx="50%" cy="40%" r="60%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.06">
+      <animate attributeName="stop-opacity" values="0.03;0.1;0.03" dur="5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Glass fill -->
+  <linearGradient id="gf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.03"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+  </linearGradient>
+  <!-- Shimmer -->
+  <linearGradient id="shm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.03"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Quote accent -->
+  <linearGradient id="qa" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.5">
+      <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Star sparkle -->
+  <linearGradient id="sp" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00D4FF"/>
+    <stop offset="100%" stop-color="#A855F7"/>
+  </linearGradient>
+  <clipPath id="clip"><rect x="25" y="15" width="700" height="290" rx="20"/></clipPath>
+</defs>
+
+<!-- Floating container group -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="6s" repeatCount="indefinite"/>
+
+  <!-- Outer glow shadow -->
+  <rect x="27" y="17" width="696" height="286" rx="20" fill="none" stroke="#A855F7" stroke-width="8" stroke-opacity="0.03">
+    <animate attributeName="stroke-opacity" values="0.02;0.06;0.02" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main container -->
+  <rect x="25" y="15" width="700" height="290" rx="20" fill="url(#bg)"/>
+  <rect x="25" y="15" width="700" height="290" rx="20" fill="url(#gf)"/>
+  <rect x="25" y="15" width="700" height="290" rx="20" fill="url(#gw)"/>
+
+  <!-- Shimmer sweep -->
+  <g clip-path="url(#clip)">
+    <rect x="-200" y="15" width="200" height="290" fill="url(#shm)">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="900,0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Animated border -->
+  <rect x="25" y="15" width="700" height="290" rx="20" fill="none" stroke="url(#br)" stroke-width="1.5"/>
+
+  <!-- Sparkle dots -->
+  <circle cx="60" cy="40" r="1.5" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="45" r="1" fill="#A855F7" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="280" r="1" fill="#3B82F6" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="275" r="1.5" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Header icon -->
+  <text x="375" y="55" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#A855F7" text-anchor="middle" letter-spacing="5" opacity="0.5">
+    ✦ WISDOM CHAMBER ✦
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Accent line top -->
+  <line x1="180" y1="66" x2="570" y2="66" stroke="url(#qa)" stroke-width="0.5"/>
+
+  <!-- Quote 1: visible 0-8s of 32s cycle -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;1;0;0;0;0;0;0;0;0" dur="32s" repeatCount="indefinite"/>
+
+    <!-- Big quote mark -->
+    <text x="85" y="115" font-family="Georgia,serif" font-size="50" fill="#A855F7" opacity="0.15">"</text>
+
+    <text x="375" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      Are you a bug?
+    </text>
+    <text x="375" y="138" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      Because my <tspan fill="#C084FC" font-weight="600">heart crashes</tspan> every time I see you.
+    </text>
+
+    <!-- Blinking cursor -->
+    <rect x="545" y="126" width="2" height="16" fill="#00D4FF" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Author -->
+    <text x="375" y="180" font-family="Courier New,monospace" font-size="10" fill="#C084FC" text-anchor="middle" opacity="0">
+      — every developer's first love story
+      <animate attributeName="opacity" values="0;0;0;0.6;0.6;0.6;0;0;0;0;0;0;0" dur="32s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Quote 2: visible 8-16s of 32s cycle -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;1;0;0;0;0" dur="32s" repeatCount="indefinite"/>
+
+    <text x="85" y="115" font-family="Georgia,serif" font-size="50" fill="#A855F7" opacity="0.15">"</text>
+
+    <text x="375" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      My code doesn't always compile,
+    </text>
+    <text x="375" y="138" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      but my feelings for <tspan fill="#C084FC" font-weight="600">clean architecture</tspan> always do.
+    </text>
+
+    <rect x="578" y="126" width="2" height="16" fill="#00D4FF" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="375" y="180" font-family="Courier New,monospace" font-size="10" fill="#C084FC" text-anchor="middle" opacity="0">
+      — a developer who romanticizes SOLID principles
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0.6;0.6;0;0;0" dur="32s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Quote 3: visible 16-24s of 32s cycle -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;1;0" dur="32s" repeatCount="indefinite"/>
+
+    <text x="85" y="115" font-family="Georgia,serif" font-size="50" fill="#A855F7" opacity="0.15">"</text>
+
+    <text x="375" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      I don't chase people.
+    </text>
+    <text x="375" y="138" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      I chase <tspan fill="#C084FC" font-weight="600">scalable systems</tspan> and meaningful connections.
+    </text>
+
+    <rect x="570" y="126" width="2" height="16" fill="#00D4FF" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="375" y="180" font-family="Courier New,monospace" font-size="10" fill="#C084FC" text-anchor="middle" opacity="0">
+      — an engineer with priorities
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0.6;0" dur="32s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Quote 4: visible 24-32s of 32s cycle -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1" dur="32s" repeatCount="indefinite"/>
+
+    <text x="85" y="125" font-family="Georgia,serif" font-size="50" fill="#A855F7" opacity="0.15">"</text>
+
+    <text x="375" y="125" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#00D4FF" text-anchor="middle" opacity="0.95">
+      <tspan fill="#C084FC" font-weight="600">Commit</tspan> to me like you commit to <tspan fill="#C084FC" font-weight="600">main</tspan>.
+    </text>
+
+    <rect x="520" y="113" width="2" height="16" fill="#00D4FF" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="375" y="172" font-family="Courier New,monospace" font-size="10" fill="#C084FC" text-anchor="middle" opacity="0">
+      — someone who takes version control personally
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0.6" dur="32s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Bottom decorative section -->
+  <line x1="180" y1="220" x2="570" y2="220" stroke="url(#qa)" stroke-width="0.5"/>
+
+  <!-- Rotating rizz label -->
+  <text x="375" y="245" font-family="Courier New,monospace" font-size="9" fill="#ffffff" text-anchor="middle" letter-spacing="3" opacity="0.25">
+    DEVELOPER RIZZ ACTIVATED
+    <animate attributeName="opacity" values="0.15;0.35;0.15" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Bottom dots -->
+  <circle cx="345" y="265" r="3" fill="#00D4FF" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="365" y="265" r="3" fill="#A855F7" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="385" y="265" r="3" fill="#3B82F6" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="405" y="265" r="3" fill="#C084FC" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Heart beat icon -->
+  <text x="375" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="11" fill="#C084FC" text-anchor="middle" opacity="0.25">
+    ♡
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2s" repeatCount="indefinite"/>
+  </text>
+</g>
+</svg>

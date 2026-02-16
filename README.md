@@ -156,11 +156,15 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- 💭 Random Dev Quote -->
-<h2 align="center">💭 Random Dev Wisdom</h2>
+<!-- 💭 Developer Wisdom Chamber -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif" width="28">
+  Developer Wisdom Chamber
+  <img src="https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif" width="28">
+</h2>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="550"/>
+  <img src="./assets/wisdom-chamber.svg" alt="Developer Wisdom Chamber — Flirty Dev Quotes" width="85%" />
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->

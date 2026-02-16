@@ -61,31 +61,36 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- 📈 GitHub Stats & Analytics -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-  GitHub Stats & Analytics
-</h2>
+<!-- 📈 GitHub Stats & Analytics — Futuristic Dashboard -->
+<p align="center">
+  <img src="./assets/stats-banner.svg" alt="GitHub Stats Dashboard" width="100%" />
+</p>
 
 <br>
 
+<!-- 🔥 Streak Dashboard — Full Width -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&icon_color=A855F7&title_color=A855F7&text_color=FFFFFF" alt="GitHub Stats" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true&background=0D111700&ring=A855F7&fire=00D4FF&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B949E&currStreakNum=00D4FF&sideNums=A855F7&stroke=A855F730" alt="GitHub Streak Dashboard" width="75%" />
+</p>
+
+<p align="center">
+  <img src="./assets/stats-divider.svg" width="70%" />
+</p>
+
+<!-- 📊 Stats + Top Languages Side by Side -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D111700&icon_color=00D4FF&title_color=A855F7&text_color=FFFFFF&ring_color=A855F7" alt="GitHub Stats" height="195" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=00D4FF&currStreakLabel=A855F7" alt="GitHub Streak" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D111700&title_color=A855F7&text_color=FFFFFF" alt="Top Languages" height="195" />
 </p>
 
-<br>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF" alt="Top Languages" height="260" />
+  <img src="./assets/stats-divider.svg" width="70%" />
 </p>
 
-<br>
-
-<!-- 📊 Activity Graph -->
+<!-- 📈 Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&theme=tokyo-night&bg_color=0D1117&hide_border=true&line=A855F7&point=00D4FF&area=true&area_color=A855F7" alt="Contribution Graph" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&theme=tokyo-night&bg_color=0D1117&hide_border=true&line=A855F7&point=00D4FF&area=true&area_color=A855F730&color=C4B5FD&custom_title=Contribution%20Activity%20Matrix" alt="Contribution Activity Matrix" width="95%"/>
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->

@@ -139,16 +139,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="32" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.codechef.com/users/mayurshetty" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="32" />
-  </a>
-</p>
-
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 

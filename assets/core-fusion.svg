@@ -1,321 +1,457 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700">
 <defs>
-  <radialGradient id="bg" cx="50%" cy="45%" r="75%">
-    <stop offset="0%" stop-color="#0f0a1e"/>
-    <stop offset="60%" stop-color="#0a0812"/>
-    <stop offset="100%" stop-color="#050408"/>
+  <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+    <stop offset="0%" stop-color="#12082a"/>
+    <stop offset="50%" stop-color="#0a0614"/>
+    <stop offset="100%" stop-color="#050308"/>
   </radialGradient>
 
-  <!-- Core glow -->
-  <radialGradient id="cg" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12">
-      <animate attributeName="stop-opacity" values="0.06;0.18;0.06" dur="8s" repeatCount="indefinite"/>
+  <!-- Core glow layers -->
+  <radialGradient id="cg1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35">
+      <animate attributeName="stop-opacity" values="0.2;0.5;0.2" dur="6s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="30%" stop-color="#A855F7" stop-opacity="0.08">
-      <animate attributeName="stop-opacity" values="0.04;0.12;0.04" dur="8s" begin="1s" repeatCount="indefinite"/>
+    <stop offset="20%" stop-color="#C084FC" stop-opacity="0.2">
+      <animate attributeName="stop-opacity" values="0.1;0.3;0.1" dur="6s" begin="1s" repeatCount="indefinite"/>
     </stop>
+    <stop offset="60%" stop-color="#A855F7" stop-opacity="0.06"/>
     <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
   </radialGradient>
-
-  <!-- Core inner -->
-  <radialGradient id="ci" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25">
-      <animate attributeName="stop-opacity" values="0.15;0.35;0.15" dur="8s" repeatCount="indefinite"/>
+  <radialGradient id="cg2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5">
+      <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="6s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="40%" stop-color="#C084FC" stop-opacity="0.12"/>
-    <stop offset="100%" stop-color="#0a0812" stop-opacity="0"/>
+    <stop offset="30%" stop-color="#C084FC" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#0a0614" stop-opacity="0"/>
   </radialGradient>
 
-  <!-- Ambient glow behind core -->
-  <radialGradient id="amb" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.04">
-      <animate attributeName="stop-opacity" values="0.02;0.07;0.02" dur="10s" repeatCount="indefinite"/>
+  <!-- Wide ambient -->
+  <radialGradient id="amb" cx="50%" cy="50%" r="55%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.08">
+      <animate attributeName="stop-opacity" values="0.04;0.12;0.04" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.03"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
   </radialGradient>
 
-  <!-- MERN ring gradient (green) -->
+  <!-- Ring gradients - brighter -->
   <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#10B981" stop-opacity="0.5">
-      <animate attributeName="stop-opacity" values="0.2;0.55;0.2" dur="10s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#10B981" stop-opacity="0.8">
+      <animate attributeName="stop-opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#10B981" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#10B981" stop-opacity="0.5">
-      <animate attributeName="stop-opacity" values="0.2;0.55;0.2" dur="10s" begin="5s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#34D399" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#10B981" stop-opacity="0.8">
+      <animate attributeName="stop-opacity" values="0.4;0.9;0.4" dur="5s" begin="2.5s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
-
-  <!-- GenAI ring gradient (purple) -->
   <linearGradient id="rp" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.5">
-      <animate attributeName="stop-opacity" values="0.2;0.55;0.2" dur="12s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8">
+      <animate attributeName="stop-opacity" values="0.4;0.9;0.4" dur="6s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#C084FC" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.5">
-      <animate attributeName="stop-opacity" values="0.2;0.55;0.2" dur="12s" begin="6s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#C084FC" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.8">
+      <animate attributeName="stop-opacity" values="0.4;0.9;0.4" dur="6s" begin="3s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
-
-  <!-- Agentic AI ring gradient (cyan) -->
   <linearGradient id="rc" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.45">
-      <animate attributeName="stop-opacity" values="0.18;0.5;0.18" dur="14s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.75">
+      <animate attributeName="stop-opacity" values="0.35;0.85;0.35" dur="7s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.06"/>
-    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.45">
-      <animate attributeName="stop-opacity" values="0.18;0.5;0.18" dur="14s" begin="7s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.75">
+      <animate attributeName="stop-opacity" values="0.35;0.85;0.35" dur="7s" begin="3.5s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
-
-  <!-- Automation ring gradient (blue) -->
   <linearGradient id="rb" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.4">
-      <animate attributeName="stop-opacity" values="0.15;0.45;0.15" dur="16s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.06"/>
-    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.4">
-      <animate attributeName="stop-opacity" values="0.15;0.45;0.15" dur="16s" begin="8s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.8;0.3" dur="8s" begin="4s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
 
   <!-- Text glow -->
   <linearGradient id="tgl" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
-    <stop offset="30%" stop-color="#00D4FF" stop-opacity="0.3"/>
-    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.4"/>
-    <stop offset="70%" stop-color="#3B82F6" stop-opacity="0.3"/>
+    <stop offset="25%" stop-color="#00D4FF" stop-opacity="0.4"/>
+    <stop offset="50%" stop-color="#A855F7" stop-opacity="0.5"/>
+    <stop offset="75%" stop-color="#3B82F6" stop-opacity="0.4"/>
     <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
   </linearGradient>
+
+  <!-- Planet gradients -->
+  <radialGradient id="pl1" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#34D399"/>
+    <stop offset="100%" stop-color="#065F46"/>
+  </radialGradient>
+  <radialGradient id="pl2" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#C084FC"/>
+    <stop offset="100%" stop-color="#581C87"/>
+  </radialGradient>
+  <radialGradient id="pl3" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#0E7490"/>
+  </radialGradient>
+  <radialGradient id="pl4" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#60A5FA"/>
+    <stop offset="100%" stop-color="#1E3A5F"/>
+  </radialGradient>
 </defs>
 
 <!-- Background -->
-<rect width="800" height="600" fill="url(#bg)"/>
+<rect width="900" height="700" fill="url(#bg)"/>
 
-<!-- Deep ambient particles (very subtle, slow) -->
-<circle cx="120" cy="80" r="0.8" fill="#A855F7" opacity="0">
-  <animate attributeName="opacity" values="0;0.2;0" dur="9s" repeatCount="indefinite"/>
-</circle>
-<circle cx="680" cy="95" r="0.6" fill="#00D4FF" opacity="0">
-  <animate attributeName="opacity" values="0;0.15;0" dur="11s" begin="2s" repeatCount="indefinite"/>
-</circle>
-<circle cx="200" cy="420" r="0.7" fill="#10B981" opacity="0">
-  <animate attributeName="opacity" values="0;0.18;0" dur="10s" begin="4s" repeatCount="indefinite"/>
-</circle>
-<circle cx="600" cy="400" r="0.5" fill="#3B82F6" opacity="0">
-  <animate attributeName="opacity" values="0;0.15;0" dur="12s" begin="1s" repeatCount="indefinite"/>
-</circle>
-<circle cx="90" cy="260" r="0.6" fill="#C084FC" opacity="0">
-  <animate attributeName="opacity" values="0;0.12;0" dur="13s" begin="3s" repeatCount="indefinite"/>
-</circle>
-<circle cx="710" cy="280" r="0.7" fill="#00D4FF" opacity="0">
-  <animate attributeName="opacity" values="0;0.15;0" dur="8s" begin="5s" repeatCount="indefinite"/>
-</circle>
-<circle cx="350" cy="70" r="0.5" fill="#3B82F6" opacity="0">
-  <animate attributeName="opacity" values="0;0.1;0" dur="14s" begin="2s" repeatCount="indefinite"/>
-</circle>
-<circle cx="450" cy="450" r="0.6" fill="#10B981" opacity="0">
-  <animate attributeName="opacity" values="0;0.12;0" dur="11s" begin="6s" repeatCount="indefinite"/>
-</circle>
+<!-- === STAR FIELD (twinkling) === -->
+<circle cx="80" cy="60" r="1" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="45" r="0.8" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="5s" begin="1s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="130" r="0.7" fill="#C084FC" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+<circle cx="750" cy="120" r="0.9" fill="#00D4FF" opacity="0"><animate attributeName="opacity" values="0;0.45;0" dur="4.5s" begin="2s" repeatCount="indefinite"/></circle>
+<circle cx="60" cy="350" r="0.8" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="6s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="840" cy="380" r="0.7" fill="#10B981" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="5s" begin="3s" repeatCount="indefinite"/></circle>
+<circle cx="130" cy="480" r="0.6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.3;0" dur="4s" begin="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="500" r="0.8" fill="#A855F7" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="5.5s" begin="0.8s" repeatCount="indefinite"/></circle>
+<circle cx="300" cy="50" r="0.6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="65" r="0.7" fill="#3B82F6" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="4.2s" begin="0.3s" repeatCount="indefinite"/></circle>
+<circle cx="480" cy="30" r="0.5" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.45;0" dur="3.8s" begin="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="40" cy="200" r="0.7" fill="#FFD700" opacity="0"><animate attributeName="opacity" values="0;0.3;0" dur="6.5s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="860" cy="230" r="0.6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="4.8s" begin="3.5s" repeatCount="indefinite"/></circle>
 
-<!-- Ambient glow sphere -->
-<circle cx="400" cy="240" r="160" fill="url(#amb)"/>
+<!-- === AMBIENT GLOW === -->
+<circle cx="450" cy="280" r="200" fill="url(#amb)"/>
 
-<!-- === ORBIT RINGS === -->
+<!-- === CIRCUIT TRACES (automation blue lines - brighter) === -->
+<line x1="120" y1="140" x2="250" y2="220" stroke="#3B82F6" stroke-width="0.7" stroke-dasharray="4,8" opacity="0">
+  <animate attributeName="opacity" values="0;0.35;0" dur="6s" begin="1s" repeatCount="indefinite"/>
+</line>
+<line x1="250" y1="220" x2="310" y2="210" stroke="#3B82F6" stroke-width="0.5" stroke-dasharray="3,6" opacity="0">
+  <animate attributeName="opacity" values="0;0.3;0" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+</line>
+<line x1="650" y1="350" x2="780" y2="420" stroke="#3B82F6" stroke-width="0.7" stroke-dasharray="4,8" opacity="0">
+  <animate attributeName="opacity" values="0;0.35;0" dur="7s" begin="3s" repeatCount="indefinite"/>
+</line>
+<line x1="780" y1="420" x2="800" y2="400" stroke="#3B82F6" stroke-width="0.5" stroke-dasharray="3,6" opacity="0">
+  <animate attributeName="opacity" values="0;0.3;0" dur="7s" begin="3.5s" repeatCount="indefinite"/>
+</line>
+<line x1="100" y1="400" x2="200" y2="350" stroke="#3B82F6" stroke-width="0.5" stroke-dasharray="3,7" opacity="0">
+  <animate attributeName="opacity" values="0;0.25;0" dur="8s" begin="5s" repeatCount="indefinite"/>
+</line>
+<line x1="700" y1="170" x2="780" y2="200" stroke="#3B82F6" stroke-width="0.5" stroke-dasharray="3,7" opacity="0">
+  <animate attributeName="opacity" values="0;0.25;0" dur="8s" begin="6s" repeatCount="indefinite"/>
+</line>
 
-<!-- Ring 4: Automation (blue) — outermost, slowest -->
-<g transform="translate(400,240)">
-  <ellipse cx="0" cy="0" rx="155" ry="50" fill="none" stroke="url(#rb)" stroke-width="0.8" transform="rotate(-15)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="16s" repeatCount="indefinite"/>
+<!-- Small circuit nodes -->
+<circle cx="250" cy="220" r="2" fill="#3B82F6" opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="780" cy="420" r="2" fill="#3B82F6" opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="3.5s" repeatCount="indefinite"/></circle>
+
+<!-- === ORBIT RINGS (brighter, thicker) === -->
+
+<!-- Ring 4: Automation (blue) — outermost -->
+<g transform="translate(450,280)">
+  <ellipse cx="0" cy="0" rx="195" ry="65" fill="none" stroke="url(#rb)" stroke-width="1.5" stroke-dasharray="6,3" transform="rotate(-12)">
+    <animate attributeName="stroke-dashoffset" values="0;-50" dur="20s" repeatCount="indefinite"/>
   </ellipse>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="360 400 240" dur="90s" repeatCount="indefinite"/>
-</g>
-
-<!-- Automation orbital particle -->
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="360 400 240" dur="90s" repeatCount="indefinite"/>
-  <circle cx="555" cy="240" r="2.5" fill="#3B82F6" opacity="0.3">
-    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1.5;3;1.5" dur="8s" repeatCount="indefinite"/>
-  </circle>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="80s" repeatCount="indefinite"/>
 </g>
 
 <!-- Ring 3: Agentic AI (cyan) -->
-<g transform="translate(400,240)">
-  <ellipse cx="0" cy="0" rx="130" ry="42" fill="none" stroke="url(#rc)" stroke-width="0.8" transform="rotate(25)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.65;0.3" dur="14s" repeatCount="indefinite"/>
+<g transform="translate(450,280)">
+  <ellipse cx="0" cy="0" rx="160" ry="55" fill="none" stroke="url(#rc)" stroke-width="1.5" stroke-dasharray="8,4" transform="rotate(30)">
+    <animate attributeName="stroke-dashoffset" values="0;60" dur="18s" repeatCount="indefinite"/>
   </ellipse>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="-360 400 240" dur="70s" repeatCount="indefinite"/>
-</g>
-
-<!-- Agentic AI orbital particle -->
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="-360 400 240" dur="70s" repeatCount="indefinite"/>
-  <circle cx="530" cy="240" r="2.2" fill="#00D4FF" opacity="0.3">
-    <animate attributeName="opacity" values="0.1;0.55;0.1" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1.2;2.8;1.2" dur="7s" repeatCount="indefinite"/>
-  </circle>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="60s" repeatCount="indefinite"/>
 </g>
 
 <!-- Ring 2: Generative AI (purple) -->
-<g transform="translate(400,240)">
-  <ellipse cx="0" cy="0" rx="105" ry="35" fill="none" stroke="url(#rp)" stroke-width="0.9" transform="rotate(-40)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="12s" repeatCount="indefinite"/>
+<g transform="translate(450,280)">
+  <ellipse cx="0" cy="0" rx="125" ry="44" fill="none" stroke="url(#rp)" stroke-width="1.6" stroke-dasharray="5,3" transform="rotate(-38)">
+    <animate attributeName="stroke-dashoffset" values="0;-40" dur="15s" repeatCount="indefinite"/>
   </ellipse>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="360 400 240" dur="55s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="45s" repeatCount="indefinite"/>
 </g>
 
-<!-- GenAI orbital particle -->
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="360 400 240" dur="55s" repeatCount="indefinite"/>
-  <circle cx="505" cy="240" r="2" fill="#A855F7" opacity="0.35">
-    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1;2.5;1" dur="6s" repeatCount="indefinite"/>
-  </circle>
-</g>
-
-<!-- Ring 1: MERN (green) — innermost, fastest -->
-<g transform="translate(400,240)">
-  <ellipse cx="0" cy="0" rx="80" ry="28" fill="none" stroke="url(#rg)" stroke-width="0.9" transform="rotate(55)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="10s" repeatCount="indefinite"/>
+<!-- Ring 1: MERN (green) — innermost -->
+<g transform="translate(450,280)">
+  <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="url(#rg)" stroke-width="1.6" stroke-dasharray="4,2" transform="rotate(55)">
+    <animate attributeName="stroke-dashoffset" values="0;30" dur="12s" repeatCount="indefinite"/>
   </ellipse>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="-360 400 240" dur="40s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="32s" repeatCount="indefinite"/>
 </g>
 
-<!-- MERN orbital particle -->
+<!-- === AGENTIC PLANETS === -->
+
+<!-- Planet 1: MERN Planet (green, innermost orbit) -->
 <g>
-  <animateTransform attributeName="transform" type="rotate" from="0 400 240" to="-360 400 240" dur="40s" repeatCount="indefinite"/>
-  <circle cx="480" cy="240" r="1.8" fill="#10B981" opacity="0.35">
-    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="0.8;2.2;0.8" dur="5s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="32s" repeatCount="indefinite"/>
+  <circle cx="540" cy="280" r="10" fill="url(#pl1)" opacity="0.85">
+    <animate attributeName="r" values="9;11;9" dur="4s" repeatCount="indefinite"/>
   </circle>
+  <!-- Planet glow -->
+  <circle cx="540" cy="280" r="16" fill="#10B981" opacity="0.06">
+    <animate attributeName="opacity" values="0.03;0.1;0.03" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="14;20;14" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Planet ring -->
+  <ellipse cx="540" cy="280" rx="15" ry="4" fill="none" stroke="#34D399" stroke-width="0.8" opacity="0.4" transform="rotate(-20,540,280)"/>
+  <text x="540" y="300" font-family="Courier New,monospace" font-size="6" fill="#34D399" text-anchor="middle" opacity="0.6">MERN</text>
 </g>
+
+<!-- Planet 2: GenAI Planet (purple, mid orbit) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="45s" repeatCount="indefinite"/>
+  <circle cx="575" cy="280" r="12" fill="url(#pl2)" opacity="0.85">
+    <animate attributeName="r" values="11;13;11" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="575" cy="280" r="18" fill="#A855F7" opacity="0.05">
+    <animate attributeName="opacity" values="0.02;0.09;0.02" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="16;22;16" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="575" cy="280" rx="17" ry="5" fill="none" stroke="#C084FC" stroke-width="0.7" opacity="0.35" transform="rotate(15,575,280)"/>
+  <text x="575" y="302" font-family="Courier New,monospace" font-size="6" fill="#C084FC" text-anchor="middle" opacity="0.6">GEN-AI</text>
+</g>
+
+<!-- Planet 3: Agentic AI Planet (cyan, outer orbit) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="60s" repeatCount="indefinite"/>
+  <circle cx="610" cy="280" r="13" fill="url(#pl3)" opacity="0.85">
+    <animate attributeName="r" values="12;14;12" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="610" cy="280" r="20" fill="#00D4FF" opacity="0.05">
+    <animate attributeName="opacity" values="0.02;0.08;0.02" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="18;24;18" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse cx="610" cy="280" rx="18" ry="5" fill="none" stroke="#22D3EE" stroke-width="0.7" opacity="0.35" transform="rotate(-25,610,280)"/>
+  <text x="610" y="304" font-family="Courier New,monospace" font-size="6" fill="#22D3EE" text-anchor="middle" opacity="0.6">AGENT</text>
+</g>
+
+<!-- Planet 4: Automation Planet (blue, outermost) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="80s" repeatCount="indefinite"/>
+  <circle cx="645" cy="280" r="9" fill="url(#pl4)" opacity="0.8">
+    <animate attributeName="r" values="8;10;8" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="645" cy="280" r="15" fill="#3B82F6" opacity="0.04">
+    <animate attributeName="opacity" values="0.02;0.07;0.02" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="645" y="298" font-family="Courier New,monospace" font-size="6" fill="#60A5FA" text-anchor="middle" opacity="0.5">AUTO</text>
+</g>
+
+<!-- === FLYING BOTS / AGENTS === -->
+
+<!-- Bot 1: Small triangle bot flying on elliptical path (top-right area) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="25s" repeatCount="indefinite"/>
+  <g transform="translate(620,180)">
+    <animateTransform attributeName="transform" type="translate" values="620,180;625,175;620,180" dur="3s" repeatCount="indefinite"/>
+    <!-- Bot body -->
+    <polygon points="0,-8 -6,5 6,5" fill="#0D1117" stroke="#00D4FF" stroke-width="1" opacity="0.8">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Bot eye -->
+    <circle cx="0" cy="0" r="2" fill="#00D4FF" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Bot trail -->
+    <line x1="0" y1="5" x2="0" y2="18" stroke="#00D4FF" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</g>
+
+<!-- Bot 2: Diamond bot flying counter-orbit (left area) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="20s" repeatCount="indefinite"/>
+  <g transform="translate(280,200)">
+    <animateTransform attributeName="transform" type="translate" values="280,200;275,195;280,200" dur="2.5s" repeatCount="indefinite"/>
+    <!-- Bot body -->
+    <polygon points="0,-7 -5,0 0,7 5,0" fill="#0D1117" stroke="#A855F7" stroke-width="1" opacity="0.8">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Bot eye -->
+    <circle cx="0" cy="0" r="1.8" fill="#C084FC" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Trail -->
+    <line x1="5" y1="0" x2="16" y2="0" stroke="#A855F7" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</g>
+
+<!-- Bot 3: Square bot on wide orbit -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="35s" repeatCount="indefinite"/>
+  <g transform="translate(700,320)">
+    <animateTransform attributeName="transform" type="translate" values="700,320;705,315;700,320" dur="3.5s" repeatCount="indefinite"/>
+    <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#0D1117" stroke="#10B981" stroke-width="0.8" opacity="0.8">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="0" cy="0" r="1.5" fill="#34D399" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-5" y1="0" x2="-14" y2="0" stroke="#10B981" stroke-width="0.4" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</g>
+
+<!-- Bot 4: Tiny chevron agent scout -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="-360 450 280" dur="18s" repeatCount="indefinite"/>
+  <g transform="translate(380,150)">
+    <animateTransform attributeName="transform" type="translate" values="380,150;378,145;380,150" dur="2s" repeatCount="indefinite"/>
+    <polygon points="0,-5 -4,3 0,1 4,3" fill="#0D1117" stroke="#FFD700" stroke-width="0.8" opacity="0.75">
+      <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="0" cy="-1" r="1.2" fill="#FFD700" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+
+<!-- Bot 5: Hexagonal agent near core -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 450 280" to="360 450 280" dur="15s" repeatCount="indefinite"/>
+  <g transform="translate(510,240)">
+    <animateTransform attributeName="transform" type="translate" values="510,240;512,236;510,240" dur="2.8s" repeatCount="indefinite"/>
+    <polygon points="0,-6 -5,-3 -5,3 0,6 5,3 5,-3" fill="#0D1117" stroke="#FF6B6B" stroke-width="0.8" opacity="0.7">
+      <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="0" cy="0" r="1.5" fill="#FF6B6B" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+
+<!-- === MAGIC PARTICLES (floating sparkles) === -->
+<!-- Sparkle cluster near core -->
+<circle cx="430" cy="260" r="1.5" fill="#FFD700" opacity="0">
+  <animate attributeName="opacity" values="0;0.6;0" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="260;252;260" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="470" cy="295" r="1.2" fill="#C084FC" opacity="0">
+  <animate attributeName="opacity" values="0;0.55;0" dur="3.5s" begin="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="295;288;295" dur="4.5s" begin="0.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="445" cy="265" r="1" fill="#00D4FF" opacity="0">
+  <animate attributeName="opacity" values="0;0.5;0" dur="2.8s" begin="1.6s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="445;452;445" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Drifting magic particles (wider field) -->
+<circle cx="200" cy="180" r="1.8" fill="#FFD700" opacity="0">
+  <animate attributeName="opacity" values="0;0.35;0" dur="7s" begin="2s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="180;165;180" dur="7s" begin="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="200" r="1.5" fill="#C084FC" opacity="0">
+  <animate attributeName="opacity" values="0;0.3;0" dur="6s" begin="1s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="200;188;200" dur="6s" begin="1s" repeatCount="indefinite"/>
+</circle>
+<circle cx="330" cy="380" r="1.3" fill="#00D4FF" opacity="0">
+  <animate attributeName="opacity" values="0;0.3;0" dur="5.5s" begin="3s" repeatCount="indefinite"/>
+  <animate attributeName="cx" values="330;340;330" dur="5.5s" begin="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="570" cy="370" r="1.6" fill="#10B981" opacity="0">
+  <animate attributeName="opacity" values="0;0.3;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="370;358;370" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+</circle>
 
 <!-- === CORE === -->
 
-<!-- Outer core glow -->
-<circle cx="400" cy="240" r="55" fill="url(#cg)"/>
+<!-- Outer glow -->
+<circle cx="450" cy="280" r="70" fill="url(#cg1)"/>
 
-<!-- Core ring -->
-<circle cx="400" cy="240" r="28" fill="none" stroke="#C084FC" stroke-width="0.5" stroke-opacity="0.15">
-  <animate attributeName="stroke-opacity" values="0.08;0.25;0.08" dur="8s" repeatCount="indefinite"/>
-  <animate attributeName="r" values="26;30;26" dur="8s" repeatCount="indefinite"/>
+<!-- Core pulse rings -->
+<circle cx="450" cy="280" r="35" fill="none" stroke="#C084FC" stroke-width="0.8" stroke-opacity="0.15">
+  <animate attributeName="stroke-opacity" values="0.08;0.3;0.08" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="r" values="32;40;32" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="280" r="24" fill="none" stroke="#00D4FF" stroke-width="0.6" stroke-opacity="0.1">
+  <animate attributeName="stroke-opacity" values="0.05;0.25;0.05" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+  <animate attributeName="r" values="22;28;22" dur="5s" begin="1.5s" repeatCount="indefinite"/>
 </circle>
 
 <!-- Core body -->
-<circle cx="400" cy="240" r="18" fill="url(#ci)"/>
+<circle cx="450" cy="280" r="22" fill="url(#cg2)"/>
 
 <!-- Core bright center -->
-<circle cx="400" cy="240" r="6" fill="#ffffff" opacity="0.08">
-  <animate attributeName="opacity" values="0.04;0.15;0.04" dur="8s" repeatCount="indefinite"/>
-  <animate attributeName="r" values="4;8;4" dur="8s" repeatCount="indefinite"/>
+<circle cx="450" cy="280" r="10" fill="#ffffff" opacity="0.1">
+  <animate attributeName="opacity" values="0.05;0.2;0.05" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="r" values="8;14;8" dur="6s" repeatCount="indefinite"/>
 </circle>
 
 <!-- Core pinpoint -->
-<circle cx="400" cy="240" r="2" fill="#ffffff" opacity="0.3">
-  <animate attributeName="opacity" values="0.15;0.45;0.15" dur="4s" repeatCount="indefinite"/>
+<circle cx="450" cy="280" r="3.5" fill="#ffffff" opacity="0.5">
+  <animate attributeName="opacity" values="0.25;0.7;0.25" dur="3s" repeatCount="indefinite"/>
 </circle>
 
-<!-- === CONVERGENCE PULSES (rings fuse into core) === -->
+<!-- Core cross-hairs -->
+<line x1="440" y1="280" x2="460" y2="280" stroke="#ffffff" stroke-width="0.3" opacity="0.15">
+  <animate attributeName="opacity" values="0.08;0.25;0.08" dur="4s" repeatCount="indefinite"/>
+</line>
+<line x1="450" y1="270" x2="450" y2="290" stroke="#ffffff" stroke-width="0.3" opacity="0.15">
+  <animate attributeName="opacity" values="0.08;0.25;0.08" dur="4s" begin="2s" repeatCount="indefinite"/>
+</line>
 
-<!-- Pulse 1 — green convergence -->
-<circle cx="400" cy="240" r="80" fill="none" stroke="#10B981" stroke-width="0.6" opacity="0">
-  <animate attributeName="r" values="80;18;18" dur="12s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.25;0" dur="12s" repeatCount="indefinite"/>
+<!-- === CONVERGENCE PULSES === -->
+<circle cx="450" cy="280" r="90" fill="none" stroke="#10B981" stroke-width="1" opacity="0">
+  <animate attributeName="r" values="90;22;22" dur="10s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.4;0" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="280" r="125" fill="none" stroke="#A855F7" stroke-width="1" opacity="0">
+  <animate attributeName="r" values="125;22;22" dur="12s" begin="3s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.35;0" dur="12s" begin="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="280" r="160" fill="none" stroke="#00D4FF" stroke-width="0.8" opacity="0">
+  <animate attributeName="r" values="160;22;22" dur="14s" begin="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.3;0" dur="14s" begin="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="280" r="195" fill="none" stroke="#3B82F6" stroke-width="0.8" opacity="0">
+  <animate attributeName="r" values="195;22;22" dur="16s" begin="9s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.25;0" dur="16s" begin="9s" repeatCount="indefinite"/>
 </circle>
 
-<!-- Pulse 2 — purple convergence -->
-<circle cx="400" cy="240" r="105" fill="none" stroke="#A855F7" stroke-width="0.6" opacity="0">
-  <animate attributeName="r" values="105;18;18" dur="14s" begin="3s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.2;0" dur="14s" begin="3s" repeatCount="indefinite"/>
-</circle>
-
-<!-- Pulse 3 — cyan convergence -->
-<circle cx="400" cy="240" r="130" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0">
-  <animate attributeName="r" values="130;18;18" dur="16s" begin="6s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.2;0" dur="16s" begin="6s" repeatCount="indefinite"/>
-</circle>
-
-<!-- Pulse 4 — blue convergence -->
-<circle cx="400" cy="240" r="155" fill="none" stroke="#3B82F6" stroke-width="0.5" opacity="0">
-  <animate attributeName="r" values="155;18;18" dur="18s" begin="9s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.15;0" dur="18s" begin="9s" repeatCount="indefinite"/>
-</circle>
-
-<!-- === RING LABELS (very subtle, positioned around orbits) === -->
-
-<text x="400" y="168" font-family="Courier New,monospace" font-size="8" fill="#3B82F6" text-anchor="middle" letter-spacing="2" opacity="0.2">
+<!-- === RING LABELS (brighter) === -->
+<text x="450" y="195" font-family="Courier New,monospace" font-size="9" fill="#3B82F6" text-anchor="middle" letter-spacing="3" opacity="0.35">
   AUTOMATION
-  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="10s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" repeatCount="indefinite"/>
 </text>
-
-<text x="560" y="210" font-family="Courier New,monospace" font-size="8" fill="#00D4FF" text-anchor="middle" letter-spacing="2" opacity="0.2">
+<text x="640" y="245" font-family="Courier New,monospace" font-size="9" fill="#00D4FF" text-anchor="middle" letter-spacing="3" opacity="0.35">
   AGENTIC AI
-  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="10s" begin="2s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" begin="1.5s" repeatCount="indefinite"/>
 </text>
-
-<text x="240" y="275" font-family="Courier New,monospace" font-size="8" fill="#A855F7" text-anchor="middle" letter-spacing="2" opacity="0.2">
+<text x="260" y="320" font-family="Courier New,monospace" font-size="9" fill="#A855F7" text-anchor="middle" letter-spacing="3" opacity="0.35">
   GENERATIVE AI
-  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="10s" begin="4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" begin="3s" repeatCount="indefinite"/>
 </text>
-
-<text x="400" y="315" font-family="Courier New,monospace" font-size="8" fill="#10B981" text-anchor="middle" letter-spacing="2" opacity="0.2">
+<text x="450" y="370" font-family="Courier New,monospace" font-size="9" fill="#10B981" text-anchor="middle" letter-spacing="3" opacity="0.35">
   MERN STACK
-  <animate attributeName="opacity" values="0.1;0.3;0.1" dur="10s" begin="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" begin="4.5s" repeatCount="indefinite"/>
 </text>
-
-<!-- === CIRCUIT TRACES (automation blue lines) === -->
-<line x1="250" y1="160" x2="310" y2="200" stroke="#3B82F6" stroke-width="0.4" opacity="0">
-  <animate attributeName="opacity" values="0;0.2;0" dur="8s" begin="1s" repeatCount="indefinite"/>
-</line>
-<line x1="310" y1="200" x2="340" y2="195" stroke="#3B82F6" stroke-width="0.3" opacity="0">
-  <animate attributeName="opacity" values="0;0.15;0" dur="8s" begin="1.5s" repeatCount="indefinite"/>
-</line>
-<line x1="490" y1="280" x2="550" y2="320" stroke="#3B82F6" stroke-width="0.4" opacity="0">
-  <animate attributeName="opacity" values="0;0.2;0" dur="9s" begin="3s" repeatCount="indefinite"/>
-</line>
-<line x1="550" y1="320" x2="560" y2="310" stroke="#3B82F6" stroke-width="0.3" opacity="0">
-  <animate attributeName="opacity" values="0;0.15;0" dur="9s" begin="3.5s" repeatCount="indefinite"/>
-</line>
-<line x1="260" y1="290" x2="290" y2="270" stroke="#3B82F6" stroke-width="0.3" opacity="0">
-  <animate attributeName="opacity" values="0;0.12;0" dur="11s" begin="5s" repeatCount="indefinite"/>
-</line>
-<line x1="510" y1="190" x2="540" y2="170" stroke="#3B82F6" stroke-width="0.3" opacity="0">
-  <animate attributeName="opacity" values="0;0.12;0" dur="11s" begin="7s" repeatCount="indefinite"/>
-</line>
 
 <!-- === BOTTOM TEXT === -->
+<line x1="250" y1="500" x2="650" y2="500" stroke="url(#tgl)" stroke-width="0.6"/>
 
-<!-- Separator -->
-<line x1="250" y1="420" x2="550" y2="420" stroke="url(#tgl)" stroke-width="0.4"/>
-
-<!-- Tagline -->
-<text x="400" y="455" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#C4B5FD" text-anchor="middle" letter-spacing="1" opacity="0.4">
+<text x="450" y="535" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#C4B5FD" text-anchor="middle" letter-spacing="1.5" opacity="0.5">
   Forging intelligent systems from imagination.
-  <animate attributeName="opacity" values="0.25;0.5;0.25" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
 </text>
 
 <!-- Separator dots -->
-<circle cx="370" cy="480" r="1.5" fill="#00D4FF" opacity="0.12">
-  <animate attributeName="opacity" values="0.06;0.2;0.06" dur="4s" repeatCount="indefinite"/>
-</circle>
-<circle cx="390" cy="480" r="1.5" fill="#A855F7" opacity="0.18">
-  <animate attributeName="opacity" values="0.08;0.25;0.08" dur="4s" begin="0.5s" repeatCount="indefinite"/>
-</circle>
-<circle cx="410" cy="480" r="1.5" fill="#10B981" opacity="0.12">
-  <animate attributeName="opacity" values="0.06;0.2;0.06" dur="4s" begin="1s" repeatCount="indefinite"/>
-</circle>
-<circle cx="430" cy="480" r="1.5" fill="#3B82F6" opacity="0.12">
-  <animate attributeName="opacity" values="0.06;0.2;0.06" dur="4s" begin="1.5s" repeatCount="indefinite"/>
-</circle>
+<circle cx="410" cy="565" r="2" fill="#00D4FF" opacity="0.15"><animate attributeName="opacity" values="0.08;0.3;0.08" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="430" cy="565" r="2" fill="#A855F7" opacity="0.25"><animate attributeName="opacity" values="0.12;0.35;0.12" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle>
+<circle cx="450" cy="565" r="2" fill="#10B981" opacity="0.15"><animate attributeName="opacity" values="0.08;0.3;0.08" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
+<circle cx="470" cy="565" r="2" fill="#3B82F6" opacity="0.15"><animate attributeName="opacity" values="0.08;0.3;0.08" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="490" cy="565" r="2" fill="#FFD700" opacity="0.12"><animate attributeName="opacity" values="0.06;0.25;0.06" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
 
 <!-- CTA -->
-<text x="400" y="520" font-family="Courier New,monospace" font-size="10" fill="#ffffff" text-anchor="middle" letter-spacing="3" opacity="0.18">
+<text x="450" y="605" font-family="Courier New,monospace" font-size="11" fill="#ffffff" text-anchor="middle" letter-spacing="3" opacity="0.2">
   STAR THE REPOS IF YOU FELT THE SPARK
-  <animate attributeName="opacity" values="0.1;0.28;0.1" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.12;0.32;0.12" dur="4s" repeatCount="indefinite"/>
 </text>
 
-<!-- Bottom accent line -->
-<line x1="280" y1="545" x2="520" y2="545" stroke="url(#tgl)" stroke-width="0.3" opacity="0.5">
-  <animate attributeName="opacity" values="0.3;0.6;0.3" dur="6s" repeatCount="indefinite"/>
+<line x1="280" y1="630" x2="620" y2="630" stroke="url(#tgl)" stroke-width="0.4" opacity="0.4">
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite"/>
 </line>
 </svg>

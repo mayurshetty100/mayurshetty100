@@ -1,30 +1,7 @@
 <!-- ✨ MAYUR SHETTY — Magical Animated GitHub Profile ✨ -->
-<!-- 🌊 Animated Wave Header with Twinkling Stars -->
+<!-- 🌊 Full Animated Header: Wave + Name + Badges + Tagline -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=6,11,20&section=header&text=&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" />
-
-<!-- 🔥 Name in Cool Orbitron Font -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=45&duration=4000&pause=2000&color=A855F7&center=true&vCenter=true&width=700&lines=MAYUR+SHETTY" alt="MAYUR SHETTY" />
-</h1>
-
-<!-- ⚡ Skill Tags -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🤖%20AI%20Agents%20%26%20Automation-8B5CF6?style=for-the-badge&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🚀%20MERN%20Stack-00D4FF?style=for-the-badge&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🧠%20Gen%20AI%20%26%20Prompt%20Engineering-FF6B6B?style=for-the-badge&logoColor=white" />
-</p>
-
-<br>
-
-<!-- 🎯 Animated Typing Taglines -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%9A%80+Crafting+Futuristic+Experiences+with+MERN+%26+AI;%F0%9F%92%A1+Engineering+Ideas+into+Reality;%F0%9F%94%A5+Built+from+Discipline%2C+Powered+by+Obsession;%E2%9A%A1+Blending+Code%2C+Creativity+%26+Imagination;%F0%9F%A4%96+Turning+Thoughts+into+Digital+Experiences" alt="Typing SVG" />
-  </a>
-</p>
+<img width="100%" src="./assets/header.svg" alt="Mayur Shetty — Full Stack Developer • AI Enthusiast • Code Architect" />
 
 <!-- 📊 Futuristic Animated Stats Dashboard -->
 <p align="center">

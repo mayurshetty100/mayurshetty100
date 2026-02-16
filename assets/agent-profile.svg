@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="520" viewBox="0 0 540 520">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#7C3AED;#00D4FF;#A855F7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF;#A855F7;#7C3AED;#00D4FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip"><rect x="4" y="4" width="532" height="512" rx="14"/></clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="4" y="4" width="532" height="512" rx="14" fill="url(#cardBg)"/>
+
+  <!-- Animated neon border -->
+  <rect x="4" y="4" width="532" height="512" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Outer glow -->
+  <rect x="2" y="2" width="536" height="516" rx="16" fill="none" stroke="#A855F7" stroke-opacity="0.1">
+    <animate attributeName="stroke-opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1;2.5;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner brackets -->
+  <path d="M20 12 L10 12 L10 22" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <path d="M520 12 L530 12 L530 22" fill="none" stroke="#00D4FF" stroke-width="1.5" opacity="0.4"/>
+  <path d="M20 508 L10 508 L10 498" fill="none" stroke="#00D4FF" stroke-width="1.5" opacity="0.4"/>
+  <path d="M520 508 L530 508 L530 498" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Header bar -->
+  <rect x="4" y="4" width="532" height="42" rx="14" fill="url(#headerGrad)"/>
+  <rect x="4" y="32" width="532" height="14" fill="url(#headerGrad)"/>
+
+  <!-- Terminal dots -->
+  <circle cx="24" cy="25" r="5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="42" cy="25" r="5" fill="#FBBF24" opacity="0.8"/>
+  <circle cx="60" cy="25" r="5" fill="#22C55E" opacity="0.8"/>
+
+  <!-- Title -->
+  <text x="270" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#A855F7" letter-spacing="4" filter="url(#softGlow)">
+    ▸ AGENT PROFILE
+    <animate attributeName="fill" values="#A855F7;#C084FC;#A855F7" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- LIVE indicator -->
+  <circle cx="498" cy="25" r="3" fill="#22C55E">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="480" y="29" text-anchor="end" font-family="monospace" font-size="8" fill="#22C55E" opacity="0.7">LIVE</text>
+
+  <!-- Horizontal divider -->
+  <line x1="20" y1="46" x2="520" y2="46" stroke="#A855F7" stroke-width="0.3" opacity="0.4"/>
+
+  <!-- ═══ IDENTITY SECTION ═══ -->
+  <text x="30" y="75" font-family="'Courier New', monospace" font-size="10" fill="#6B7280" letter-spacing="2">◈ IDENTITY</text>
+  <line x1="120" y1="72" x2="510" y2="72" stroke="#374151" stroke-width="0.3" opacity="0.5"/>
+
+  <text x="42" y="98" font-family="'Courier New', monospace" font-size="13" fill="#E2E8F0">
+    <tspan fill="#A855F7" filter="url(#softGlow)">name</tspan>
+    <tspan fill="#6B7280"> : </tspan>
+    <tspan fill="#FFFFFF" font-weight="600">Mayur Shetty</tspan>
+  </text>
+  <text x="42" y="118" font-family="'Courier New', monospace" font-size="13" fill="#E2E8F0">
+    <tspan fill="#A855F7" filter="url(#softGlow)">alias</tspan>
+    <tspan fill="#6B7280"> : </tspan>
+    <tspan fill="#00D4FF">The Code Architect</tspan>
+  </text>
+  <text x="42" y="138" font-family="'Courier New', monospace" font-size="13" fill="#E2E8F0">
+    <tspan fill="#A855F7" filter="url(#softGlow)">base</tspan>
+    <tspan fill="#6B7280"> : </tspan>
+    <tspan fill="#FFFFFF">India</tspan>
+    <tspan fill="#6B7280"> 🇮🇳</tspan>
+  </text>
+
+  <!-- ═══ CORE DOMAINS ═══ -->
+  <text x="30" y="172" font-family="'Courier New', monospace" font-size="10" fill="#6B7280" letter-spacing="2">◈ CORE DOMAINS</text>
+  <line x1="152" y1="169" x2="510" y2="169" stroke="#374151" stroke-width="0.3" opacity="0.5"/>
+
+  <text x="42" y="196" font-family="'Courier New', monospace" font-size="12" fill="#E2E8F0">
+    <tspan fill="#00D4FF">▹</tspan> Full-Stack Engineering <tspan fill="#6B7280">(MERN)</tspan>
+  </text>
+  <text x="42" y="216" font-family="'Courier New', monospace" font-size="12" fill="#E2E8F0">
+    <tspan fill="#00D4FF">▹</tspan> AI Agents <tspan fill="#6B7280">&amp;</tspan> Intelligent Automation
+  </text>
+  <text x="42" y="236" font-family="'Courier New', monospace" font-size="12" fill="#E2E8F0">
+    <tspan fill="#00D4FF">▹</tspan> Gen AI <tspan fill="#6B7280">&amp;</tspan> Prompt Engineering
+  </text>
+
+  <!-- ═══ CAPABILITIES ═══ -->
+  <text x="30" y="270" font-family="'Courier New', monospace" font-size="10" fill="#6B7280" letter-spacing="2">◈ CAPABILITIES</text>
+  <line x1="148" y1="267" x2="510" y2="267" stroke="#374151" stroke-width="0.3" opacity="0.5"/>
+
+  <!-- Skill bars -->
+  <text x="42" y="293" font-family="'Courier New', monospace" font-size="11" fill="#9CA3AF">React / Node</text>
+  <rect x="170" y="283" width="240" height="10" rx="5" fill="#1E293B"/>
+  <rect x="170" y="283" width="216" height="10" rx="5" fill="#A855F7" opacity="0.8">
+    <animate attributeName="width" values="0;216" dur="2s" fill="freeze"/>
+  </rect>
+  <text x="420" y="293" font-family="monospace" font-size="10" fill="#A855F7">90%</text>
+
+  <text x="42" y="313" font-family="'Courier New', monospace" font-size="11" fill="#9CA3AF">AI / Agents</text>
+  <rect x="170" y="303" width="240" height="10" rx="5" fill="#1E293B"/>
+  <rect x="170" y="303" width="192" height="10" rx="5" fill="#00D4FF" opacity="0.8">
+    <animate attributeName="width" values="0;192" dur="2.2s" fill="freeze"/>
+  </rect>
+  <text x="420" y="313" font-family="monospace" font-size="10" fill="#00D4FF">80%</text>
+
+  <text x="42" y="333" font-family="'Courier New', monospace" font-size="11" fill="#9CA3AF">Python / Java</text>
+  <rect x="170" y="323" width="240" height="10" rx="5" fill="#1E293B"/>
+  <rect x="170" y="323" width="204" height="10" rx="5" fill="#FBBF24" opacity="0.8">
+    <animate attributeName="width" values="0;204" dur="2.4s" fill="freeze"/>
+  </rect>
+  <text x="420" y="333" font-family="monospace" font-size="10" fill="#FBBF24">85%</text>
+
+  <text x="42" y="353" font-family="'Courier New', monospace" font-size="11" fill="#9CA3AF">DevOps</text>
+  <rect x="170" y="343" width="240" height="10" rx="5" fill="#1E293B"/>
+  <rect x="170" y="343" width="168" height="10" rx="5" fill="#22C55E" opacity="0.8">
+    <animate attributeName="width" values="0;168" dur="2.6s" fill="freeze"/>
+  </rect>
+  <text x="420" y="353" font-family="monospace" font-size="10" fill="#22C55E">70%</text>
+
+  <!-- ═══ CURRENT FOCUS ═══ -->
+  <text x="30" y="387" font-family="'Courier New', monospace" font-size="10" fill="#6B7280" letter-spacing="2">◈ FOCUS</text>
+  <line x1="86" y1="384" x2="510" y2="384" stroke="#374151" stroke-width="0.3" opacity="0.5"/>
+
+  <text x="42" y="410" font-family="'Courier New', monospace" font-size="12" fill="#E2E8F0">
+    <tspan fill="#FBBF24">⟐</tspan> Building MERN apps <tspan fill="#6B7280">with</tspan> AI-powered backends
+  </text>
+  <text x="42" y="430" font-family="'Courier New', monospace" font-size="12" fill="#E2E8F0">
+    <tspan fill="#FBBF24">⟐</tspan> Orchestrating agents <tspan fill="#6B7280">via</tspan> n8n workflows
+  </text>
+
+  <!-- ═══ PHILOSOPHY ═══ -->
+  <text x="30" y="464" font-family="'Courier New', monospace" font-size="10" fill="#6B7280" letter-spacing="2">◈ PHILOSOPHY</text>
+  <line x1="132" y1="461" x2="510" y2="461" stroke="#374151" stroke-width="0.3" opacity="0.5"/>
+
+  <text x="270" y="490" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C084FC" font-style="italic" filter="url(#softGlow)">
+    " Build what others dream, one commit at a time. "
+    <animate attributeName="fill" values="#C084FC;#A855F7;#818CF8;#C084FC" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Shimmer sweep -->
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="200" height="540" fill="url(#shimmer)">
+      <animateTransform attributeName="transform" type="translate" from="-300 0" to="840 0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Bottom scan line -->
+  <line x1="20" y1="0" x2="20" y2="520" stroke="#A855F7" stroke-width="0.5" opacity="0.1">
+    <animate attributeName="x1" values="20;520;20" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="20;520;20" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.15;0" dur="4s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -21,42 +21,26 @@
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- 🧙‍♂️ About Me Section with Cute Agent -->
+<!-- 🧙‍♂️ About Me — Cyberpunk Agent Profile -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
   About the Wizard Behind the Code
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
-<table align="center">
-<tr>
-<td width="55%">
-
-```yaml
-name: Mayur Shetty
-located_in: India 🇮🇳
-current_focus: MERN Stack & AI Agents
-learning: Docker, Cloud & System Design
-fun_fact: "My code runs on curiosity & caffeine ☕"
-```
-
-- 🔭 Currently building **full-stack magic** with the **MERN Stack**
-- 🤖 Exploring **AI Agents** & intelligent automation with **n8n**
-- 🏆 **ACPC AlgoHour** — **4th Place in All India** 🇮🇳
-- 🎓 **Postman API Student Expert** certified
-- 💬 Ask me about **React, Node.js, MongoDB & APIs**
-- 🎯 Mission: **Build products that change lives**
-
-</td>
-<td width="45%" align="center">
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="260" alt="Cute Tech Agent Octocat"/>
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=300&lines=while(alive)+%7B+eat();+sleep();+code();+%7D" alt="Infinite Loop" />
 
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="#">
+    <img src="./assets/agent-profile.svg" alt="Agent Profile Terminal" width="520" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#">
+    <img src="./assets/agent-mascot.svg" alt="AI Agent Mascot" width="340" />
+  </a>
+</p>
+
+<br>
 
 <!-- 🌈 Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">

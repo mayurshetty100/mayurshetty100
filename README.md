@@ -1,27 +1,43 @@
 <!-- ✨ MAYUR SHETTY — Magical Animated GitHub Profile ✨ -->
 <!-- 🌊 Animated Wave Header with Twinkling Stars -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=6,11,20&section=header&text=✨%20MAYUR%20SHETTY%20✨&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Enthusiast%20%E2%80%A2%20Code%20Architect&descAlignY=55&descSize=18&descColor=ffffff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=6,11,20&section=header&text=&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" />
+
+<!-- 🔥 Name in Cool Orbitron Font -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=45&duration=4000&pause=2000&color=A855F7&center=true&vCenter=true&width=700&lines=MAYUR+SHETTY" alt="MAYUR SHETTY" />
+</h1>
+
+<!-- ⚡ Skill Tags -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🤖%20AI%20Agents%20%26%20Automation-8B5CF6?style=for-the-badge&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🚀%20MERN%20Stack-00D4FF?style=for-the-badge&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🧠%20Gen%20AI%20%26%20Prompt%20Engineering-FF6B6B?style=for-the-badge&logoColor=white" />
+</p>
+
+<br>
 
 <!-- 🎯 Animated Typing Taglines -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%9A%80+Crafting+Futuristic+Experiences+with+MERN+%26+AI;%F0%9F%92%A1+Engineering+Ideas+into+Reality;%F0%9F%94%A5+Built+from+Discipline%2C+Powered+by+Obsession;%E2%9A%A1+Blending+Code%2C+Creativity+%26+Imagination;%F0%9F%A4%96+Turning+Thoughts+into+Digital+Experiences" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%9A%80+Crafting+Futuristic+Experiences+with+MERN+%26+AI;%F0%9F%92%A1+Engineering+Ideas+into+Reality;%F0%9F%94%A5+Built+from+Discipline%2C+Powered+by+Obsession;%E2%9A%A1+Blending+Code%2C+Creativity+%26+Imagination;%F0%9F%A4%96+Turning+Thoughts+into+Digital+Experiences" alt="Typing SVG" />
   </a>
 </p>
 
-<!-- 📊 Profile Badges -->
+<!-- 📊 Profile Badges — Neon Glowing Cards -->
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="https://komarev.com/ghpvc/?username=mayurshetty100&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=mayurshetty100&label=%F0%9F%91%81%EF%B8%8F%20PROFILE+VIEWS&color=A855F7&style=for-the-badge&labelColor=0D1117" height="38" alt="Profile Views" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=followers">
-    <img src="https://img.shields.io/github/followers/mayurshetty100?label=Followers&style=for-the-badge&color=blue&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/mayurshetty100?label=%F0%9F%92%9C%20FOLLOWERS&style=for-the-badge&color=00D4FF&labelColor=0D1117&logo=github&logoColor=white" height="38" alt="Followers" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=repositories">
-    <img src="https://img.shields.io/github/stars/mayurshetty100?label=Total%20Stars&style=for-the-badge&color=yellow&logo=github" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/mayurshetty100?label=%E2%AD%90%20TOTAL+STARS&style=for-the-badge&color=FFD700&labelColor=0D1117&logo=github&logoColor=white" height="38" alt="Stars" />
   </a>
 </p>
 

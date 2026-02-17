@@ -79,9 +79,13 @@
 
 <!-- 📊 Stats + Top Languages Side by Side -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D111700&icon_color=00D4FF&title_color=A855F7&text_color=FFFFFF&ring_color=A855F7" alt="GitHub Stats" height="195" />
+  <a href="https://github.com/mayurshetty100">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&icon_color=00D4FF&title_color=A855F7&text_color=FFFFFF&ring_color=A855F7" alt="GitHub Stats" height="195" />
+  </a>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D111700&title_color=A855F7&text_color=FFFFFF" alt="Top Languages" height="195" />
+  <a href="https://github.com/mayurshetty100">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&langs_count=8" alt="Top Languages" height="195" />
+  </a>
 </p>
 
 <p align="center">
@@ -104,7 +108,9 @@
 <br>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mayurshetty100&theme=darkhub&no-frame=true&margin-w=10&margin-h=15&column=7" alt="GitHub Trophies" />
+  <a href="https://github.com/mayurshetty100">
+    <img src="https://github-trophies.vercel.app/?username=mayurshetty100&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&margin-h=15&column=7" alt="GitHub Trophies" />
+  </a>
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->

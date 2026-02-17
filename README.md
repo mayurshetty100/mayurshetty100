@@ -134,8 +134,16 @@
 </h2>
 
 <p align="center">
-  <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
-    <img src="./assets/programming-profiles.svg" alt="Programming Profiles — LeetCode & CodeChef" width="85%" />
+  <img src="./assets/programming-profiles.svg" alt="Programming Profiles — LeetCode & CodeChef" width="85%" />
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/proper/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.codechef.com/users/mayurshetty" target="_blank">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
   </a>
 </p>
 
@@ -151,6 +159,24 @@
 
 <p align="center">
   <img src="./assets/connect.svg" alt="Connect With Me — Gmail, LinkedIn, Instagram, X" width="85%" />
+</p>
+
+<p align="center">
+  <a href="mailto:mayurshettycoder@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/mayur-shetty-4bab0932a/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/wanna.rizz.up" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/mayurshetty100" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->

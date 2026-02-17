@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140" width="180" height="140">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#1a0e30"/>
+    <stop offset="100%" stop-color="#0D1117"/>
+  </radialGradient>
+  <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0077B5" stop-opacity="0.18">
+      <animate attributeName="stop-opacity" values="0.1;0.28;0.1" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.06"/>
+  </linearGradient>
+  <linearGradient id="cb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0077B5" stop-opacity="0.7">
+      <animate attributeName="stop-opacity" values="0.3;0.9;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.3"/>
+  </linearGradient>
+  <linearGradient id="shm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<rect width="180" height="140" rx="14" fill="url(#bg)"/>
+
+<!-- Card -->
+<rect x="10" y="10" width="160" height="120" rx="10" fill="url(#cg)" stroke="url(#cb)" stroke-width="1"/>
+
+<!-- Shimmer -->
+<rect x="10" y="10" width="160" height="120" rx="10" fill="url(#shm)">
+  <animate attributeName="opacity" values="0;1;0" dur="5s" begin="0.5s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Icon -->
+<circle cx="42" cy="48" r="16" fill="none" stroke="#0077B5" stroke-width="0.8" opacity="0.4">
+  <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+</circle>
+<text x="42" y="53" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#0077B5" text-anchor="middle" font-weight="bold" opacity="0.8">in</text>
+
+<!-- Title -->
+<text x="70" y="43" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#00B4D8" font-weight="bold">LinkedIn</text>
+
+<!-- Subtitle -->
+<text x="70" y="58" font-family="Courier New,monospace" font-size="8" fill="#8B949E">Let's connect</text>
+
+<!-- Badge -->
+<rect x="70" y="68" width="62" height="16" rx="8" fill="#0077B5" fill-opacity="0.15" stroke="#0077B5" stroke-width="0.5" stroke-opacity="0.4"/>
+<text x="101" y="79" font-family="Courier New,monospace" font-size="7" fill="#00B4D8" text-anchor="middle" font-weight="bold" letter-spacing="1">NETWORK</text>
+
+<!-- Corner dot -->
+<circle cx="155" cy="22" r="1.5" fill="#0077B5" opacity="0.3">
+  <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+</circle>
+</svg>

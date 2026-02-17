@@ -134,7 +134,7 @@
 </h2>
 
 <p align="center">
-  <a href="https://leetcode.com/u/proper/" target="_blank">
+  <a href="https://leetcode.com/u/Mayur_Shetty_100/" target="_blank">
     <img src="./assets/leetcode-card.svg" alt="LeetCode Profile" width="42%" />
   </a>
   &nbsp;

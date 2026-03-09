@@ -3,18 +3,18 @@
 
 <img width="100%" src="./assets/header.svg" alt="Mayur Shetty — Full Stack Developer • AI Enthusiast • Code Architect" />
 
-<!-- 📊 Futuristic Animated Stats Dashboard -->
+<!-- 📊 Live Stats Dashboard -->
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="./assets/stat-views.svg" alt="Profile Views" width="240" />
+    <img src="https://komarev.com/ghpvc/?username=mayurshetty100&style=for-the-badge&color=A855F7&label=PROFILE+VIEWS" alt="Profile Views" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=followers">
-    <img src="./assets/stat-followers.svg" alt="Followers" width="240" />
+    <img src="https://img.shields.io/github/followers/mayurshetty100?style=for-the-badge&color=00D4FF&label=FOLLOWERS&logo=github&logoColor=white" alt="Followers" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=repositories">
-    <img src="./assets/stat-stars.svg" alt="Total Stars" width="240" />
+    <img src="https://img.shields.io/github/stars/mayurshetty100?style=for-the-badge&color=FFD700&label=TOTAL+STARS&logo=github&logoColor=white&affiliations=OWNER" alt="Total Stars" />
   </a>
 </p>
 
@@ -70,7 +70,7 @@
 
 <!-- 🔥 Streak Dashboard — Full Width -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true&background=0D111700&ring=A855F7&fire=00D4FF&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B949E&currStreakNum=00D4FF&sideNums=A855F7&stroke=A855F730&cache_seconds=1800" alt="GitHub Streak Dashboard" width="75%" />
+  <img src="https://streak-stats.demolab.com/?user=mayurshetty100&theme=tokyonight&hide_border=true&background=0D111700&ring=A855F7&fire=00D4FF&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=8B949E&currStreakNum=00D4FF&sideNums=A855F7&stroke=A855F730" alt="GitHub Streak Dashboard" width="75%" />
 </p>
 
 <p align="center">
@@ -80,11 +80,11 @@
 <!-- 📊 Stats + Top Languages Side by Side -->
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&icon_color=00D4FF&title_color=A855F7&text_color=FFFFFF&ring_color=A855F7&cache_seconds=1800" alt="GitHub Stats" height="195" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mayurshetty100&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&icon_color=00D4FF&title_color=A855F7&text_color=FFFFFF&ring_color=A855F7&cache_seconds=14400" alt="GitHub Stats" height="195" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&langs_count=8&cache_seconds=1800" alt="Top Languages" height="195" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mayurshetty100&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&langs_count=8&cache_seconds=14400" alt="Top Languages" height="195" />
   </a>
 </p>
 
@@ -94,7 +94,7 @@
 
 <!-- 📈 Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&theme=tokyo-night&bg_color=0D1117&hide_border=true&line=A855F7&point=00D4FF&area=true&area_color=A855F730&color=C4B5FD&custom_title=Contribution%20Activity%20Matrix&cache_seconds=1800" alt="Contribution Activity Matrix" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayurshetty100&theme=tokyo-night&bg_color=0D1117&hide_border=true&line=A855F7&point=00D4FF&area=true&area_color=A855F730&color=C4B5FD&custom_title=Contribution%20Activity%20Matrix" alt="Contribution Activity Matrix" width="95%"/>
 </p>
 
 <!-- 🌈 Animated Rainbow Divider -->
@@ -109,7 +109,7 @@
 
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="https://github-trophies.vercel.app/?username=mayurshetty100&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&margin-h=15&column=7&cache_seconds=1800" alt="GitHub Trophies" />
+    <img src="https://github-trophies.vercel.app/?username=mayurshetty100&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&margin-h=15&column=7" alt="GitHub Trophies" />
   </a>
 </p>
 

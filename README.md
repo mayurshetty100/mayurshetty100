@@ -3,18 +3,18 @@
 
 <img width="100%" src="./assets/header.svg" alt="Mayur Shetty — Full Stack Developer • AI Enthusiast • Code Architect" />
 
-<!-- 📊 Live Stats Dashboard -->
+<!-- 📊 Live Stats Dashboard — Animated Cyberpunk Cards (auto-updated by GitHub Actions) -->
 <p align="center">
   <a href="https://github.com/mayurshetty100">
-    <img src="https://komarev.com/ghpvc/?username=mayurshetty100&style=for-the-badge&color=A855F7&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="./assets/stat-views.svg" alt="Profile Views" />
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=followers">
-    <img src="https://img.shields.io/github/followers/mayurshetty100?style=for-the-badge&color=00D4FF&label=FOLLOWERS&logo=github&logoColor=white" alt="Followers" />
+    <img src="./assets/stat-followers.svg" alt="Followers" />
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/mayurshetty100?tab=repositories">
-    <img src="https://img.shields.io/github/stars/mayurshetty100?style=for-the-badge&color=FFD700&label=TOTAL+STARS&logo=github&logoColor=white&affiliations=OWNER" alt="Total Stars" />
+    <img src="./assets/stat-stars.svg" alt="Total Stars" />
   </a>
 </p>
 

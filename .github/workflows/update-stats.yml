@@ -1,0 +1,57 @@
+name: Update Live Stats Cards
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"  # Every 4 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-stats:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub Stats & Update SVGs
+        env:
+          GH_USER: mayurshetty100
+        run: |
+          # Fetch followers count
+          FOLLOWERS=$(curl -s "https://api.github.com/users/$GH_USER" | jq '.followers')
+
+          # Fetch total stars across all repos
+          STARS=$(curl -s "https://api.github.com/users/$GH_USER/repos?per_page=100&type=owner" | jq '[.[].stargazers_count] | add // 0')
+
+          # Fetch profile views from komarev counter (use followers+stars as fallback display)
+          # komarev doesn't have an API, so we use a simple counter approach
+          # We'll fetch the SVG badge and extract the count
+          VIEWS_SVG=$(curl -s "https://komarev.com/ghpvc/?username=$GH_USER&style=flat")
+          VIEWS=$(echo "$VIEWS_SVG" | grep -oP '>\K[0-9]+(?=<)' | tail -1)
+          if [ -z "$VIEWS" ]; then
+            VIEWS="0"
+          fi
+
+          echo "Followers: $FOLLOWERS"
+          echo "Stars: $STARS"
+          echo "Views: $VIEWS"
+
+          # Update stat-views.svg — the value line is "    NUMBER+" between animate and </text>
+          sed -i -E '/font-size="28"/,/<\/text>/{s/^[[:space:]]+[0-9]+\+?$/    '"${VIEWS}"'+/}' assets/stat-views.svg
+
+          # Update stat-followers.svg
+          sed -i -E '/font-size="28"/,/<\/text>/{s/^[[:space:]]+[0-9]+$/    '"${FOLLOWERS}"'/}' assets/stat-followers.svg
+
+          # Update stat-stars.svg
+          sed -i -E '/font-size="28"/,/<\/text>/{s/^[[:space:]]+[0-9]+$/    '"${STARS}"'/}' assets/stat-stars.svg
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stat-views.svg assets/stat-followers.svg assets/stat-stars.svg
+          git diff --cached --quiet || git commit -m "📊 Auto-update live stats [skip ci]"
+          git push

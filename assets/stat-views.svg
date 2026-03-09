@@ -71,6 +71,6 @@
   <!-- Value -->
   <text x="130" y="120" text-anchor="middle" fill="#A855F7" font-family="'Segoe UI', monospace" font-size="28" font-weight="700" filter="url(#glow)">
     <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
-    23+
+    27+
   </text>
 </svg>
